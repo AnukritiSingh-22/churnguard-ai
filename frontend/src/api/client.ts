@@ -102,5 +102,7 @@ export const api = {
   trainUpload: (id: string, target: string, customerId?: string) =>
     post<any>(`/workspace/uploads/${encodeURIComponent(id)}/train`, { target, customer_id: customerId }),
   workspaceRun: (id: string) => get<any>(`/workspace/runs/${encodeURIComponent(id)}`),
+  workspaceCustomers: (id: string, params: { page?: number; pageSize?: number; search?: string; risk?: string } = {}) =>
+    get<any>(`/workspace/runs/${encodeURIComponent(id)}/customers?${qs({ page: params.page, page_size: params.pageSize, search: params.search, risk: params.risk })}`),
   workspaceCustomer: (runId: string, row: number) => get<any>(`/workspace/runs/${encodeURIComponent(runId)}/customers/${row}`),
 };

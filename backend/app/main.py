@@ -76,6 +76,18 @@ def workspace_run(run_id: str, user: dict = Depends(auth.current_user)):
     return uploads.run_dashboard(user["sub"], run_id)
 
 
+@app.get("/api/workspace/runs/{run_id}/customers")
+def workspace_customers(
+    run_id: str,
+    page: int = Query(1, ge=1),
+    page_size: int = Query(25, ge=1, le=100),
+    search: str = Query(""),
+    risk: str = Query(""),
+    user: dict = Depends(auth.current_user),
+):
+    return uploads.customer_rows(user["sub"], run_id, page, page_size, search, risk)
+
+
 @app.get("/api/workspace/runs/{run_id}/customers/{row_number}")
 def workspace_customer(row_number: int, run_id: str, user: dict = Depends(auth.current_user)):
     return uploads.customer_detail(user["sub"], run_id, row_number)

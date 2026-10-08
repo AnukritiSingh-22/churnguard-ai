@@ -13,6 +13,7 @@ import Experiments from "./pages/Experiments";
 import RevenueForecast from "./pages/RevenueForecast";
 import Workspace from "./pages/Workspace";
 import WorkspaceCustomer from "./pages/WorkspaceCustomer";
+import WorkspaceCustomers from "./pages/WorkspaceCustomers";
 import WorkspaceRevenue from "./pages/WorkspaceRevenue";
 import Login from "./pages/Login";
 import { DatasetProvider } from "./context/DatasetContext";
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="/revenue-forecast" element={<RevenueForecast />} />
           <Route path="/workspace" element={<Workspace />} />
           <Route path="/workspace/runs/:runId/customers/:row" element={<WorkspaceCustomer />} />
+          <Route path="/workspace/runs/:runId/customers" element={<WorkspaceCustomers />} />
           <Route path="/workspace/runs/:runId/revenue" element={<WorkspaceRevenue />} />
         </Routes>
       </Layout>

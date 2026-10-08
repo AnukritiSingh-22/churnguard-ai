@@ -449,6 +449,72 @@ def run_dashboard(user_id: str, run_id: str) -> dict:
     }
 
 
+def customer_rows(
+    user_id: str,
+    run_id: str,
+    page: int = 1,
+    page_size: int = 25,
+    search: str = "",
+    risk: str = "",
+) -> dict:
+    conn = sqlite3.connect(DB_PATH)
+    run = conn.execute(
+        "SELECT upload_id, artifact_dir FROM upload_runs WHERE id = ? AND user_id = ?",
+        (run_id, user_id),
+    ).fetchone()
+    conn.close()
+    if not run:
+        raise HTTPException(404, "Training run not found")
+    metrics = json.loads((Path(run[1]) / "metrics.json").read_text())
+    predictions_path = Path(run[1]) / "predictions.csv"
+    if not predictions_path.exists():
+        raise HTTPException(404, "Training predictions are unavailable")
+    frame = pd.read_csv(predictions_path).fillna("")
+    probability = pd.to_numeric(frame.pop("churn_probability"), errors="coerce").fillna(0)
+    frame["_row"] = range(len(frame))
+    frame["_probability"] = probability
+    frame["_risk"] = pd.cut(
+        probability, [-1, .25, .5, .75, 2],
+        labels=["Low", "Medium", "High", "Critical"],
+    ).astype(str)
+    query = search.strip().lower()
+    if query:
+        mask = frame.astype(str).apply(lambda column: column.str.lower().str.contains(query, regex=False)).any(axis=1)
+        frame = frame.loc[mask]
+    if risk in {"Low", "Medium", "High", "Critical"}:
+        frame = frame.loc[frame["_risk"] == risk]
+    frame = frame.sort_values("_probability", ascending=False)
+    total = len(frame)
+    page_size = max(1, min(page_size, 100))
+    pages = max(1, (total + page_size - 1) // page_size)
+    page = max(1, min(page, pages))
+    selected = frame.iloc[(page - 1) * page_size:page * page_size]
+    customer_id_column = metrics.get("customer_id")
+    columns = [column for column in frame.columns if column not in {"_row", "_probability", "_risk"}]
+    rows = []
+    for _, item in selected.iterrows():
+        values = {column: item[column] for column in columns}
+        rows.append({
+            "row": int(item["_row"]),
+            "customer_id": str(item.get(customer_id_column, f"Row {int(item['_row']) + 1}")) if customer_id_column else f"Row {int(item['_row']) + 1}",
+            "probability": round(float(item["_probability"]), 4),
+            "risk": str(item["_risk"]),
+            "values": {column: (None if value == "" else value) for column, value in values.items()},
+        })
+    return {
+        "run_id": run_id,
+        "customer_id_column": customer_id_column,
+        "columns": columns,
+        "rows": rows,
+        "page": page,
+        "page_size": page_size,
+        "total": total,
+        "pages": pages,
+        "search": search,
+        "risk": risk,
+    }
+
+
 def customer_detail(user_id: str, run_id: str, row_number: int) -> dict:
     conn = sqlite3.connect(DB_PATH)
     run = conn.execute(
