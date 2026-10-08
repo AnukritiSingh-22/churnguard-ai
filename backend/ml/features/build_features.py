@@ -1,11 +1,3 @@
-"""
-Feature engineering for the Telco churn model.
-
-Every feature here is derived deterministically from real columns in the
-raw dataset. Nothing is randomly generated. The one derived business
-metric (CLV) is clearly documented as an *approximation formula*, not a
-measured value -- see build_clv().
-"""
 from __future__ import annotations
 import pandas as pd
 import numpy as np
@@ -43,9 +35,6 @@ def build_clv(df: pd.DataFrame) -> pd.Series:
     def expected_remaining(row):
         typical = avg_tenure_at_churn_by_contract.get(row["Contract"], overall_avg)
         remaining = max(typical - row["tenure"], 3)
-        # contract customers (one/two year) get a floor tied to the
-        # remaining contract term, since they cannot churn penalty-free
-        # before renewal
         if row["Contract"] == "One year":
             remaining = max(remaining, 12 - (row["tenure"] % 12))
         elif row["Contract"] == "Two year":

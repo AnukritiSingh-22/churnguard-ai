@@ -1,19 +1,3 @@
-"""
-Advanced-model gate ("Level 3" in the architecture).
-
-Question: does a more complex model beat the production baseline by more than
-noise? Challengers (stacking ensemble, soft-voting ensemble) are compared with
-PAIRED repeated CV on the TRAIN split, then scored once on the untouched TEST split.
-
-PROMOTED only if mean PR-AUC gain > 1 SE of the paired fold differences AND
->= 0.02 PR-AUC. The 0.02 floor was added AFTER the first Telco run showed a
-+0.009 gain; that is disclosed in challenger.json. "Not promoted" is a valid result.
-
-Deep sequence / graph models are deliberately NOT included: Telco/Bank/Iranian are
-single snapshots (no event sequences, no graph), and Retail's label is a heuristic.
-
-Run:  python -m ml.models.challenger [telco bank iranian retail]   (from backend/)
-"""
 from __future__ import annotations
 import json
 import os

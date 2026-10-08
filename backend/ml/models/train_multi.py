@@ -1,10 +1,3 @@
-"""
-Trains the Bank Customer Churn and Iranian Telecom Churn datasets
-through the same generic pipeline used for Telco, and builds a SQLite
-table for each so the API can serve real predictions for all of them.
-
-Run with: python -m ml.models.train_multi   (from backend/)
-"""
 from __future__ import annotations
 import os
 import sys

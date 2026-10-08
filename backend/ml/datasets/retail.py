@@ -68,7 +68,6 @@ def build_customer_frame(df: pd.DataFrame) -> pd.DataFrame:
     returning_customer_ids = set(outcome["CustomerID"].unique())
     agg["churn_flag"] = (~agg["CustomerID"].isin(returning_customer_ids)).astype(int)
 
-    # dominant country per customer, for a categorical feature
     country = obs.groupby("CustomerID")["Country"].agg(lambda s: s.value_counts().idxmax())
     agg = agg.merge(country.rename("Country"), on="CustomerID")
 
@@ -83,7 +82,6 @@ def build_customer_frame(df: pd.DataFrame) -> pd.DataFrame:
 
 def build_feature_frame(agg: pd.DataFrame) -> pd.DataFrame:
     feat = agg[NUMERIC_COLS + ["n_line_items", "Country"]].copy()
-    # collapse long tail of countries to top 8 + "Other" to avoid a huge sparse one-hot
     top_countries = agg["Country"].value_counts().nlargest(8).index
     feat["Country"] = feat["Country"].where(feat["Country"].isin(top_countries), "Other")
     encoded = pd.get_dummies(feat, columns=["Country"])

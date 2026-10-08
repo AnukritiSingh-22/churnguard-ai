@@ -1,4 +1,3 @@
-"""Generic, dataset-scoped data access: one code path for every dataset."""
 from __future__ import annotations
 import json
 import functools

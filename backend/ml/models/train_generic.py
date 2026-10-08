@@ -133,11 +133,6 @@ def train_dataset(
         }, f, indent=2)
 
     prod_model = trained_models[production_model_name]
-    # Calibration: fit BOTH methods on the validation split, report both on
-    # test. Sigmoid (Platt) is production because it is monotone: it fixes
-    # probability scale without creating ties, so ranking metrics (ROC/PR-AUC)
-    # are preserved. Isotonic creates step-function ties and measurably
-    # lowered PR-AUC in the v1 run.
     calibrators = {m: calibrate(prod_model, X_val, y_val, m) for m in ("sigmoid", "isotonic")}
     calibrated = calibrators["sigmoid"]
     joblib.dump(calibrated, os.path.join(artifact_dir, "models", "production_calibrated.joblib"))
@@ -152,8 +147,6 @@ def train_dataset(
     test_prob_cal = calibrated.predict_proba(X_test)[:, 1]
     calibrated_metrics = compute_all_metrics(y_test.values, test_prob_cal)
     calibrated_metrics["calibration_comparison"] = calibration_comparison
-    # Split-conformal calibration quantile: validation is the calibration set;
-    # the untouched test set remains reserved for final reporting.
     conformal_q = float(np.quantile(np.abs(y_val.to_numpy() - calibrated.predict_proba(X_val)[:, 1]), 0.9))
     with open(os.path.join(artifact_dir, "conformal.json"), "w") as f:
         json.dump({"confidence": 0.9, "absolute_residual_quantile": conformal_q,
@@ -171,7 +164,6 @@ def train_dataset(
         json.dump(calibrated_metrics, f, indent=2)
     print(f"[{dataset_key}] calibrated test Brier={calibrated_metrics['brier_score']} ECE={calibrated_metrics['ece']}")
 
-    # SHAP for every row
     shap_export = {}
     try:
         import shap
@@ -181,7 +173,6 @@ def train_dataset(
             if isinstance(shap_values_all, list):
                 shap_values_all = shap_values_all[1]
             elif isinstance(shap_values_all, np.ndarray) and shap_values_all.ndim == 3:
-                # (n_samples, n_features, n_classes) -> take the positive class
                 shap_values_all = shap_values_all[:, :, 1]
         else:
             explainer = shap.LinearExplainer(prod_model, X_train)
@@ -196,7 +187,6 @@ def train_dataset(
     with open(os.path.join(artifact_dir, "shap_values.json"), "w") as f:
         json.dump(shap_export, f, indent=2)
 
-    # Drift: two real halves of the test set
     test_ref_ids = id_test.index
     test_raw = raw_df_for_drift.loc[test_ref_ids]
     half = len(test_raw) // 2

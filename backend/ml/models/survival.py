@@ -63,7 +63,6 @@ def main():
     train_idx = splits["train"][0].index
     test_idx = splits["test"][0].index
 
-    # --- Population Kaplan-Meier curve (whole dataset, real) ---
     kmf = KaplanMeierFitter()
     kmf.fit(durations=df["tenure"], event_observed=df["churn_flag"], label="Population")
     survival_function = kmf.survival_function_.reset_index()
@@ -78,9 +77,7 @@ def main():
         except Exception:
             checkpoint_values[m] = None
 
-    # --- Cox Proportional Hazards for per-customer curves ---
     cox_df = X.drop(columns=[c for c in TIME_AXIS_COLS if c in X.columns]).copy()
-    # drop near-constant / collinear columns that break Cox fitting
     cox_df = cox_df.loc[:, cox_df.std() > 1e-6]
     cox_df["duration"] = df["tenure"].values
     cox_df["event"] = df["churn_flag"].values
@@ -93,7 +90,6 @@ def main():
     c_index = concordance_index(test_df["duration"], -test_partial_hazard, test_df["event"])
     print(f"Cox PH concordance index (test, real): {round(c_index, 4)}")
 
-    # Individual survival function for every customer (from the fitted Cox model)
     all_df = cox_df.drop(columns=["duration", "event"])
     max_t = int(df["tenure"].max()) + max(HORIZONS)
     grid = list(range(0, max_t + 1))
@@ -115,13 +111,10 @@ def main():
             "conditional_churn_risk": {f"{h}m": round(float(cond_risk[h][i]), 4) for h in HORIZONS},
         }
 
-    # Sanity check, reported honestly: does the conditional hazard rank
-    # eventual churners above non-churners on held-out customers?
     from sklearn.metrics import roc_auc_score
     test_pos = df.index.get_indexer(test_idx)
     surv_auc_6m = roc_auc_score(df["churn_flag"].values[test_pos], cond_risk[6][test_pos])
 
-    # Write the 6/12-month risks to SQLite so the API/UI can show them
     if os.path.exists(DB_PATH):
         conn = sqlite3.connect(DB_PATH)
         cols = [r[1] for r in conn.execute("PRAGMA table_info(customers)").fetchall()]

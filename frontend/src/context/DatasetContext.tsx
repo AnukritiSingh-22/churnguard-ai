@@ -43,7 +43,7 @@ export function DatasetProvider({ children }: { children: React.ReactNode }) {
 
   const setDataset = (k: string) => {
     setDatasetState(k);
-    try { localStorage.setItem(STORAGE_KEY, k); } catch { /* storage unavailable: fine */ }
+    try { localStorage.setItem(STORAGE_KEY, k); } catch {}
   };
 
   return <DatasetContext.Provider value={{ dataset, setDataset, datasets, schema, error }}>{children}</DatasetContext.Provider>;

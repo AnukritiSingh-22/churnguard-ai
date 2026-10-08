@@ -1,5 +1,3 @@
-"""Create realistic-looking synthetic transaction files for the upload demo."""
-
 from pathlib import Path
 
 import numpy as np

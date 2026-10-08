@@ -1,4 +1,3 @@
-"""Generate flat files for Power BI Desktop or Fabric Data Factory ingestion."""
 from __future__ import annotations
 
 import csv

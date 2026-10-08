@@ -1,17 +1,3 @@
-"""
-End-to-end training pipeline. Run with:  python -m ml.models.train
-(from the backend/ directory)
-
-Produces, all for real (no fabricated numbers):
-  - backend/artifacts/models/<model_name>.joblib   (trained sklearn-compatible models)
-  - backend/artifacts/feature_columns.json          (exact one-hot schema used at inference)
-  - backend/artifacts/metrics.json                  (val + test metrics for every model)
-  - backend/artifacts/leakage_audit.json
-  - backend/artifacts/data_quality.json
-  - backend/artifacts/drift_report.json
-  - backend/artifacts/shap_values.json               (per-test-customer SHAP contributions, production model)
-  - backend/data/churnguard.db                       (SQLite: customers + real predictions)
-"""
 from __future__ import annotations
 import json
 import os
@@ -136,8 +122,6 @@ def main():
         print(f"  [{name}] val ROC-AUC={val_metrics['roc_auc']}  PR-AUC={val_metrics['pr_auc']}  "
               f"Brier={val_metrics['brier_score']}  test ROC-AUC={test_metrics['roc_auc']}")
 
-    # Production model selection: highest validation PR-AUC (appropriate
-    # for imbalanced churn data per spec section 30), NOT hardcoded.
     cv_results = cv_compare(get_model_zoo(), X_train, y_train)
     production_model_name, selection_reason = select_one_se(cv_results)
     for _n in all_metrics:
@@ -152,14 +136,7 @@ def main():
             "selection_method": "5x3 repeated stratified CV on train split; 1-SE rule, simplest model preferred",
         }, f, indent=2)
 
-    # Calibrate the production model with isotonic regression fit on the
-    # validation split, evaluate on test -- real calibrated probabilities.
     prod_model = trained_models[production_model_name]
-    # Calibration: fit BOTH methods on the validation split, report both on
-    # test. Sigmoid (Platt) is production because it is monotone: it fixes
-    # probability scale without creating ties, so ranking metrics (ROC/PR-AUC)
-    # are preserved. Isotonic creates step-function ties and measurably
-    # lowered PR-AUC in the v1 run.
     calibrators = {m: calibrate(prod_model, X_val, y_val, m) for m in ("sigmoid", "isotonic")}
     calibrated = calibrators["sigmoid"]
     joblib.dump(calibrated, os.path.join(MODEL_DIR, "production_calibrated.joblib"))
@@ -192,9 +169,6 @@ def main():
     print(f"Calibrated production model test Brier={calibrated_metrics['brier_score']} "
           f"ECE={calibrated_metrics['ece']}")
 
-    # ---- SHAP explainability (real, computed on test set) ----
-    # Computed for EVERY customer (not just test) so Customer 360 can show
-    # a real explanation for any customer in the app, not only held-out ones.
     shap_export = {}
     try:
         import shap
@@ -221,7 +195,6 @@ def main():
     with open(os.path.join(ARTIFACT_DIR, "shap_values.json"), "w") as f:
         json.dump(shap_export, f, indent=2)
 
-    # ---- Drift report: split test set into two real halves by original row order ----
     test_df = df.loc[X_test.index].copy()
     half = len(test_df) // 2
     ref_df = test_df.iloc[:half]
@@ -241,7 +214,6 @@ def main():
     print(f"Drift report computed. Prediction PSI={drift_report['prediction_drift']['psi']} "
           f"({drift_report['prediction_drift']['status']})")
 
-    # ---- Build SQLite DB with real customers + real predictions ----
     all_prob = calibrated.predict_proba(X)[:, 1]
     build_database(df, all_prob, production_model_name)
     print(f"\nSQLite database written to {DB_PATH}")
@@ -267,10 +239,6 @@ def build_database(df: pd.DataFrame, churn_prob: np.ndarray, production_model_na
 
     out["risk_level"] = out["churn_probability"].apply(risk_bucket)
 
-    # NOTE (v2): the former "estimated_days_to_churn" was a hand-written
-    # formula, not a model output, and has been removed. Time-aware risk
-    # (churn_risk_3m/6m/12m) now comes from the Cox survival model and is
-    # written by `python -m ml.models.survival`.
     out["primary_risk_driver"] = out.apply(_primary_driver, axis=1)
     out["production_model"] = production_model_name
 

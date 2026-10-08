@@ -15,11 +15,6 @@ def _monthly_revenue(raw_path: str | Path) -> pd.Series:
 
 
 def build_revenue_forecast(raw_path: str | Path, artifact_dir: str | Path, horizon: int = 3) -> dict:
-    """Create a reproducible seasonal-naive forecast and rolling-origin backtest.
-
-    The retail file contains 12 months of transactions, so a seasonal period of
-    3 is conservative. No future observations are used to fit any backtest fold.
-    """
     out = Path(artifact_dir)
     out.mkdir(parents=True, exist_ok=True)
     series = _monthly_revenue(raw_path)

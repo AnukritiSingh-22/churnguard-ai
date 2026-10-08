@@ -1,20 +1,3 @@
-"""
-Iranian Telecom Churn dataset (3,150 real customer records).
-Source: UCI Machine Learning Repository (dataset 563), loaded via the
-`survivalpredict` PyPI package's bundled copy of this exact dataset.
-Citation: Jafari-Marandi et al. (2020), Neural Computing and Applications.
-
-Target: churn (1 = churned by month 12; features are aggregated over
-the first 9 months per the original study).
-
-CAVEAT (do not call this "leakage-safe by construction"): the very high
-AUC (~0.97-0.99 in CV) is NOT explained by one leaky column -- see
-artifacts/iranian/ablation.json: removing `complains` and `status`
-barely moves it. But usage features in the final months before the
-label window can reflect customers who have ALREADY disengaged, so the
-task is closer to "detect imminent churn" than "predict churn early".
-Do not compare this dataset's AUC to Telco's as like-for-like.
-"""
 from __future__ import annotations
 import os
 import pandas as pd
@@ -51,7 +34,4 @@ def build_feature_frame(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_clv(df: pd.DataFrame) -> pd.Series:
-    """customer_value is already a company-calculated value score in
-    this dataset (per the original data dictionary) -- used directly
-    rather than re-derived, since it IS the dataset's real value metric."""
     return df["customer_value"].round(2)
