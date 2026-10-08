@@ -1,0 +1,38 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+.venv/
+backend/artifacts/powerbi/
+# Local databases and user uploads
+backend/data/*.db
+backend/data/uploads/
+backend/artifacts/uploads/
+
+# Generated model artifacts
+backend/artifacts/**/*.joblib
+backend/artifacts/run_log.json
+
+# Optional generated outputs
+backend/artifacts/powerbi/
+
+# Python environments and caches
+.venv/
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend dependencies/build output
+node_modules/
+dist/
+
+# Secrets and local settings
+.env
+*.env
+.DS_Store
+*.log

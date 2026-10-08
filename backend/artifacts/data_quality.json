@@ -1,0 +1,17 @@
+{
+  "rows": 7043,
+  "columns": 21,
+  "missing_values": {},
+  "missing_pct": {},
+  "duplicate_rows": 22,
+  "class_balance": {
+    "No": 5174,
+    "Yes": 1869
+  },
+  "imbalance_ratio_no_to_yes": 2.77,
+  "outlier_counts_iqr": {
+    "tenure": 0,
+    "MonthlyCharges": 0,
+    "TotalCharges": 0
+  }
+}

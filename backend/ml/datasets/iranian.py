@@ -1,0 +1,57 @@
+"""
+Iranian Telecom Churn dataset (3,150 real customer records).
+Source: UCI Machine Learning Repository (dataset 563), loaded via the
+`survivalpredict` PyPI package's bundled copy of this exact dataset.
+Citation: Jafari-Marandi et al. (2020), Neural Computing and Applications.
+
+Target: churn (1 = churned by month 12; features are aggregated over
+the first 9 months per the original study).
+
+CAVEAT (do not call this "leakage-safe by construction"): the very high
+AUC (~0.97-0.99 in CV) is NOT explained by one leaky column -- see
+artifacts/iranian/ablation.json: removing `complains` and `status`
+barely moves it. But usage features in the final months before the
+label window can reflect customers who have ALREADY disengaged, so the
+task is closer to "detect imminent churn" than "predict churn early".
+Do not compare this dataset's AUC to Telco's as like-for-like.
+"""
+from __future__ import annotations
+import os
+import pandas as pd
+
+RAW_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "iranian", "iranian_churn_raw.csv")
+
+NUMERIC_COLS = [
+    "call_failure", "charge_amount", "seconds_of_use", "frequency_of_use",
+    "frequency_of_sms", "distinct_called_numbers", "age", "customer_value",
+    "subscription_length",
+]
+CATEGORICAL_COLS = ["age_group", "tariff_plan", "status"]
+BINARY_COLS = ["complains"]
+
+LEAKAGE_EXCLUDE = {
+    "churn": "Raw target label.",
+}
+
+
+def load_and_clean() -> pd.DataFrame:
+    df = pd.read_csv(RAW_PATH)
+    df["churn_flag"] = df["churn"].astype(int)
+    df = df.reset_index(drop=True)
+    df["customer_id"] = "IRTEL-" + (df.index + 1).astype(str).str.zfill(5)
+    return df
+
+
+def build_feature_frame(df: pd.DataFrame) -> pd.DataFrame:
+    feat = df[NUMERIC_COLS + BINARY_COLS + CATEGORICAL_COLS].copy()
+    for c in CATEGORICAL_COLS:
+        feat[c] = feat[c].astype(int).astype(str)
+    encoded = pd.get_dummies(feat, columns=CATEGORICAL_COLS)
+    return encoded
+
+
+def build_clv(df: pd.DataFrame) -> pd.Series:
+    """customer_value is already a company-calculated value score in
+    this dataset (per the original data dictionary) -- used directly
+    rather than re-derived, since it IS the dataset's real value metric."""
+    return df["customer_value"].round(2)

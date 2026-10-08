@@ -1,0 +1,15 @@
+[
+  "CreditScore",
+  "Age",
+  "Tenure",
+  "Balance",
+  "NumOfProducts",
+  "EstimatedSalary",
+  "HasCrCard",
+  "IsActiveMember",
+  "Geography_France",
+  "Geography_Germany",
+  "Geography_Spain",
+  "Gender_Female",
+  "Gender_Male"
+]

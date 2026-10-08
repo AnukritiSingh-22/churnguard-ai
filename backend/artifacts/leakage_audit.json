@@ -1,0 +1,180 @@
+{
+  "target_column": "churn_flag",
+  "total_columns_checked": 22,
+  "excluded_structural": [
+    "customerID",
+    "Churn"
+  ],
+  "flagged_for_review": [],
+  "cleared": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "details": [
+    {
+      "feature": "customerID",
+      "check": "structural",
+      "association_score": null,
+      "status": "excluded",
+      "reason": "Row identifier, not predictive of behaviour, must be excluded."
+    },
+    {
+      "feature": "Churn",
+      "check": "structural",
+      "association_score": null,
+      "status": "excluded",
+      "reason": "Raw target label (string) -- including this would be 100% leakage."
+    },
+    {
+      "feature": "gender",
+      "check": "statistical",
+      "association_score": 0.0083,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "SeniorCitizen",
+      "check": "statistical",
+      "association_score": 0.1509,
+      "status": "cleared",
+      "reason": "Association with target = 0.15, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Partner",
+      "check": "statistical",
+      "association_score": 0.1504,
+      "status": "cleared",
+      "reason": "Association with target = 0.15, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Dependents",
+      "check": "statistical",
+      "association_score": 0.1642,
+      "status": "cleared",
+      "reason": "Association with target = 0.16, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "tenure",
+      "check": "statistical",
+      "association_score": 0.3522,
+      "status": "cleared",
+      "reason": "Association with target = 0.35, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "PhoneService",
+      "check": "statistical",
+      "association_score": 0.0119,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "MultipleLines",
+      "check": "statistical",
+      "association_score": 0.0398,
+      "status": "cleared",
+      "reason": "Association with target = 0.04, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "InternetService",
+      "check": "statistical",
+      "association_score": 0.3225,
+      "status": "cleared",
+      "reason": "Association with target = 0.32, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "OnlineSecurity",
+      "check": "statistical",
+      "association_score": 0.1709,
+      "status": "cleared",
+      "reason": "Association with target = 0.17, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "OnlineBackup",
+      "check": "statistical",
+      "association_score": 0.0819,
+      "status": "cleared",
+      "reason": "Association with target = 0.08, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "DeviceProtection",
+      "check": "statistical",
+      "association_score": 0.0658,
+      "status": "cleared",
+      "reason": "Association with target = 0.07, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "TechSupport",
+      "check": "statistical",
+      "association_score": 0.1643,
+      "status": "cleared",
+      "reason": "Association with target = 0.16, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "StreamingTV",
+      "check": "statistical",
+      "association_score": 0.0629,
+      "status": "cleared",
+      "reason": "Association with target = 0.06, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "StreamingMovies",
+      "check": "statistical",
+      "association_score": 0.0611,
+      "status": "cleared",
+      "reason": "Association with target = 0.06, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Contract",
+      "check": "statistical",
+      "association_score": 0.4101,
+      "status": "cleared",
+      "reason": "Association with target = 0.41, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "PaperlessBilling",
+      "check": "statistical",
+      "association_score": 0.1918,
+      "status": "cleared",
+      "reason": "Association with target = 0.19, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "PaymentMethod",
+      "check": "statistical",
+      "association_score": 0.3034,
+      "status": "cleared",
+      "reason": "Association with target = 0.30, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "MonthlyCharges",
+      "check": "statistical",
+      "association_score": 0.1934,
+      "status": "cleared",
+      "reason": "Association with target = 0.19, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "TotalCharges",
+      "check": "statistical",
+      "association_score": 0.1983,
+      "status": "cleared",
+      "reason": "Association with target = 0.20, within normal range for a legitimate predictor."
+    }
+  ],
+  "note": "This dataset is a single-snapshot (cross-sectional) sample -- it has no event timestamps, so a temporal train/validation/test split is not applicable here. We use a stratified random split instead and document that explicitly (see split.py). If a future dataset carries timestamps, this pipeline must switch to a temporal split before training."
+}

@@ -1,0 +1,141 @@
+{
+  "target": "monthly_revenue",
+  "frequency": "MS",
+  "model": "seasonal_naive",
+  "seasonal_period_months": 3,
+  "source": "backend/data/retail/online_retail_raw.csv",
+  "backtest": {
+    "folds": [
+      {
+        "period": "2011-04",
+        "actual": 537808.62,
+        "prediction": 644211.94
+      },
+      {
+        "period": "2011-05",
+        "actual": 770536.02,
+        "prediction": 593026.62
+      },
+      {
+        "period": "2011-06",
+        "actual": 761739.9,
+        "prediction": 675328.0
+      },
+      {
+        "period": "2011-07",
+        "actual": 719221.19,
+        "prediction": 690028.18
+      },
+      {
+        "period": "2011-08",
+        "actual": 748076.32,
+        "prediction": 750499.04
+      },
+      {
+        "period": "2011-09",
+        "actual": 1058590.17,
+        "prediction": 743012.47
+      },
+      {
+        "period": "2011-10",
+        "actual": 1154979.3,
+        "prediction": 841962.56
+      },
+      {
+        "period": "2011-11",
+        "actual": 1509496.33,
+        "prediction": 987215.26
+      },
+      {
+        "period": "2011-12",
+        "actual": 638792.68,
+        "prediction": 1241021.93
+      }
+    ],
+    "mape": 27.2817,
+    "rmse": 313436.64,
+    "mae": 239449.46,
+    "honesty_note": "Rolling-origin holdout; no future month is used to fit an earlier fold."
+  },
+  "history": [
+    {
+      "period": "2010-12",
+      "actual": 823746.14
+    },
+    {
+      "period": "2011-01",
+      "actual": 691364.56
+    },
+    {
+      "period": "2011-02",
+      "actual": 523631.89
+    },
+    {
+      "period": "2011-03",
+      "actual": 717639.36
+    },
+    {
+      "period": "2011-04",
+      "actual": 537808.62
+    },
+    {
+      "period": "2011-05",
+      "actual": 770536.02
+    },
+    {
+      "period": "2011-06",
+      "actual": 761739.9
+    },
+    {
+      "period": "2011-07",
+      "actual": 719221.19
+    },
+    {
+      "period": "2011-08",
+      "actual": 748076.32
+    },
+    {
+      "period": "2011-09",
+      "actual": 1058590.17
+    },
+    {
+      "period": "2011-10",
+      "actual": 1154979.3
+    },
+    {
+      "period": "2011-11",
+      "actual": 1509496.33
+    },
+    {
+      "period": "2011-12",
+      "actual": 638792.68
+    }
+  ],
+  "forecast": [
+    {
+      "period": "2012-01",
+      "actual": null,
+      "prediction": 1101089.44,
+      "lower": 562818.73,
+      "upper": 1639360.14,
+      "interval_method": "90% split-conformal residual interval"
+    },
+    {
+      "period": "2012-02",
+      "actual": null,
+      "prediction": 1083126.15,
+      "lower": 544855.45,
+      "upper": 1621396.85,
+      "interval_method": "90% split-conformal residual interval"
+    },
+    {
+      "period": "2012-03",
+      "actual": null,
+      "prediction": 941002.76,
+      "lower": 402732.05,
+      "upper": 1479273.46,
+      "interval_method": "90% split-conformal residual interval"
+    }
+  ],
+  "interval_note": "Intervals are conformal residual intervals, not a guarantee and not a probabilistic sales model."
+}

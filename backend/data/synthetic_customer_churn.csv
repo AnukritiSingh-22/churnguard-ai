@@ -1,0 +1,2001 @@
+customer_id,tenure_months,monthly_charges,support_calls_last_90d,payment_delay_days,monthly_usage_gb,satisfaction_score,contract_type,payment_method,region,auto_pay,churn
+SYN-00001,30,67.56,1,8,35.7,4,Two year,Credit card,Midwest,Yes,No
+SYN-00002,1,134.76,0,12,55.5,7,One year,Bank transfer,South,No,Yes
+SYN-00003,31,65.52,2,0,28.9,8,Month-to-month,Electronic check,West,Yes,No
+SYN-00004,4,101.7,2,0,52.8,7,Month-to-month,Mailed check,Midwest,No,No
+SYN-00005,65,72.41,2,7,11.9,6,One year,Bank transfer,West,No,No
+SYN-00006,45,140.59,2,3,17.2,7,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00007,38,74.9,0,0,34.5,7,Two year,Electronic check,Northeast,Yes,No
+SYN-00008,48,139.72,1,4,20.3,8,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00009,65,121.01,4,2,6.6,7,Month-to-month,Credit card,Midwest,No,No
+SYN-00010,22,57.91,2,4,22.9,6,Two year,Mailed check,Northeast,Yes,No
+SYN-00011,27,31.77,1,5,22.0,8,One year,Bank transfer,South,No,No
+SYN-00012,38,33.67,5,2,19.9,6,Month-to-month,Mailed check,Northeast,No,No
+SYN-00013,45,70.99,4,8,15.1,6,One year,Mailed check,West,Yes,No
+SYN-00014,28,90.6,0,3,24.5,8,Month-to-month,Mailed check,South,No,No
+SYN-00015,23,82.89,6,4,27.1,7,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00016,27,117.63,4,0,30.6,6,Month-to-month,Electronic check,Midwest,No,Yes
+SYN-00017,24,140.91,3,0,22.0,10,One year,Electronic check,West,Yes,No
+SYN-00018,36,48.0,4,7,25.1,5,One year,Mailed check,Midwest,No,No
+SYN-00019,3,31.83,3,8,28.0,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-00020,71,70.77,2,9,37.6,5,One year,Mailed check,Midwest,No,No
+SYN-00021,61,132.97,0,0,9.8,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-00022,65,115.32,5,2,1,7,One year,Mailed check,Midwest,Yes,No
+SYN-00023,62,71.92,3,5,32.6,4,Month-to-month,Bank transfer,West,No,No
+SYN-00024,52,27.89,1,2,5.0,9,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00025,2,74.73,2,6,39.5,9,Month-to-month,Credit card,South,Yes,No
+SYN-00026,8,59.01,0,1,23.5,8,Month-to-month,Bank transfer,South,Yes,No
+SYN-00027,3,77.5,0,6,33.6,9,One year,Mailed check,West,Yes,No
+SYN-00028,66,132.7,4,0,38.0,8,Month-to-month,Bank transfer,South,Yes,No
+SYN-00029,3,122.85,2,0,11.7,7,Month-to-month,Bank transfer,West,No,No
+SYN-00030,11,108.42,3,0,27.7,7,Month-to-month,Electronic check,Midwest,No,Yes
+SYN-00031,12,112.49,2,9,45.4,5,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00032,26,127.11,3,2,32.3,6,Two year,Credit card,South,Yes,No
+SYN-00033,1,80.99,0,3,41.3,6,One year,Electronic check,South,Yes,No
+SYN-00034,56,135.44,4,1,27.1,8,Month-to-month,Credit card,West,No,Yes
+SYN-00035,50,124.09,4,0,23.4,10,Two year,Credit card,Midwest,Yes,No
+SYN-00036,28,67.05,0,1,25.7,7,Month-to-month,Electronic check,West,Yes,No
+SYN-00037,36,49.53,2,0,28.5,9,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00038,3,101.63,4,3,34.5,1,Month-to-month,Credit card,Midwest,Yes,Yes
+SYN-00039,41,106.77,4,4,20.7,6,Month-to-month,Bank transfer,South,No,Yes
+SYN-00040,38,141.7,2,8,11.6,7,Two year,Bank transfer,South,Yes,No
+SYN-00041,71,143.73,3,4,19.4,8,Two year,Electronic check,West,No,No
+SYN-00042,23,48.05,0,6,18.2,7,Two year,Electronic check,Midwest,Yes,No
+SYN-00043,54,80.24,0,10,24.7,6,One year,Bank transfer,South,No,No
+SYN-00044,42,68.37,2,0,45.4,7,Two year,Credit card,Northeast,Yes,No
+SYN-00045,69,73.8,1,4,20.9,8,One year,Credit card,West,No,No
+SYN-00046,7,46.39,0,8,32.7,5,One year,Electronic check,South,Yes,No
+SYN-00047,26,36.99,3,12,38.8,6,One year,Electronic check,Northeast,No,No
+SYN-00048,40,77.22,0,0,9.0,6,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00049,58,123.94,0,3,44.8,8,One year,Credit card,South,No,No
+SYN-00050,5,78.92,3,4,34.7,7,Month-to-month,Mailed check,South,Yes,No
+SYN-00051,32,46.56,4,0,20.8,7,One year,Bank transfer,West,No,No
+SYN-00052,68,102.74,4,5,34.1,7,One year,Mailed check,South,No,No
+SYN-00053,9,92.86,0,4,31.4,5,Month-to-month,Electronic check,West,No,No
+SYN-00054,31,32.05,3,0,4.1,6,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00055,52,47.66,0,3,31.3,7,One year,Bank transfer,West,No,No
+SYN-00056,69,56.49,0,2,32.4,6,Two year,Mailed check,Northeast,Yes,No
+SYN-00057,24,85.75,1,2,14.2,4,Two year,Bank transfer,Northeast,Yes,No
+SYN-00058,29,41.48,4,6,35.8,6,One year,Mailed check,Midwest,Yes,No
+SYN-00059,13,82.57,0,2,29.0,3,One year,Bank transfer,Midwest,Yes,No
+SYN-00060,4,40.55,0,0,27.1,8,Month-to-month,Electronic check,West,Yes,No
+SYN-00061,50,111.43,5,3,6.3,5,Two year,Credit card,Northeast,No,No
+SYN-00062,41,140.8,2,0,29.0,10,Two year,Electronic check,Northeast,No,No
+SYN-00063,61,103.45,3,5,18.4,6,Two year,Credit card,South,No,No
+SYN-00064,23,89.81,3,0,17.3,8,One year,Electronic check,Northeast,No,No
+SYN-00065,70,143.98,2,0,25.2,5,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00066,47,49.23,3,0,23.8,6,Two year,Electronic check,West,Yes,No
+SYN-00067,50,26.5,4,5,24.3,5,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00068,44,113.16,2,1,27.3,6,Two year,Bank transfer,South,No,No
+SYN-00069,43,39.88,0,0,40.5,7,Two year,Mailed check,South,No,No
+SYN-00070,10,100.46,3,0,16.2,8,Month-to-month,Credit card,Midwest,No,No
+SYN-00071,14,67.36,0,3,42.1,6,One year,Electronic check,South,Yes,No
+SYN-00072,23,109.56,2,0,32.6,7,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00073,31,102.93,0,4,23.4,7,Two year,Electronic check,Midwest,Yes,No
+SYN-00074,22,122.84,3,2,28.3,7,Month-to-month,Electronic check,West,No,Yes
+SYN-00075,19,81.12,4,3,28.2,6,Two year,Electronic check,Midwest,No,No
+SYN-00076,63,41.94,4,2,27.9,6,Two year,Bank transfer,South,No,No
+SYN-00077,16,106.07,0,2,23.3,7,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00078,10,48.32,4,3,50.0,8,One year,Mailed check,Northeast,No,No
+SYN-00079,56,120.0,4,0,33.5,5,Month-to-month,Mailed check,South,Yes,Yes
+SYN-00080,26,66.49,3,9,30.3,8,Month-to-month,Mailed check,South,Yes,No
+SYN-00081,11,32.72,6,0,15.1,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00082,56,101.08,0,3,36.8,8,Two year,Electronic check,South,Yes,No
+SYN-00083,64,69.63,0,7,36.5,8,One year,Credit card,West,Yes,No
+SYN-00084,54,133.08,0,0,39.0,9,Two year,Electronic check,West,Yes,No
+SYN-00085,68,92.33,0,0,15.2,5,Month-to-month,Credit card,West,No,No
+SYN-00086,6,109.3,4,0,21.9,8,Two year,Mailed check,West,No,No
+SYN-00087,20,31.59,4,0,24.0,6,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00088,33,136.54,2,7,25.9,7,One year,Credit card,Midwest,No,No
+SYN-00089,32,92.17,2,6,8.6,7,One year,Credit card,West,No,No
+SYN-00090,25,75.91,0,0,38.4,7,Two year,Credit card,Northeast,Yes,No
+SYN-00091,12,46.63,6,5,13.4,8,Month-to-month,Electronic check,South,Yes,Yes
+SYN-00092,9,123.39,0,6,31.5,9,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00093,61,134.37,2,0,35.8,6,Month-to-month,Credit card,South,Yes,No
+SYN-00094,8,115.81,1,3,39.3,6,Two year,Credit card,West,Yes,No
+SYN-00095,58,73.0,4,0,27.8,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00096,32,89.05,1,6,9.3,9,Month-to-month,Credit card,Northeast,No,No
+SYN-00097,69,75.35,2,2,39.9,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00098,25,94.96,4,9,11.5,6,One year,Electronic check,Midwest,Yes,Yes
+SYN-00099,18,100.35,1,4,22.1,6,Two year,Mailed check,South,Yes,No
+SYN-00100,59,103.88,2,0,43.7,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00101,23,88.7,1,3,22.5,9,Two year,Bank transfer,Northeast,Yes,No
+SYN-00102,44,108.66,4,7,50.5,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00103,44,98.24,0,7,26.0,7,Two year,Mailed check,South,Yes,No
+SYN-00104,44,119.55,5,0,28.1,7,One year,Electronic check,Northeast,No,No
+SYN-00105,69,94.4,2,3,4.5,7,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00106,9,109.86,6,0,1,9,Month-to-month,Mailed check,West,Yes,No
+SYN-00107,68,57.25,0,7,18.3,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00108,54,116.04,0,4,5.8,5,One year,Credit card,Midwest,No,No
+SYN-00109,38,100.2,1,4,29.7,6,Month-to-month,Credit card,Northeast,No,No
+SYN-00110,30,117.54,4,0,22.4,8,Month-to-month,Mailed check,South,No,No
+SYN-00111,30,137.81,4,4,21.7,5,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-00112,65,91.19,1,0,32.6,6,Two year,Bank transfer,Northeast,Yes,No
+SYN-00113,65,117.11,3,0,32.3,6,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00114,10,75.6,3,3,31.3,4,One year,Bank transfer,Northeast,No,Yes
+SYN-00115,20,57.44,4,3,38.3,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00116,9,104.82,0,1,27.9,5,One year,Electronic check,South,No,No
+SYN-00117,55,144.6,0,5,33.5,6,One year,Bank transfer,Northeast,Yes,No
+SYN-00118,62,87.47,1,3,18.6,5,Two year,Bank transfer,Northeast,No,No
+SYN-00119,32,67.86,4,4,51.4,7,One year,Electronic check,West,Yes,No
+SYN-00120,16,109.43,1,5,40.2,9,Two year,Electronic check,Northeast,Yes,No
+SYN-00121,53,102.89,2,1,23.7,7,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00122,68,58.14,1,0,18.2,10,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00123,58,107.0,3,3,24.2,5,Two year,Electronic check,Northeast,Yes,No
+SYN-00124,70,98.51,0,2,8.5,7,Month-to-month,Credit card,South,No,No
+SYN-00125,51,83.97,2,2,23.3,6,Month-to-month,Bank transfer,West,Yes,No
+SYN-00126,8,38.58,5,5,25.8,6,Two year,Credit card,Northeast,Yes,No
+SYN-00127,69,48.08,2,7,4.5,6,Two year,Mailed check,Northeast,No,No
+SYN-00128,28,128.87,4,6,18.2,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-00129,39,30.1,2,6,21.2,8,Month-to-month,Credit card,South,Yes,No
+SYN-00130,5,31.94,2,4,18.8,9,One year,Bank transfer,Northeast,Yes,No
+SYN-00131,40,134.54,1,0,41.9,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00132,13,62.43,0,10,22.2,8,Month-to-month,Electronic check,South,No,No
+SYN-00133,2,69.71,3,10,16.9,9,One year,Credit card,Midwest,Yes,No
+SYN-00134,46,113.98,0,11,34.7,10,One year,Electronic check,West,Yes,No
+SYN-00135,40,34.93,2,0,9.7,6,Month-to-month,Electronic check,West,Yes,No
+SYN-00136,11,117.69,1,7,32.1,4,One year,Mailed check,South,No,No
+SYN-00137,19,118.61,3,3,20.6,5,Two year,Credit card,South,No,No
+SYN-00138,69,53.4,1,3,52.5,5,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00139,11,56.47,5,0,38.8,6,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00140,17,77.53,0,5,21.3,8,Month-to-month,Credit card,South,Yes,Yes
+SYN-00141,72,101.11,4,4,27.0,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00142,65,99.91,1,5,31.0,7,Month-to-month,Mailed check,West,Yes,No
+SYN-00143,21,124.65,5,4,38.2,4,One year,Electronic check,Midwest,No,Yes
+SYN-00144,70,115.32,3,0,27.8,5,One year,Credit card,South,No,No
+SYN-00145,46,143.17,0,6,33.0,3,Two year,Mailed check,West,No,No
+SYN-00146,53,84.75,1,3,39.0,5,Two year,Electronic check,Northeast,No,No
+SYN-00147,36,73.42,1,0,29.7,7,One year,Bank transfer,South,No,No
+SYN-00148,47,38.71,2,5,20.3,5,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00149,50,109.6,3,3,40.7,4,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00150,59,35.99,1,7,45.6,3,One year,Mailed check,South,Yes,No
+SYN-00151,23,117.26,0,9,30.2,10,Two year,Bank transfer,Northeast,Yes,No
+SYN-00152,43,56.41,5,0,7.6,5,One year,Credit card,South,Yes,No
+SYN-00153,16,109.92,0,9,37.6,6,One year,Mailed check,Northeast,No,No
+SYN-00154,21,48.84,1,1,41.0,9,One year,Mailed check,Midwest,No,No
+SYN-00155,13,121.16,3,9,23.3,6,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00156,39,31.55,0,10,52.9,6,Month-to-month,Bank transfer,South,No,No
+SYN-00157,31,99.42,3,2,30.5,5,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00158,45,132.52,0,5,33.2,9,Month-to-month,Mailed check,Midwest,No,No
+SYN-00159,52,70.06,1,5,38.6,6,One year,Bank transfer,West,Yes,No
+SYN-00160,19,61.74,2,5,30.6,6,Month-to-month,Bank transfer,West,No,No
+SYN-00161,57,61.75,2,6,41.0,6,Month-to-month,Electronic check,West,No,No
+SYN-00162,64,131.63,1,7,30.7,9,Two year,Mailed check,West,No,No
+SYN-00163,65,41.2,3,12,45.7,9,One year,Bank transfer,Northeast,No,No
+SYN-00164,55,52.22,4,3,50.7,5,One year,Electronic check,Northeast,Yes,No
+SYN-00165,4,26.41,3,0,43.0,10,One year,Credit card,South,No,No
+SYN-00166,23,44.63,2,4,35.0,7,One year,Credit card,South,Yes,No
+SYN-00167,68,105.55,0,4,16.2,8,One year,Bank transfer,Midwest,Yes,No
+SYN-00168,8,131.31,1,0,46.3,8,One year,Credit card,West,No,No
+SYN-00169,55,96.3,0,2,46.4,1,One year,Credit card,Northeast,No,No
+SYN-00170,58,99.58,4,4,8.5,8,Month-to-month,Credit card,Midwest,No,No
+SYN-00171,25,109.36,2,12,6.7,10,One year,Bank transfer,South,No,No
+SYN-00172,63,84.89,1,2,33.4,7,Month-to-month,Credit card,Midwest,No,No
+SYN-00173,58,111.69,0,0,24.7,7,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00174,54,98.66,4,1,35.9,9,One year,Electronic check,Midwest,Yes,No
+SYN-00175,7,97.8,0,0,26.5,3,One year,Credit card,Midwest,No,Yes
+SYN-00176,31,55.6,1,5,25.8,6,Two year,Mailed check,West,Yes,No
+SYN-00177,16,77.48,4,0,45.7,5,One year,Credit card,Midwest,No,No
+SYN-00178,25,111.41,5,0,31.7,7,One year,Credit card,Northeast,No,No
+SYN-00179,29,28.78,2,0,22.5,5,Month-to-month,Credit card,Midwest,No,No
+SYN-00180,11,74.57,1,11,15.3,8,Two year,Electronic check,South,Yes,No
+SYN-00181,60,36.61,5,8,23.7,8,One year,Electronic check,Northeast,Yes,No
+SYN-00182,54,134.04,1,0,31.7,8,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00183,21,75.96,1,0,33.2,6,One year,Electronic check,Northeast,Yes,No
+SYN-00184,11,116.06,0,10,45.8,5,Month-to-month,Bank transfer,Midwest,Yes,Yes
+SYN-00185,57,30.13,5,2,34.0,7,Month-to-month,Bank transfer,West,Yes,No
+SYN-00186,26,116.48,5,3,8.4,7,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00187,4,67.48,0,5,40.4,7,Two year,Bank transfer,Northeast,No,No
+SYN-00188,49,113.25,2,0,29.6,7,Two year,Credit card,South,Yes,No
+SYN-00189,60,135.17,3,6,50.5,4,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00190,22,33.71,5,2,28.6,8,Two year,Credit card,South,No,No
+SYN-00191,37,53.92,0,9,5.4,7,Month-to-month,Credit card,South,Yes,No
+SYN-00192,15,61.44,0,3,2.5,6,Two year,Mailed check,West,No,No
+SYN-00193,23,120.54,1,6,27.8,8,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00194,19,102.39,0,5,14.0,8,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00195,72,48.34,4,0,29.0,9,Month-to-month,Credit card,West,No,No
+SYN-00196,29,114.87,2,0,16.7,8,Two year,Credit card,South,No,No
+SYN-00197,13,101.48,4,1,14.6,6,Month-to-month,Mailed check,West,Yes,Yes
+SYN-00198,53,109.93,0,4,29.7,6,Two year,Credit card,South,No,No
+SYN-00199,43,95.82,4,0,43.3,8,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00200,44,46.89,2,8,30.5,10,Month-to-month,Bank transfer,South,No,No
+SYN-00201,5,137.66,6,5,51.4,5,Month-to-month,Credit card,South,Yes,Yes
+SYN-00202,41,103.85,4,4,16.5,8,Two year,Mailed check,Midwest,No,No
+SYN-00203,1,88.58,1,3,46.5,6,Month-to-month,Mailed check,South,No,No
+SYN-00204,35,43.92,4,2,21.0,6,Two year,Bank transfer,West,Yes,No
+SYN-00205,51,54.41,3,0,25.5,6,Two year,Mailed check,West,Yes,No
+SYN-00206,45,90.58,1,0,39.7,8,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00207,66,77.96,0,0,21.9,10,Month-to-month,Credit card,South,Yes,No
+SYN-00208,26,131.14,1,6,20.2,9,Month-to-month,Electronic check,South,Yes,No
+SYN-00209,7,40.59,1,8,43.4,7,Two year,Mailed check,West,No,No
+SYN-00210,37,110.23,3,1,19.9,6,Two year,Electronic check,South,Yes,No
+SYN-00211,41,118.52,3,0,37.4,5,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00212,7,99.66,4,0,33.1,9,Month-to-month,Credit card,West,Yes,Yes
+SYN-00213,44,117.0,3,0,23.4,7,Month-to-month,Credit card,Midwest,No,No
+SYN-00214,71,113.61,2,0,33.6,3,Month-to-month,Electronic check,Midwest,No,No
+SYN-00215,43,132.65,0,0,49.3,8,One year,Mailed check,Midwest,No,No
+SYN-00216,20,33.3,5,9,25.3,6,One year,Bank transfer,West,Yes,No
+SYN-00217,55,50.41,2,6,8.7,8,Month-to-month,Credit card,West,No,No
+SYN-00218,65,120.71,5,2,39.1,6,One year,Mailed check,Midwest,No,No
+SYN-00219,66,104.48,3,4,23.0,9,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00220,17,106.99,6,0,21.8,5,Month-to-month,Bank transfer,South,Yes,Yes
+SYN-00221,34,68.49,4,1,31.7,5,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00222,18,84.85,1,6,17.9,6,One year,Credit card,West,Yes,No
+SYN-00223,34,64.36,2,2,22.1,8,One year,Electronic check,Northeast,Yes,No
+SYN-00224,67,51.41,1,2,19.5,7,One year,Electronic check,South,No,No
+SYN-00225,37,30.62,4,7,23.3,6,One year,Electronic check,Northeast,Yes,No
+SYN-00226,31,54.94,0,7,19.0,7,One year,Electronic check,Northeast,Yes,No
+SYN-00227,38,92.28,3,7,51.3,8,Month-to-month,Mailed check,South,Yes,No
+SYN-00228,15,62.18,3,2,3.6,10,Month-to-month,Mailed check,South,Yes,No
+SYN-00229,33,123.07,3,3,37.1,5,Month-to-month,Mailed check,West,Yes,Yes
+SYN-00230,11,88.66,0,2,39.3,9,Two year,Bank transfer,Midwest,Yes,No
+SYN-00231,49,79.86,5,0,10.0,10,One year,Bank transfer,Northeast,No,No
+SYN-00232,52,143.9,1,0,15.0,5,One year,Credit card,Northeast,No,No
+SYN-00233,72,33.31,2,5,43.2,4,Two year,Credit card,South,No,No
+SYN-00234,44,38.56,1,0,17.2,10,Two year,Mailed check,Northeast,Yes,No
+SYN-00235,64,139.48,2,1,40.4,9,Month-to-month,Credit card,Midwest,No,No
+SYN-00236,16,85.15,1,0,32.0,3,Month-to-month,Electronic check,South,Yes,Yes
+SYN-00237,65,45.07,3,1,36.4,5,Two year,Credit card,Midwest,No,No
+SYN-00238,52,90.81,2,4,19.5,9,One year,Electronic check,West,No,No
+SYN-00239,36,95.71,2,3,19.9,7,One year,Mailed check,West,Yes,No
+SYN-00240,71,27.19,0,3,7.9,5,Month-to-month,Electronic check,South,Yes,No
+SYN-00241,5,47.15,3,0,17.3,4,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00242,65,99.71,3,5,33.1,9,One year,Bank transfer,West,Yes,No
+SYN-00243,21,46.26,3,1,47.7,7,Month-to-month,Mailed check,Midwest,No,No
+SYN-00244,10,58.95,0,8,29.6,8,Two year,Bank transfer,West,Yes,No
+SYN-00245,3,130.76,2,3,43.2,8,Month-to-month,Bank transfer,Midwest,No,Yes
+SYN-00246,41,140.67,2,0,13.6,9,Month-to-month,Mailed check,South,No,No
+SYN-00247,3,78.24,0,1,25.0,6,Two year,Credit card,Midwest,No,No
+SYN-00248,58,73.77,0,0,22.8,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00249,37,41.21,0,7,34.4,5,Month-to-month,Credit card,South,No,No
+SYN-00250,6,40.28,1,3,36.7,8,Month-to-month,Mailed check,West,No,No
+SYN-00251,52,74.86,3,4,47.7,6,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00252,6,85.56,4,3,48.7,6,One year,Credit card,Midwest,No,No
+SYN-00253,40,54.93,0,5,42.5,8,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00254,50,100.46,4,5,2.9,8,Month-to-month,Electronic check,West,No,Yes
+SYN-00255,15,99.03,3,7,45.7,7,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00256,14,128.64,0,8,33.8,9,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00257,31,60.41,2,2,32.9,5,Month-to-month,Mailed check,South,Yes,Yes
+SYN-00258,5,123.49,4,0,20.6,5,Month-to-month,Mailed check,South,No,Yes
+SYN-00259,31,144.05,0,0,37.3,7,Month-to-month,Electronic check,Midwest,No,No
+SYN-00260,15,69.4,0,6,34.9,7,One year,Mailed check,South,Yes,No
+SYN-00261,45,136.9,1,1,1,7,Month-to-month,Mailed check,West,Yes,No
+SYN-00262,12,92.32,2,8,24.9,9,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00263,49,54.03,1,0,41.0,10,Month-to-month,Electronic check,West,Yes,No
+SYN-00264,40,33.5,0,0,28.2,6,Month-to-month,Mailed check,South,Yes,No
+SYN-00265,59,50.15,5,2,14.1,6,Month-to-month,Mailed check,West,Yes,No
+SYN-00266,61,83.98,5,4,25.6,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00267,32,39.98,3,4,16.6,8,Month-to-month,Bank transfer,South,Yes,No
+SYN-00268,27,118.9,6,0,47.9,9,One year,Mailed check,South,Yes,No
+SYN-00269,72,61.72,0,8,33.0,6,One year,Credit card,Midwest,No,No
+SYN-00270,59,60.91,0,0,40.4,10,Month-to-month,Mailed check,South,No,No
+SYN-00271,61,101.06,4,7,8.9,9,One year,Bank transfer,Northeast,Yes,No
+SYN-00272,11,134.99,3,5,37.2,9,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00273,28,41.64,0,0,24.7,5,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00274,28,50.85,4,5,25.1,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00275,34,68.27,0,1,25.4,5,Month-to-month,Credit card,Midwest,No,No
+SYN-00276,8,86.11,0,6,24.2,8,Two year,Electronic check,West,No,No
+SYN-00277,51,94.78,3,4,3.9,6,Month-to-month,Credit card,West,Yes,No
+SYN-00278,8,67.85,1,6,50.6,9,One year,Credit card,West,No,No
+SYN-00279,29,128.04,0,4,1,6,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-00280,8,26.71,2,12,41.9,4,One year,Mailed check,Northeast,Yes,No
+SYN-00281,65,93.49,3,7,22.6,4,Two year,Credit card,Northeast,No,No
+SYN-00282,7,71.11,4,0,23.7,8,Month-to-month,Electronic check,South,No,No
+SYN-00283,64,73.2,0,1,18.8,5,One year,Bank transfer,West,Yes,No
+SYN-00284,5,65.6,1,4,43.8,8,Two year,Electronic check,Midwest,Yes,No
+SYN-00285,57,60.67,3,0,48.9,5,Month-to-month,Bank transfer,West,No,No
+SYN-00286,61,50.78,0,3,19.3,7,One year,Bank transfer,Midwest,No,No
+SYN-00287,23,55.29,6,0,1,8,One year,Credit card,Midwest,Yes,No
+SYN-00288,70,136.12,3,2,17.4,5,Two year,Mailed check,Northeast,Yes,No
+SYN-00289,63,87.75,4,4,39.0,6,Two year,Electronic check,South,Yes,No
+SYN-00290,19,61.23,2,4,21.0,8,Two year,Mailed check,Midwest,Yes,No
+SYN-00291,51,143.46,0,0,17.7,9,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00292,45,73.01,0,8,36.2,4,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00293,72,84.37,0,3,31.9,5,One year,Electronic check,West,No,No
+SYN-00294,2,95.35,1,0,20.8,8,Month-to-month,Credit card,Northeast,No,Yes
+SYN-00295,62,134.37,8,0,16.6,5,Two year,Electronic check,West,Yes,No
+SYN-00296,5,51.54,1,0,17.4,10,One year,Mailed check,Midwest,Yes,No
+SYN-00297,49,77.16,2,7,20.5,9,Month-to-month,Electronic check,South,Yes,No
+SYN-00298,47,82.31,1,9,33.3,6,Two year,Mailed check,West,No,No
+SYN-00299,59,32.68,3,4,22.7,9,Month-to-month,Mailed check,South,No,No
+SYN-00300,64,135.72,3,8,24.8,6,One year,Credit card,Midwest,No,Yes
+SYN-00301,71,77.17,3,2,30.1,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00302,25,80.62,3,0,28.7,8,Month-to-month,Credit card,Northeast,No,No
+SYN-00303,21,58.33,0,2,25.7,4,Month-to-month,Electronic check,South,No,Yes
+SYN-00304,44,42.61,1,1,42.2,9,One year,Mailed check,Northeast,Yes,No
+SYN-00305,33,135.63,2,6,19.2,6,Month-to-month,Bank transfer,Northeast,No,Yes
+SYN-00306,36,88.92,3,0,27.7,8,Month-to-month,Electronic check,South,No,No
+SYN-00307,56,48.6,2,0,40.0,7,Month-to-month,Bank transfer,South,No,No
+SYN-00308,3,93.51,0,3,47.6,8,One year,Electronic check,Northeast,Yes,No
+SYN-00309,58,133.67,1,0,32.6,7,Month-to-month,Credit card,Northeast,No,No
+SYN-00310,28,45.48,4,0,18.0,3,Month-to-month,Credit card,South,Yes,Yes
+SYN-00311,19,36.82,4,0,25.8,5,One year,Mailed check,Northeast,Yes,No
+SYN-00312,55,39.26,3,0,24.9,6,One year,Electronic check,West,No,No
+SYN-00313,18,109.17,1,3,30.2,5,Month-to-month,Bank transfer,West,No,Yes
+SYN-00314,22,64.02,1,2,25.6,6,Two year,Credit card,Northeast,Yes,No
+SYN-00315,48,92.28,0,2,19.9,8,One year,Mailed check,South,No,No
+SYN-00316,55,82.05,0,0,10.1,9,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00317,2,47.28,3,0,31.1,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-00318,53,93.98,1,9,1,5,Month-to-month,Electronic check,West,Yes,No
+SYN-00319,51,137.15,3,0,23.3,9,One year,Electronic check,South,Yes,No
+SYN-00320,51,51.66,3,0,35.0,5,One year,Bank transfer,South,Yes,No
+SYN-00321,58,29.07,6,4,17.1,6,Month-to-month,Credit card,Northeast,No,No
+SYN-00322,7,106.84,1,1,17.7,9,Month-to-month,Mailed check,Midwest,No,No
+SYN-00323,28,96.07,2,4,37.2,7,Month-to-month,Credit card,Midwest,No,No
+SYN-00324,22,51.24,2,5,16.3,8,Month-to-month,Electronic check,Northeast,No,No
+SYN-00325,35,121.8,2,0,21.4,6,One year,Mailed check,West,No,No
+SYN-00326,68,63.42,0,2,19.9,5,Two year,Electronic check,West,No,No
+SYN-00327,4,89.33,1,4,38.1,6,Month-to-month,Electronic check,South,Yes,Yes
+SYN-00328,61,94.18,1,0,32.7,8,One year,Electronic check,Midwest,No,No
+SYN-00329,36,97.95,2,5,33.4,8,Month-to-month,Credit card,Midwest,No,No
+SYN-00330,53,29.93,0,0,29.4,6,One year,Bank transfer,Northeast,Yes,No
+SYN-00331,47,80.89,1,0,1,6,Month-to-month,Credit card,South,No,No
+SYN-00332,60,26.68,4,0,21.9,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-00333,25,111.35,2,0,8.6,5,Month-to-month,Electronic check,Midwest,No,Yes
+SYN-00334,27,46.59,5,11,15.5,6,One year,Electronic check,Midwest,No,No
+SYN-00335,46,71.1,1,0,12.7,7,Two year,Mailed check,South,Yes,No
+SYN-00336,14,26.44,3,2,25.9,6,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00337,28,121.18,0,1,24.4,6,Two year,Bank transfer,West,Yes,No
+SYN-00338,59,120.15,1,0,17.5,5,Two year,Bank transfer,Northeast,No,No
+SYN-00339,19,52.41,2,7,29.1,8,Month-to-month,Mailed check,South,No,No
+SYN-00340,66,41.66,5,8,20.5,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00341,32,119.97,3,0,5.9,6,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00342,19,71.81,4,0,21.7,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00343,54,50.63,4,0,50.4,7,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00344,58,35.16,6,1,25.0,7,Month-to-month,Electronic check,South,Yes,No
+SYN-00345,54,123.94,1,6,28.4,7,Month-to-month,Electronic check,West,Yes,Yes
+SYN-00346,57,108.35,4,4,25.4,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-00347,65,54.37,2,8,5.8,8,Month-to-month,Electronic check,Midwest,No,No
+SYN-00348,31,78.61,3,0,16.9,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00349,31,63.18,4,5,32.6,6,Month-to-month,Electronic check,West,Yes,No
+SYN-00350,40,92.57,0,1,15.9,6,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00351,51,68.81,0,6,17.6,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-00352,55,126.66,2,1,36.7,8,Month-to-month,Mailed check,Northeast,No,No
+SYN-00353,12,52.34,3,1,18.9,9,Month-to-month,Electronic check,Midwest,No,No
+SYN-00354,17,120.8,2,5,21.1,8,Month-to-month,Mailed check,South,Yes,No
+SYN-00355,48,94.44,2,9,11.3,10,One year,Mailed check,West,No,No
+SYN-00356,15,38.86,5,4,1,4,Month-to-month,Credit card,South,Yes,Yes
+SYN-00357,25,122.02,2,2,48.4,7,One year,Bank transfer,Midwest,No,No
+SYN-00358,69,78.11,3,2,31.4,6,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00359,28,125.99,3,0,28.2,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-00360,20,42.31,3,0,19.6,5,One year,Electronic check,Northeast,No,No
+SYN-00361,32,79.12,0,4,36.3,5,Month-to-month,Electronic check,West,Yes,No
+SYN-00362,17,35.1,4,0,48.7,7,One year,Electronic check,Northeast,Yes,No
+SYN-00363,52,33.55,7,0,5.7,6,Two year,Bank transfer,West,Yes,No
+SYN-00364,15,121.42,5,3,49.8,5,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-00365,13,105.4,1,0,31.3,10,One year,Bank transfer,Midwest,Yes,No
+SYN-00366,27,25.22,1,0,29.6,8,One year,Mailed check,Northeast,No,No
+SYN-00367,23,98.56,3,0,44.3,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00368,13,50.0,4,1,19.7,9,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00369,68,92.59,3,7,17.2,10,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00370,48,57.46,2,5,27.4,10,Month-to-month,Credit card,West,No,No
+SYN-00371,14,80.15,3,6,11.0,6,Month-to-month,Mailed check,South,No,Yes
+SYN-00372,45,77.48,0,2,23.4,9,One year,Credit card,Northeast,Yes,No
+SYN-00373,26,54.96,3,3,14.8,8,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00374,5,98.95,1,0,44.1,8,Month-to-month,Electronic check,West,No,No
+SYN-00375,60,83.01,2,0,15.6,10,One year,Credit card,West,No,No
+SYN-00376,1,98.48,2,2,18.5,4,One year,Mailed check,South,Yes,Yes
+SYN-00377,26,89.79,2,3,6.1,2,One year,Bank transfer,Northeast,Yes,No
+SYN-00378,72,38.0,2,0,34.0,9,Month-to-month,Credit card,Northeast,No,No
+SYN-00379,50,54.42,5,13,32.4,7,One year,Bank transfer,Midwest,No,No
+SYN-00380,71,27.07,4,2,39.6,10,Month-to-month,Credit card,West,No,No
+SYN-00381,8,125.75,3,2,15.6,6,Month-to-month,Electronic check,West,Yes,No
+SYN-00382,36,141.69,0,4,26.0,7,Month-to-month,Credit card,Northeast,Yes,Yes
+SYN-00383,48,44.03,2,13,21.9,8,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00384,57,118.95,5,4,59.5,8,Two year,Electronic check,South,Yes,No
+SYN-00385,4,110.89,2,3,29.4,6,One year,Mailed check,South,Yes,No
+SYN-00386,17,115.69,2,4,29.1,8,Two year,Electronic check,Northeast,Yes,No
+SYN-00387,22,62.16,1,0,11.9,8,Month-to-month,Bank transfer,South,No,No
+SYN-00388,18,77.94,3,9,38.1,7,Two year,Bank transfer,West,No,No
+SYN-00389,67,37.76,1,3,23.2,8,Month-to-month,Mailed check,Midwest,No,No
+SYN-00390,69,36.58,4,6,45.0,5,One year,Credit card,Northeast,Yes,No
+SYN-00391,32,93.83,2,2,17.1,5,One year,Credit card,South,No,No
+SYN-00392,16,92.49,2,6,37.4,8,Two year,Mailed check,West,Yes,No
+SYN-00393,62,33.58,2,5,36.6,8,Two year,Credit card,Northeast,Yes,No
+SYN-00394,56,57.04,0,6,2.5,7,Month-to-month,Electronic check,West,Yes,No
+SYN-00395,60,43.34,1,6,33.7,6,Two year,Mailed check,South,Yes,No
+SYN-00396,43,116.54,2,7,35.2,6,Month-to-month,Mailed check,South,No,No
+SYN-00397,20,88.5,4,5,19.0,10,Two year,Mailed check,Northeast,No,No
+SYN-00398,6,98.96,1,1,28.1,9,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00399,18,94.05,5,0,31.7,6,One year,Bank transfer,South,No,No
+SYN-00400,55,109.99,4,2,26.4,9,One year,Mailed check,West,No,No
+SYN-00401,6,125.55,0,10,24.2,5,One year,Mailed check,West,Yes,Yes
+SYN-00402,17,130.23,3,9,33.7,5,One year,Electronic check,Midwest,No,Yes
+SYN-00403,15,43.68,5,3,25.6,4,Month-to-month,Credit card,Northeast,No,Yes
+SYN-00404,14,99.73,0,6,6.3,5,One year,Mailed check,South,No,No
+SYN-00405,58,32.82,6,5,47.8,8,One year,Credit card,Midwest,Yes,No
+SYN-00406,64,121.4,2,0,9.8,8,Month-to-month,Electronic check,West,No,No
+SYN-00407,13,92.55,3,3,10.3,9,Month-to-month,Mailed check,Northeast,No,No
+SYN-00408,49,106.19,3,7,44.7,5,One year,Mailed check,West,No,No
+SYN-00409,68,136.0,3,2,28.2,5,Month-to-month,Credit card,South,Yes,Yes
+SYN-00410,16,67.85,2,0,37.2,6,One year,Electronic check,Northeast,Yes,No
+SYN-00411,70,129.37,1,0,21.8,4,Two year,Bank transfer,Northeast,No,No
+SYN-00412,51,144.07,1,0,27.1,8,Month-to-month,Electronic check,Midwest,No,No
+SYN-00413,32,82.48,5,8,23.6,8,Month-to-month,Credit card,Northeast,No,Yes
+SYN-00414,17,49.53,0,2,24.2,8,One year,Bank transfer,Midwest,Yes,No
+SYN-00415,51,102.78,3,0,14.1,8,Month-to-month,Mailed check,West,Yes,No
+SYN-00416,17,109.61,1,4,30.4,5,Month-to-month,Credit card,Northeast,Yes,Yes
+SYN-00417,36,57.4,2,7,28.0,4,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00418,58,32.14,0,0,14.5,7,Month-to-month,Mailed check,West,Yes,No
+SYN-00419,44,93.13,5,4,27.9,10,One year,Electronic check,Northeast,No,No
+SYN-00420,30,43.92,0,11,38.2,6,One year,Bank transfer,Northeast,Yes,No
+SYN-00421,23,58.51,2,1,27.3,10,Month-to-month,Bank transfer,West,No,No
+SYN-00422,66,108.93,1,4,16.3,5,Two year,Electronic check,Northeast,No,No
+SYN-00423,31,28.96,0,4,1,9,Month-to-month,Mailed check,Northeast,No,No
+SYN-00424,20,124.84,0,4,39.3,4,One year,Credit card,West,No,No
+SYN-00425,27,144.01,4,0,40.9,10,Two year,Electronic check,West,No,No
+SYN-00426,30,55.93,7,0,33.9,4,Month-to-month,Credit card,Northeast,No,No
+SYN-00427,50,67.27,5,1,33.8,7,One year,Credit card,Northeast,No,No
+SYN-00428,62,80.56,3,10,41.0,6,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00429,26,70.49,4,0,40.5,6,Month-to-month,Bank transfer,West,No,No
+SYN-00430,71,55.23,1,8,23.0,10,One year,Electronic check,West,No,No
+SYN-00431,22,130.66,2,1,23.2,8,One year,Credit card,Northeast,Yes,No
+SYN-00432,42,78.23,0,0,20.8,8,Month-to-month,Bank transfer,South,Yes,No
+SYN-00433,26,54.99,0,0,29.8,5,Two year,Mailed check,West,No,No
+SYN-00434,8,73.44,2,7,41.0,5,Month-to-month,Credit card,West,No,Yes
+SYN-00435,72,126.74,4,0,14.3,6,One year,Credit card,South,Yes,No
+SYN-00436,13,127.82,3,2,36.4,4,Two year,Electronic check,South,No,Yes
+SYN-00437,35,109.72,2,11,22.9,7,Month-to-month,Electronic check,South,No,No
+SYN-00438,11,111.49,7,3,12.7,9,Two year,Mailed check,West,Yes,No
+SYN-00439,6,53.67,2,6,35.3,6,One year,Electronic check,Midwest,Yes,No
+SYN-00440,49,93.83,2,0,45.1,4,Month-to-month,Bank transfer,South,No,No
+SYN-00441,30,70.21,1,7,34.1,9,One year,Mailed check,West,No,No
+SYN-00442,65,74.71,2,10,30.4,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-00443,9,57.81,0,2,40.5,8,Two year,Mailed check,Midwest,No,No
+SYN-00444,7,58.61,3,0,11.8,9,One year,Credit card,West,No,No
+SYN-00445,71,38.64,1,3,34.1,4,Two year,Credit card,Northeast,Yes,No
+SYN-00446,55,50.38,0,4,9.2,7,Month-to-month,Credit card,South,Yes,No
+SYN-00447,13,42.74,4,0,13.8,4,Month-to-month,Credit card,South,No,No
+SYN-00448,24,51.51,4,0,38.0,6,One year,Credit card,West,No,No
+SYN-00449,25,117.35,2,4,12.3,7,One year,Mailed check,West,Yes,No
+SYN-00450,36,120.65,4,4,39.1,5,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00451,27,80.26,1,0,40.7,7,One year,Electronic check,West,Yes,No
+SYN-00452,33,85.54,0,0,18.8,5,Two year,Credit card,South,Yes,No
+SYN-00453,3,92.68,4,0,32.2,10,One year,Credit card,Midwest,Yes,No
+SYN-00454,27,127.1,4,0,49.3,7,One year,Mailed check,West,Yes,No
+SYN-00455,43,92.87,2,0,57.0,6,Month-to-month,Bank transfer,West,Yes,No
+SYN-00456,65,121.88,3,0,34.5,4,One year,Electronic check,Midwest,Yes,No
+SYN-00457,37,86.27,0,3,33.5,7,Month-to-month,Electronic check,Midwest,No,Yes
+SYN-00458,7,100.02,5,7,7.3,5,Month-to-month,Bank transfer,Northeast,No,Yes
+SYN-00459,23,135.55,1,2,36.6,8,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00460,5,131.33,2,3,21.8,10,Month-to-month,Mailed check,West,No,No
+SYN-00461,30,134.97,0,5,23.4,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+SYN-00462,54,102.21,3,2,14.9,6,Two year,Bank transfer,South,Yes,No
+SYN-00463,5,107.62,0,8,30.9,5,Month-to-month,Credit card,Northeast,No,Yes
+SYN-00464,16,93.71,0,2,15.2,4,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-00465,24,36.0,2,3,33.9,6,Month-to-month,Electronic check,South,Yes,No
+SYN-00466,24,48.69,0,2,54.4,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00467,3,38.68,3,4,38.1,9,Two year,Bank transfer,South,Yes,No
+SYN-00468,53,118.84,2,9,18.6,6,One year,Credit card,West,Yes,No
+SYN-00469,30,31.67,2,9,16.7,7,Two year,Mailed check,Midwest,No,No
+SYN-00470,65,29.88,2,2,39.3,7,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00471,55,117.34,4,0,10.4,7,Month-to-month,Mailed check,South,No,No
+SYN-00472,22,34.12,1,9,18.7,8,Two year,Bank transfer,South,Yes,No
+SYN-00473,16,119.12,5,0,18.7,5,Month-to-month,Credit card,Midwest,No,Yes
+SYN-00474,32,35.9,2,1,42.0,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00475,10,39.25,2,1,40.8,7,One year,Mailed check,Northeast,Yes,No
+SYN-00476,40,120.97,6,2,13.2,5,Month-to-month,Mailed check,West,No,Yes
+SYN-00477,16,84.27,4,5,42.7,7,Two year,Bank transfer,South,No,No
+SYN-00478,67,31.66,3,7,35.1,4,Month-to-month,Bank transfer,Northeast,Yes,Yes
+SYN-00479,11,58.9,7,0,3.6,10,Month-to-month,Credit card,West,No,No
+SYN-00480,65,87.3,3,2,21.8,10,Two year,Mailed check,South,Yes,No
+SYN-00481,50,140.75,5,8,51.0,8,Two year,Mailed check,Midwest,No,No
+SYN-00482,30,141.69,1,7,32.2,5,Month-to-month,Electronic check,Midwest,No,Yes
+SYN-00483,21,85.83,3,0,28.0,5,Month-to-month,Mailed check,West,Yes,No
+SYN-00484,30,141.49,3,0,31.3,5,Month-to-month,Credit card,South,Yes,Yes
+SYN-00485,29,93.12,0,4,36.8,8,Two year,Electronic check,South,No,No
+SYN-00486,46,128.1,0,6,48.5,5,One year,Credit card,Midwest,Yes,No
+SYN-00487,53,53.85,1,0,22.6,8,Month-to-month,Mailed check,Midwest,No,No
+SYN-00488,11,35.23,0,0,25.9,8,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00489,32,135.73,0,0,45.3,5,Month-to-month,Credit card,South,Yes,No
+SYN-00490,23,36.7,8,0,43.1,8,One year,Credit card,South,Yes,No
+SYN-00491,22,26.33,2,4,6.0,8,Month-to-month,Bank transfer,West,No,No
+SYN-00492,28,117.38,0,0,36.5,5,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00493,33,84.32,4,6,23.6,6,One year,Mailed check,West,Yes,No
+SYN-00494,54,90.71,0,3,36.4,7,Two year,Electronic check,Northeast,Yes,No
+SYN-00495,13,106.23,1,3,34.2,4,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-00496,57,124.72,2,0,27.1,10,One year,Credit card,West,No,No
+SYN-00497,66,47.31,5,3,19.3,4,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00498,10,49.3,2,0,32.1,8,One year,Bank transfer,Midwest,Yes,No
+SYN-00499,64,128.99,0,8,41.5,7,Month-to-month,Bank transfer,West,No,Yes
+SYN-00500,67,37.42,3,6,37.3,9,Month-to-month,Electronic check,Northeast,No,No
+SYN-00501,19,31.28,3,9,31.1,6,Two year,Mailed check,South,Yes,No
+SYN-00502,13,64.48,4,0,40.6,7,Two year,Mailed check,South,No,No
+SYN-00503,23,97.77,1,0,34.0,10,Month-to-month,Mailed check,Northeast,No,No
+SYN-00504,36,137.69,2,0,1.1,8,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00505,56,56.0,0,0,21.3,6,Month-to-month,Credit card,West,No,No
+SYN-00506,32,28.18,0,0,49.6,8,One year,Bank transfer,West,Yes,No
+SYN-00507,40,57.65,3,4,46.7,7,Month-to-month,Mailed check,West,No,No
+SYN-00508,49,129.4,6,0,24.2,4,One year,Electronic check,South,No,Yes
+SYN-00509,1,122.27,4,6,36.8,7,Month-to-month,Electronic check,South,No,Yes
+SYN-00510,14,72.9,0,0,21.0,6,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00511,57,49.57,0,6,8.6,7,One year,Mailed check,Northeast,No,No
+SYN-00512,56,104.68,1,0,16.3,3,Month-to-month,Credit card,West,Yes,No
+SYN-00513,2,83.06,2,14,33.9,7,Month-to-month,Bank transfer,Northeast,No,Yes
+SYN-00514,13,140.8,5,8,20.6,10,Month-to-month,Credit card,West,Yes,Yes
+SYN-00515,63,141.88,0,0,12.9,8,Month-to-month,Electronic check,South,No,No
+SYN-00516,16,46.67,2,3,8.3,7,One year,Mailed check,South,No,No
+SYN-00517,36,124.43,2,3,31.7,8,One year,Bank transfer,West,Yes,No
+SYN-00518,13,87.49,2,2,30.9,8,Two year,Bank transfer,South,Yes,No
+SYN-00519,55,44.61,5,4,35.0,7,Two year,Bank transfer,West,No,No
+SYN-00520,55,102.13,4,0,28.2,5,Month-to-month,Electronic check,Northeast,No,No
+SYN-00521,38,98.79,1,0,9.8,7,One year,Bank transfer,Midwest,Yes,No
+SYN-00522,66,63.38,1,1,40.8,6,Month-to-month,Electronic check,South,No,No
+SYN-00523,16,136.75,2,1,21.7,8,One year,Mailed check,West,No,Yes
+SYN-00524,41,46.37,5,0,35.1,10,Two year,Mailed check,South,No,No
+SYN-00525,72,97.67,6,2,25.2,9,One year,Credit card,West,No,No
+SYN-00526,44,47.92,1,4,24.0,7,One year,Credit card,Northeast,No,No
+SYN-00527,18,70.87,3,5,22.8,8,Month-to-month,Electronic check,South,No,No
+SYN-00528,6,143.9,0,3,44.6,3,Two year,Electronic check,Northeast,Yes,No
+SYN-00529,34,48.7,2,3,18.7,5,One year,Mailed check,Midwest,Yes,No
+SYN-00530,45,118.47,5,7,34.0,8,Month-to-month,Credit card,South,No,No
+SYN-00531,67,35.6,2,2,61.8,7,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00532,11,79.91,0,8,14.9,7,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00533,1,45.4,0,0,36.2,8,One year,Mailed check,Midwest,No,No
+SYN-00534,18,136.48,3,2,18.5,10,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00535,20,66.51,4,0,12.4,5,One year,Electronic check,South,Yes,No
+SYN-00536,18,45.27,2,7,44.0,5,Month-to-month,Bank transfer,Northeast,No,Yes
+SYN-00537,48,101.07,2,6,21.9,9,Month-to-month,Bank transfer,South,No,No
+SYN-00538,33,88.54,2,0,31.4,7,One year,Mailed check,West,Yes,No
+SYN-00539,65,114.25,2,0,15.4,8,Month-to-month,Electronic check,South,Yes,Yes
+SYN-00540,10,42.45,3,1,14.4,5,Two year,Electronic check,Northeast,No,No
+SYN-00541,65,142.58,1,0,34.3,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00542,40,118.55,0,8,39.2,10,Month-to-month,Credit card,South,Yes,No
+SYN-00543,35,39.31,4,1,19.9,6,Month-to-month,Bank transfer,West,No,No
+SYN-00544,17,100.71,0,1,41.5,5,Month-to-month,Bank transfer,South,Yes,Yes
+SYN-00545,48,144.11,1,7,30.5,6,Two year,Electronic check,South,No,No
+SYN-00546,10,122.78,0,3,21.3,8,Two year,Mailed check,South,Yes,No
+SYN-00547,50,26.81,2,4,36.3,6,One year,Mailed check,Northeast,No,No
+SYN-00548,50,63.07,1,3,25.5,5,Two year,Bank transfer,Northeast,Yes,No
+SYN-00549,55,136.73,1,4,9.6,6,Two year,Mailed check,Midwest,Yes,No
+SYN-00550,43,65.01,0,2,29.5,7,Month-to-month,Mailed check,Midwest,No,No
+SYN-00551,15,74.95,1,5,26.5,10,One year,Credit card,Midwest,No,No
+SYN-00552,47,47.24,2,2,34.0,8,Two year,Credit card,Northeast,Yes,No
+SYN-00553,4,140.54,0,0,24.9,7,One year,Mailed check,South,Yes,Yes
+SYN-00554,56,117.98,4,5,40.2,9,One year,Electronic check,West,No,No
+SYN-00555,13,39.56,5,5,19.9,7,One year,Bank transfer,Northeast,No,No
+SYN-00556,53,110.87,0,1,30.5,10,One year,Electronic check,South,No,No
+SYN-00557,48,95.25,4,4,15.6,9,Two year,Bank transfer,West,Yes,No
+SYN-00558,65,30.81,0,0,32.9,8,Month-to-month,Electronic check,West,No,No
+SYN-00559,14,113.73,3,1,5.1,8,Two year,Bank transfer,Northeast,No,No
+SYN-00560,32,84.8,0,0,47.1,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00561,69,25.77,5,0,18.5,9,Two year,Credit card,South,No,No
+SYN-00562,30,138.38,2,0,16.5,9,One year,Bank transfer,Northeast,Yes,No
+SYN-00563,32,35.83,4,0,29.8,6,One year,Electronic check,Midwest,No,No
+SYN-00564,27,40.06,3,0,30.5,9,Month-to-month,Mailed check,West,Yes,No
+SYN-00565,49,84.48,2,9,3.4,6,Month-to-month,Credit card,South,No,Yes
+SYN-00566,45,112.88,0,0,30.3,7,Two year,Credit card,Midwest,No,No
+SYN-00567,17,41.68,4,5,33.2,6,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00568,69,81.37,0,8,11.9,10,One year,Credit card,South,No,No
+SYN-00569,18,61.96,0,5,49.1,9,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00570,23,112.88,1,8,23.6,8,Two year,Credit card,Midwest,No,No
+SYN-00571,34,72.49,0,5,32.1,5,One year,Electronic check,South,No,No
+SYN-00572,48,95.7,2,9,36.7,6,Month-to-month,Mailed check,West,Yes,No
+SYN-00573,5,70.47,5,3,28.4,6,Month-to-month,Mailed check,West,No,Yes
+SYN-00574,64,89.74,1,3,31.6,10,One year,Mailed check,West,Yes,No
+SYN-00575,33,121.96,1,5,15.1,7,Month-to-month,Credit card,West,Yes,Yes
+SYN-00576,54,108.3,3,2,18.2,6,Two year,Electronic check,Northeast,Yes,No
+SYN-00577,69,79.45,1,3,34.5,9,Month-to-month,Mailed check,Midwest,No,No
+SYN-00578,12,86.64,2,0,12.5,9,One year,Mailed check,Midwest,No,No
+SYN-00579,47,121.74,3,3,34.0,10,Month-to-month,Electronic check,West,No,No
+SYN-00580,44,33.71,3,0,15.0,3,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00581,6,129.22,0,7,26.4,4,Month-to-month,Bank transfer,West,Yes,Yes
+SYN-00582,30,71.06,3,6,19.7,7,Month-to-month,Mailed check,South,No,Yes
+SYN-00583,63,51.31,1,3,15.3,9,Two year,Electronic check,West,No,No
+SYN-00584,5,54.66,0,5,14.3,5,One year,Electronic check,West,No,No
+SYN-00585,61,104.83,0,7,28.2,8,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00586,63,34.44,4,4,15.4,5,Two year,Electronic check,West,No,No
+SYN-00587,6,91.19,1,0,49.2,10,One year,Credit card,Midwest,No,No
+SYN-00588,11,139.1,0,2,13.7,8,Two year,Electronic check,South,Yes,No
+SYN-00589,26,129.13,0,4,22.6,9,Month-to-month,Credit card,Northeast,No,No
+SYN-00590,49,84.28,3,0,28.1,8,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00591,1,35.17,2,4,20.7,8,One year,Credit card,Midwest,Yes,No
+SYN-00592,59,101.85,3,0,16.9,9,Month-to-month,Electronic check,West,No,No
+SYN-00593,45,35.07,2,0,30.9,4,Month-to-month,Mailed check,Northeast,No,No
+SYN-00594,29,53.12,4,0,35.3,8,One year,Electronic check,West,No,No
+SYN-00595,11,47.79,0,0,34.4,7,Two year,Electronic check,West,No,No
+SYN-00596,32,65.84,0,2,14.4,8,Month-to-month,Credit card,Midwest,No,No
+SYN-00597,44,139.45,2,4,33.2,7,Month-to-month,Credit card,West,Yes,No
+SYN-00598,23,120.36,4,1,37.2,6,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-00599,42,118.09,0,8,26.3,8,One year,Credit card,Midwest,Yes,No
+SYN-00600,6,128.74,4,0,27.9,7,Month-to-month,Credit card,Midwest,Yes,Yes
+SYN-00601,66,53.33,2,7,28.6,5,Two year,Electronic check,South,No,No
+SYN-00602,22,81.38,2,2,8.1,9,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00603,14,46.53,4,0,1,5,Month-to-month,Bank transfer,South,Yes,No
+SYN-00604,47,29.36,6,2,32.9,10,One year,Electronic check,West,No,No
+SYN-00605,24,69.59,3,0,35.2,9,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00606,13,131.28,0,10,33.8,8,Month-to-month,Mailed check,West,Yes,Yes
+SYN-00607,28,48.38,2,0,39.3,8,Month-to-month,Credit card,Northeast,No,No
+SYN-00608,26,95.29,0,0,49.9,8,Two year,Mailed check,West,No,No
+SYN-00609,42,73.15,3,0,20.1,4,One year,Mailed check,Midwest,Yes,No
+SYN-00610,22,61.29,4,0,20.4,7,One year,Electronic check,South,No,No
+SYN-00611,1,93.32,2,1,22.1,5,One year,Mailed check,Northeast,No,No
+SYN-00612,48,73.05,4,8,40.4,7,Month-to-month,Bank transfer,South,No,No
+SYN-00613,17,86.19,2,1,26.9,7,Two year,Electronic check,West,Yes,No
+SYN-00614,63,29.59,1,13,19.4,7,One year,Bank transfer,Midwest,No,No
+SYN-00615,21,117.02,2,8,31.4,5,Month-to-month,Mailed check,Northeast,No,Yes
+SYN-00616,24,90.82,2,5,26.8,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00617,3,124.77,1,5,15.4,9,Month-to-month,Electronic check,South,Yes,No
+SYN-00618,52,104.34,3,2,11.0,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-00619,50,111.35,6,5,25.1,8,One year,Bank transfer,South,Yes,No
+SYN-00620,46,32.79,1,0,6.7,9,Two year,Bank transfer,Midwest,Yes,No
+SYN-00621,9,55.24,2,1,25.4,10,Month-to-month,Bank transfer,West,No,No
+SYN-00622,26,58.52,2,3,39.8,5,Two year,Bank transfer,Midwest,No,No
+SYN-00623,68,134.3,0,2,50.1,6,Two year,Credit card,West,Yes,No
+SYN-00624,15,68.35,3,3,47.5,8,Month-to-month,Credit card,South,Yes,No
+SYN-00625,52,26.4,2,6,29.2,8,One year,Credit card,Midwest,Yes,No
+SYN-00626,70,99.4,2,0,30.2,6,One year,Bank transfer,Midwest,Yes,No
+SYN-00627,56,43.52,1,0,19.2,6,Month-to-month,Mailed check,Midwest,No,No
+SYN-00628,51,111.54,1,8,16.9,7,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00629,33,109.48,0,0,17.1,7,Two year,Bank transfer,West,Yes,No
+SYN-00630,1,71.1,4,0,23.3,4,Month-to-month,Credit card,Midwest,Yes,Yes
+SYN-00631,35,99.95,0,1,28.3,9,Month-to-month,Credit card,West,Yes,No
+SYN-00632,66,120.39,2,12,27.5,5,Month-to-month,Credit card,Midwest,No,Yes
+SYN-00633,14,62.93,1,0,42.3,7,Month-to-month,Credit card,South,Yes,Yes
+SYN-00634,18,73.65,2,4,27.2,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00635,22,44.82,3,0,19.2,7,Month-to-month,Electronic check,South,Yes,No
+SYN-00636,32,46.2,4,2,35.4,6,Two year,Bank transfer,West,No,No
+SYN-00637,68,91.96,1,6,31.6,8,One year,Bank transfer,West,No,No
+SYN-00638,70,65.01,4,1,44.8,8,One year,Bank transfer,South,No,No
+SYN-00639,65,118.36,3,0,12.9,9,Two year,Bank transfer,Midwest,No,No
+SYN-00640,7,110.44,3,0,28.3,7,Month-to-month,Bank transfer,Northeast,Yes,Yes
+SYN-00641,29,133.74,3,9,42.9,9,One year,Credit card,Midwest,Yes,No
+SYN-00642,44,90.28,7,0,28.5,5,Two year,Mailed check,Northeast,Yes,No
+SYN-00643,10,96.98,4,3,48.8,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-00644,72,77.64,2,0,5.8,5,One year,Credit card,West,No,No
+SYN-00645,15,141.44,3,3,19.7,4,Month-to-month,Bank transfer,Midwest,No,Yes
+SYN-00646,4,125.84,0,0,11.7,5,One year,Electronic check,Northeast,Yes,No
+SYN-00647,59,49.51,1,0,40.7,9,Month-to-month,Credit card,South,No,No
+SYN-00648,3,85.06,3,3,11.7,6,One year,Credit card,Midwest,Yes,No
+SYN-00649,56,108.82,1,4,36.6,8,Two year,Mailed check,Midwest,No,No
+SYN-00650,9,57.0,2,6,28.9,9,Two year,Mailed check,Northeast,Yes,No
+SYN-00651,25,69.35,0,6,12.2,8,One year,Credit card,West,No,No
+SYN-00652,40,113.79,2,0,34.9,7,Two year,Electronic check,Northeast,Yes,No
+SYN-00653,40,89.59,4,3,20.8,8,One year,Electronic check,South,Yes,No
+SYN-00654,54,52.77,2,0,43.6,9,Month-to-month,Credit card,South,No,No
+SYN-00655,71,112.52,4,5,20.0,7,Month-to-month,Electronic check,Midwest,No,No
+SYN-00656,1,50.63,5,2,43.4,7,Month-to-month,Bank transfer,West,Yes,No
+SYN-00657,44,118.04,4,6,20.9,7,Month-to-month,Mailed check,South,No,No
+SYN-00658,4,100.89,0,11,27.2,10,One year,Mailed check,West,No,No
+SYN-00659,9,61.07,1,8,22.0,8,Month-to-month,Electronic check,South,Yes,No
+SYN-00660,18,144.7,3,1,6.9,7,One year,Electronic check,West,Yes,Yes
+SYN-00661,37,121.85,1,0,19.7,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00662,47,35.66,0,8,21.4,8,Two year,Bank transfer,South,No,No
+SYN-00663,57,88.81,0,8,48.9,9,Two year,Bank transfer,West,No,No
+SYN-00664,13,133.08,1,0,36.3,8,Month-to-month,Mailed check,West,No,Yes
+SYN-00665,13,45.15,5,1,34.1,7,One year,Bank transfer,Northeast,No,No
+SYN-00666,63,49.92,1,2,31.6,8,Month-to-month,Mailed check,South,No,No
+SYN-00667,64,137.47,0,0,27.9,4,Two year,Bank transfer,West,No,No
+SYN-00668,24,112.71,0,0,47.6,8,Two year,Credit card,Northeast,No,No
+SYN-00669,41,44.15,4,2,27.2,10,One year,Bank transfer,West,No,No
+SYN-00670,9,57.54,2,0,12.8,4,Two year,Electronic check,Northeast,Yes,No
+SYN-00671,18,136.48,2,9,18.0,7,Two year,Mailed check,Midwest,Yes,No
+SYN-00672,10,26.26,3,1,22.8,3,Two year,Electronic check,West,No,No
+SYN-00673,71,112.8,4,5,27.3,5,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00674,22,102.4,5,0,22.6,10,Two year,Mailed check,South,No,No
+SYN-00675,35,136.88,3,1,26.4,7,Month-to-month,Mailed check,Northeast,No,Yes
+SYN-00676,25,58.45,1,7,11.3,9,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00677,44,144.29,5,4,29.8,10,One year,Credit card,Midwest,No,No
+SYN-00678,1,131.73,0,3,1,6,Two year,Bank transfer,West,No,Yes
+SYN-00679,49,121.94,3,4,33.6,8,One year,Mailed check,West,Yes,No
+SYN-00680,64,48.79,0,5,37.9,4,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00681,27,41.16,3,4,22.2,8,Month-to-month,Electronic check,Northeast,No,No
+SYN-00682,57,42.17,0,0,22.3,8,Month-to-month,Electronic check,South,No,No
+SYN-00683,65,140.74,1,0,23.7,9,Month-to-month,Mailed check,South,Yes,No
+SYN-00684,50,38.36,3,7,34.1,8,One year,Electronic check,South,Yes,No
+SYN-00685,49,126.0,2,7,24.9,4,One year,Credit card,Northeast,No,No
+SYN-00686,31,50.61,3,5,23.6,7,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00687,56,112.91,0,0,29.0,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00688,3,30.53,0,1,29.9,10,One year,Credit card,West,Yes,No
+SYN-00689,42,130.9,2,3,53.2,10,One year,Mailed check,Midwest,Yes,No
+SYN-00690,63,80.73,1,0,26.4,10,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00691,31,49.96,4,0,34.5,6,Two year,Electronic check,Midwest,Yes,No
+SYN-00692,41,62.86,2,4,30.4,9,One year,Electronic check,Northeast,Yes,No
+SYN-00693,57,103.69,3,1,31.8,9,One year,Electronic check,Midwest,No,No
+SYN-00694,38,29.86,3,1,21.7,9,Month-to-month,Bank transfer,West,Yes,No
+SYN-00695,14,63.04,1,2,17.3,8,Month-to-month,Credit card,Midwest,No,No
+SYN-00696,23,94.0,6,2,36.7,7,One year,Electronic check,Northeast,No,No
+SYN-00697,57,106.48,5,0,31.9,7,One year,Credit card,Northeast,No,No
+SYN-00698,45,28.85,2,2,21.3,8,One year,Credit card,Midwest,Yes,No
+SYN-00699,22,62.16,2,2,30.2,6,Month-to-month,Electronic check,West,Yes,Yes
+SYN-00700,52,123.31,2,3,28.9,6,Month-to-month,Credit card,West,No,Yes
+SYN-00701,18,44.38,4,5,27.6,10,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00702,19,130.35,1,5,29.1,8,Month-to-month,Mailed check,South,No,Yes
+SYN-00703,63,116.65,6,0,17.7,7,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00704,6,120.49,3,8,12.5,7,Month-to-month,Mailed check,West,No,Yes
+SYN-00705,62,106.14,6,2,25.0,6,Month-to-month,Electronic check,South,No,No
+SYN-00706,4,138.31,0,1,24.5,5,Month-to-month,Credit card,West,No,No
+SYN-00707,59,103.87,0,8,36.6,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00708,43,50.36,1,0,28.6,8,One year,Electronic check,West,No,No
+SYN-00709,29,72.45,0,1,44.2,7,Two year,Mailed check,Northeast,Yes,No
+SYN-00710,59,52.42,3,6,57.0,5,Two year,Mailed check,Northeast,No,No
+SYN-00711,40,65.08,2,9,43.1,5,Two year,Bank transfer,South,No,No
+SYN-00712,29,72.89,2,8,18.2,7,One year,Electronic check,South,Yes,No
+SYN-00713,14,89.97,1,7,40.3,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-00714,34,70.66,1,0,1,6,Two year,Mailed check,West,No,No
+SYN-00715,70,92.1,2,0,37.7,5,Two year,Credit card,South,No,No
+SYN-00716,33,55.58,3,0,33.0,9,One year,Mailed check,Midwest,Yes,No
+SYN-00717,8,44.2,5,7,18.0,7,Month-to-month,Credit card,Midwest,No,No
+SYN-00718,15,94.62,1,0,16.5,6,One year,Bank transfer,South,Yes,No
+SYN-00719,4,64.27,1,0,34.7,7,One year,Credit card,Northeast,Yes,No
+SYN-00720,71,74.88,2,2,45.9,6,Two year,Credit card,Midwest,Yes,No
+SYN-00721,50,104.43,5,5,17.9,5,One year,Mailed check,Northeast,No,No
+SYN-00722,5,108.33,4,6,21.6,8,One year,Credit card,South,Yes,No
+SYN-00723,56,141.2,2,7,34.2,7,Two year,Electronic check,Northeast,Yes,No
+SYN-00724,35,69.39,1,7,29.7,7,One year,Bank transfer,South,Yes,No
+SYN-00725,41,25.36,2,7,28.9,5,Month-to-month,Electronic check,Midwest,No,No
+SYN-00726,35,144.16,3,9,32.2,8,One year,Mailed check,Midwest,Yes,No
+SYN-00727,4,38.85,1,0,23.6,8,Two year,Electronic check,Northeast,No,No
+SYN-00728,3,48.49,0,6,28.1,8,Two year,Electronic check,Midwest,No,No
+SYN-00729,65,39.86,3,0,11.7,9,Two year,Bank transfer,Midwest,No,No
+SYN-00730,70,112.71,6,2,38.4,6,Month-to-month,Mailed check,West,No,No
+SYN-00731,15,86.06,6,0,36.0,9,Month-to-month,Credit card,South,Yes,No
+SYN-00732,65,105.28,1,4,22.3,5,Month-to-month,Credit card,Northeast,No,No
+SYN-00733,14,83.85,5,1,36.7,6,Two year,Credit card,Midwest,No,No
+SYN-00734,48,27.14,3,6,16.1,9,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00735,10,96.91,2,6,18.5,6,Two year,Mailed check,Northeast,No,No
+SYN-00736,64,133.23,2,3,23.6,6,Month-to-month,Electronic check,South,Yes,No
+SYN-00737,56,129.33,5,13,35.7,5,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00738,18,30.53,4,9,21.4,7,Two year,Bank transfer,South,Yes,No
+SYN-00739,65,41.38,5,6,37.2,5,Month-to-month,Bank transfer,South,Yes,Yes
+SYN-00740,27,82.14,0,2,15.4,5,Month-to-month,Credit card,West,Yes,No
+SYN-00741,1,46.16,2,1,53.2,5,Two year,Electronic check,South,No,No
+SYN-00742,27,124.81,1,5,41.9,9,Two year,Bank transfer,Midwest,Yes,No
+SYN-00743,21,45.6,3,0,34.9,6,Two year,Bank transfer,South,Yes,No
+SYN-00744,30,54.23,0,0,14.2,6,Month-to-month,Mailed check,Midwest,No,No
+SYN-00745,26,130.14,2,4,29.0,7,One year,Electronic check,Midwest,Yes,No
+SYN-00746,38,141.46,3,8,24.2,9,One year,Credit card,West,No,No
+SYN-00747,12,105.58,0,2,34.0,7,Month-to-month,Credit card,West,No,No
+SYN-00748,23,110.71,6,9,54.2,7,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-00749,23,59.03,5,1,51.3,4,One year,Mailed check,Midwest,No,Yes
+SYN-00750,24,89.87,3,0,33.9,10,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00751,13,41.97,4,8,28.1,7,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-00752,38,129.67,3,0,21.0,6,One year,Mailed check,Northeast,Yes,No
+SYN-00753,32,25.47,1,2,38.0,6,Month-to-month,Bank transfer,South,No,No
+SYN-00754,66,99.23,1,6,47.1,6,One year,Bank transfer,South,No,No
+SYN-00755,5,72.72,5,0,12.7,6,Month-to-month,Bank transfer,South,No,Yes
+SYN-00756,19,75.1,0,0,24.4,6,Two year,Electronic check,South,No,No
+SYN-00757,12,111.71,0,5,35.4,7,Two year,Electronic check,Midwest,Yes,No
+SYN-00758,36,98.28,4,8,20.6,7,Two year,Credit card,West,No,No
+SYN-00759,17,112.44,0,0,14.3,5,Month-to-month,Mailed check,West,No,Yes
+SYN-00760,10,83.79,4,2,28.3,7,Month-to-month,Credit card,Northeast,Yes,Yes
+SYN-00761,10,110.2,2,7,35.0,9,Month-to-month,Mailed check,South,Yes,Yes
+SYN-00762,27,115.2,0,2,40.5,6,One year,Credit card,South,Yes,No
+SYN-00763,26,131.48,0,6,25.4,8,One year,Mailed check,Northeast,No,No
+SYN-00764,12,45.24,3,1,17.4,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00765,44,136.27,2,0,35.3,10,Two year,Mailed check,South,Yes,No
+SYN-00766,64,77.01,4,1,53.8,4,One year,Electronic check,Midwest,Yes,No
+SYN-00767,43,120.94,0,5,43.7,6,Month-to-month,Credit card,Northeast,No,No
+SYN-00768,62,78.75,0,3,54.5,4,Month-to-month,Credit card,Midwest,No,Yes
+SYN-00769,19,82.86,6,0,31.8,7,Month-to-month,Electronic check,West,No,Yes
+SYN-00770,1,56.84,2,0,29.3,5,Month-to-month,Credit card,West,Yes,No
+SYN-00771,59,62.17,4,7,23.4,7,One year,Electronic check,Midwest,Yes,No
+SYN-00772,60,75.35,3,0,12.3,8,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00773,3,93.29,0,7,25.1,6,One year,Electronic check,South,Yes,No
+SYN-00774,49,71.55,2,3,43.5,6,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00775,31,93.94,0,0,36.1,7,One year,Mailed check,West,No,No
+SYN-00776,65,62.85,1,7,30.7,7,One year,Mailed check,Northeast,Yes,No
+SYN-00777,61,115.96,1,11,29.4,8,Month-to-month,Electronic check,West,Yes,No
+SYN-00778,19,32.96,3,0,44.1,6,Two year,Electronic check,West,Yes,No
+SYN-00779,21,40.12,3,4,2.0,5,Two year,Credit card,Northeast,Yes,No
+SYN-00780,68,129.48,5,5,41.5,7,Two year,Bank transfer,South,No,No
+SYN-00781,67,86.17,4,1,1,9,One year,Credit card,Midwest,No,No
+SYN-00782,31,64.94,1,1,32.7,9,One year,Electronic check,West,Yes,No
+SYN-00783,17,66.66,5,10,37.8,4,Two year,Bank transfer,Midwest,Yes,No
+SYN-00784,3,137.77,4,0,24.1,7,Month-to-month,Electronic check,South,No,Yes
+SYN-00785,46,135.88,5,0,18.5,8,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00786,63,51.73,3,5,27.2,7,Month-to-month,Electronic check,Midwest,No,No
+SYN-00787,51,59.84,2,3,22.2,9,Month-to-month,Electronic check,Northeast,No,No
+SYN-00788,62,101.67,0,5,28.9,5,Two year,Mailed check,Midwest,No,No
+SYN-00789,11,56.78,0,2,31.8,6,Two year,Bank transfer,Northeast,Yes,No
+SYN-00790,57,141.26,4,1,24.2,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00791,50,51.45,0,5,28.7,9,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00792,42,74.4,3,5,39.0,5,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-00793,29,139.66,4,4,22.0,8,Month-to-month,Bank transfer,West,Yes,No
+SYN-00794,27,57.31,2,5,41.2,10,Two year,Credit card,Northeast,No,No
+SYN-00795,60,25.46,3,1,53.3,9,Month-to-month,Credit card,South,No,No
+SYN-00796,48,61.44,2,4,6.9,4,Month-to-month,Mailed check,South,Yes,No
+SYN-00797,32,61.25,0,4,7.6,7,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00798,44,39.01,5,1,15.8,4,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00799,42,144.87,1,2,42.4,7,Month-to-month,Mailed check,South,No,Yes
+SYN-00800,19,34.49,1,1,30.1,7,Two year,Bank transfer,West,Yes,No
+SYN-00801,2,121.69,0,2,16.2,10,Two year,Credit card,Northeast,Yes,No
+SYN-00802,19,129.15,3,0,40.5,10,One year,Bank transfer,West,No,No
+SYN-00803,33,41.24,4,3,25.8,6,Two year,Credit card,Midwest,Yes,No
+SYN-00804,27,54.49,3,0,31.0,8,Month-to-month,Credit card,West,No,No
+SYN-00805,12,53.5,1,9,33.1,7,Two year,Credit card,Midwest,No,No
+SYN-00806,52,106.33,3,2,7.5,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00807,30,41.36,3,4,23.1,6,Two year,Mailed check,West,No,No
+SYN-00808,28,28.66,0,0,13.4,6,Month-to-month,Electronic check,South,Yes,No
+SYN-00809,30,81.67,3,2,10.3,8,Month-to-month,Bank transfer,West,Yes,No
+SYN-00810,68,139.65,0,4,6.0,8,Month-to-month,Electronic check,South,No,No
+SYN-00811,52,31.55,4,0,34.9,6,Month-to-month,Electronic check,Northeast,No,No
+SYN-00812,72,135.76,4,1,48.2,5,One year,Mailed check,Northeast,No,No
+SYN-00813,20,81.51,2,0,48.0,5,Two year,Bank transfer,South,Yes,No
+SYN-00814,9,70.41,2,4,18.7,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00815,35,69.24,2,0,54.0,6,Month-to-month,Bank transfer,West,Yes,No
+SYN-00816,45,87.08,2,3,35.9,7,Month-to-month,Electronic check,West,No,No
+SYN-00817,15,116.78,2,2,40.5,7,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-00818,13,27.37,0,7,28.0,5,Month-to-month,Electronic check,West,No,Yes
+SYN-00819,3,29.74,0,8,30.3,7,One year,Mailed check,South,Yes,No
+SYN-00820,2,110.46,1,2,14.6,7,Two year,Bank transfer,West,No,No
+SYN-00821,59,139.76,0,0,38.8,4,Two year,Electronic check,South,No,No
+SYN-00822,56,71.06,0,1,31.9,7,Month-to-month,Credit card,Northeast,No,No
+SYN-00823,27,55.83,0,0,37.2,6,One year,Electronic check,Northeast,Yes,No
+SYN-00824,65,91.21,4,0,25.1,5,One year,Mailed check,Midwest,No,No
+SYN-00825,42,130.22,2,11,13.1,6,One year,Bank transfer,South,No,No
+SYN-00826,9,102.9,1,8,23.9,8,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-00827,31,32.18,3,0,24.4,5,Month-to-month,Bank transfer,Midwest,No,No
+SYN-00828,68,32.66,3,2,31.6,8,Two year,Bank transfer,Northeast,No,No
+SYN-00829,52,66.96,0,7,32.7,7,Month-to-month,Credit card,Midwest,Yes,No
+SYN-00830,21,86.04,0,2,37.0,8,One year,Mailed check,Midwest,Yes,No
+SYN-00831,54,144.28,0,1,1,6,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00832,57,59.48,5,0,10.9,8,One year,Mailed check,Northeast,No,No
+SYN-00833,30,127.53,1,9,25.1,10,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00834,70,45.48,3,0,45.5,10,Month-to-month,Credit card,West,Yes,No
+SYN-00835,65,86.44,1,8,5.6,10,One year,Credit card,Midwest,Yes,No
+SYN-00836,19,77.28,3,3,13.4,4,One year,Mailed check,Midwest,No,No
+SYN-00837,50,126.83,0,2,4.1,10,One year,Mailed check,Midwest,No,No
+SYN-00838,57,73.55,3,6,23.3,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-00839,17,63.33,4,4,54.8,9,Two year,Bank transfer,South,No,No
+SYN-00840,12,58.97,3,6,29.5,9,One year,Mailed check,West,Yes,No
+SYN-00841,8,86.93,2,9,15.2,7,Two year,Credit card,Northeast,No,No
+SYN-00842,31,116.27,4,3,27.5,10,One year,Credit card,Midwest,No,No
+SYN-00843,27,106.3,0,6,18.2,5,Two year,Bank transfer,Midwest,No,No
+SYN-00844,21,138.32,4,0,28.7,8,One year,Bank transfer,Midwest,No,No
+SYN-00845,69,132.1,0,5,15.1,8,Month-to-month,Mailed check,South,No,No
+SYN-00846,40,57.83,0,8,34.0,7,Two year,Electronic check,Northeast,No,No
+SYN-00847,13,31.0,1,0,56.3,7,One year,Bank transfer,Northeast,Yes,No
+SYN-00848,34,134.11,1,0,18.4,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+SYN-00849,27,44.23,1,0,17.3,6,Month-to-month,Credit card,West,No,No
+SYN-00850,60,99.08,2,2,41.8,9,One year,Mailed check,West,No,No
+SYN-00851,32,144.48,5,0,52.9,6,Month-to-month,Bank transfer,Northeast,Yes,Yes
+SYN-00852,13,76.21,0,0,30.2,4,One year,Electronic check,South,Yes,No
+SYN-00853,13,113.88,0,0,7.1,9,Month-to-month,Bank transfer,West,No,No
+SYN-00854,71,96.93,1,4,33.5,10,One year,Mailed check,Northeast,No,No
+SYN-00855,50,43.05,4,0,21.4,5,Two year,Electronic check,West,No,No
+SYN-00856,34,44.33,7,9,13.8,9,Month-to-month,Mailed check,South,No,No
+SYN-00857,69,37.51,2,10,23.1,7,One year,Credit card,West,Yes,No
+SYN-00858,71,72.05,1,0,25.4,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-00859,70,49.81,0,3,53.1,3,Month-to-month,Electronic check,Midwest,No,No
+SYN-00860,9,95.22,5,4,23.4,7,Month-to-month,Credit card,South,No,Yes
+SYN-00861,58,71.08,1,1,45.6,6,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00862,43,69.9,4,12,22.7,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00863,40,37.86,4,0,35.2,10,One year,Electronic check,South,Yes,No
+SYN-00864,52,96.07,0,15,35.7,5,One year,Credit card,Midwest,Yes,No
+SYN-00865,69,44.67,0,0,20.6,9,Month-to-month,Mailed check,Northeast,No,No
+SYN-00866,37,112.96,0,10,2.4,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00867,23,139.45,5,9,44.2,9,Month-to-month,Mailed check,West,Yes,Yes
+SYN-00868,53,127.17,0,0,28.8,8,Month-to-month,Credit card,Northeast,No,No
+SYN-00869,59,61.79,2,3,33.5,10,Two year,Mailed check,West,Yes,No
+SYN-00870,8,114.71,6,5,36.6,5,One year,Bank transfer,Northeast,No,Yes
+SYN-00871,5,75.11,1,2,22.8,5,Month-to-month,Bank transfer,Northeast,No,No
+SYN-00872,64,39.09,0,7,25.2,6,Two year,Electronic check,South,Yes,No
+SYN-00873,12,128.5,1,10,17.9,8,Month-to-month,Credit card,West,No,Yes
+SYN-00874,15,143.29,1,2,23.6,8,Month-to-month,Mailed check,South,Yes,No
+SYN-00875,31,118.57,2,0,35.5,7,One year,Bank transfer,Midwest,No,No
+SYN-00876,62,116.74,3,4,1.2,6,Month-to-month,Bank transfer,West,Yes,Yes
+SYN-00877,51,80.15,5,6,35.5,9,Two year,Bank transfer,West,Yes,No
+SYN-00878,2,85.7,0,1,1,8,Two year,Mailed check,South,Yes,No
+SYN-00879,37,84.23,2,0,17.6,7,One year,Mailed check,Northeast,Yes,No
+SYN-00880,14,59.5,0,6,31.8,6,Month-to-month,Credit card,West,No,No
+SYN-00881,33,141.25,3,2,41.3,8,Month-to-month,Electronic check,West,Yes,Yes
+SYN-00882,66,73.41,0,0,36.6,8,One year,Credit card,West,Yes,No
+SYN-00883,58,29.28,2,2,28.5,7,One year,Bank transfer,West,No,No
+SYN-00884,58,76.93,3,0,19.4,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00885,16,86.28,2,1,20.3,5,Month-to-month,Electronic check,West,No,No
+SYN-00886,17,143.32,3,1,14.7,5,Month-to-month,Credit card,West,No,Yes
+SYN-00887,40,40.7,6,0,31.0,9,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00888,62,77.83,5,6,19.0,9,Month-to-month,Mailed check,Midwest,No,No
+SYN-00889,27,40.85,3,6,21.9,9,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00890,11,66.2,2,4,39.6,7,One year,Electronic check,Midwest,No,Yes
+SYN-00891,28,40.98,5,1,40.4,8,One year,Mailed check,West,Yes,No
+SYN-00892,25,116.99,1,3,41.8,7,One year,Credit card,South,Yes,No
+SYN-00893,14,129.93,5,7,24.8,9,Month-to-month,Credit card,South,Yes,No
+SYN-00894,16,137.59,1,1,37.7,10,Month-to-month,Electronic check,West,Yes,No
+SYN-00895,19,43.91,4,0,17.0,8,Two year,Mailed check,Midwest,Yes,No
+SYN-00896,1,88.15,4,2,35.3,7,Month-to-month,Bank transfer,Northeast,No,Yes
+SYN-00897,35,83.59,3,0,36.3,7,Month-to-month,Credit card,South,No,No
+SYN-00898,2,122.75,3,0,4.1,6,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-00899,3,52.58,1,2,12.6,6,One year,Bank transfer,Northeast,No,No
+SYN-00900,12,144.17,3,7,30.2,3,One year,Bank transfer,Northeast,No,Yes
+SYN-00901,57,83.1,2,2,46.4,6,Month-to-month,Electronic check,South,Yes,No
+SYN-00902,55,80.95,0,0,49.2,9,Month-to-month,Mailed check,Northeast,No,No
+SYN-00903,29,128.29,5,6,43.6,8,Month-to-month,Bank transfer,West,Yes,Yes
+SYN-00904,5,79.03,3,4,39.3,8,One year,Bank transfer,Midwest,Yes,No
+SYN-00905,70,90.51,5,7,42.0,10,Month-to-month,Electronic check,West,Yes,No
+SYN-00906,34,73.3,3,8,28.1,6,Month-to-month,Credit card,South,Yes,No
+SYN-00907,9,139.94,0,3,22.2,5,Two year,Electronic check,Northeast,Yes,No
+SYN-00908,13,102.56,3,0,32.7,7,One year,Electronic check,Northeast,No,No
+SYN-00909,28,57.59,3,2,27.3,5,Two year,Mailed check,South,Yes,No
+SYN-00910,49,125.85,0,7,15.7,9,Month-to-month,Bank transfer,South,No,No
+SYN-00911,61,115.29,1,3,28.9,7,One year,Bank transfer,South,No,No
+SYN-00912,32,122.43,1,5,42.2,10,One year,Mailed check,Midwest,No,No
+SYN-00913,62,122.15,3,4,18.7,10,One year,Mailed check,South,No,No
+SYN-00914,30,59.95,3,6,29.6,7,Two year,Bank transfer,West,No,No
+SYN-00915,11,28.56,0,2,31.1,6,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00916,19,101.72,0,2,46.6,6,Two year,Electronic check,Midwest,No,No
+SYN-00917,6,67.67,0,0,63.5,8,Month-to-month,Mailed check,Northeast,No,No
+SYN-00918,12,69.8,0,1,23.5,9,Two year,Bank transfer,Midwest,No,No
+SYN-00919,63,132.83,2,0,16.0,6,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-00920,20,128.09,0,4,36.8,6,Month-to-month,Credit card,West,Yes,No
+SYN-00921,47,87.81,4,0,22.7,10,Month-to-month,Electronic check,West,Yes,No
+SYN-00922,39,104.28,2,10,28.4,4,Month-to-month,Mailed check,Northeast,Yes,Yes
+SYN-00923,43,141.5,1,0,34.4,10,Two year,Mailed check,Northeast,Yes,No
+SYN-00924,26,76.64,2,0,18.6,7,Two year,Credit card,West,No,No
+SYN-00925,28,125.16,4,0,18.5,8,One year,Credit card,South,Yes,No
+SYN-00926,51,35.79,2,3,31.1,8,One year,Bank transfer,South,Yes,No
+SYN-00927,33,85.99,2,1,37.3,5,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00928,33,25.01,5,0,32.2,7,One year,Electronic check,South,No,No
+SYN-00929,31,41.63,0,3,21.6,10,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00930,26,26.85,0,0,25.3,9,Month-to-month,Credit card,West,No,No
+SYN-00931,18,100.84,0,3,47.2,6,Two year,Electronic check,South,Yes,No
+SYN-00932,19,51.13,2,0,16.8,8,Two year,Bank transfer,Northeast,Yes,No
+SYN-00933,29,55.38,1,7,34.7,9,Month-to-month,Mailed check,West,No,No
+SYN-00934,2,43.64,2,4,27.0,8,Month-to-month,Credit card,West,Yes,No
+SYN-00935,23,75.08,2,4,18.5,9,One year,Mailed check,West,No,No
+SYN-00936,46,71.26,3,5,19.0,7,One year,Mailed check,South,No,No
+SYN-00937,66,116.42,3,8,29.2,10,One year,Electronic check,South,No,No
+SYN-00938,6,99.36,3,5,37.9,8,Month-to-month,Mailed check,West,No,No
+SYN-00939,52,128.53,0,1,21.6,7,One year,Mailed check,South,Yes,No
+SYN-00940,39,69.05,0,2,29.7,9,One year,Bank transfer,Midwest,Yes,No
+SYN-00941,14,100.24,5,0,39.6,5,One year,Bank transfer,Northeast,Yes,No
+SYN-00942,43,102.63,0,0,26.4,10,Month-to-month,Electronic check,South,No,No
+SYN-00943,46,82.95,1,0,40.9,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00944,67,111.32,0,5,39.6,9,Two year,Bank transfer,Northeast,No,No
+SYN-00945,28,44.73,3,3,39.1,5,One year,Credit card,West,Yes,No
+SYN-00946,26,47.89,6,7,32.0,9,Month-to-month,Bank transfer,South,No,Yes
+SYN-00947,18,28.07,2,5,28.6,7,Month-to-month,Mailed check,Northeast,Yes,Yes
+SYN-00948,55,38.05,0,0,20.4,6,Two year,Electronic check,South,Yes,No
+SYN-00949,31,73.42,4,3,9.3,10,Month-to-month,Electronic check,South,No,No
+SYN-00950,30,115.82,0,5,16.0,7,Month-to-month,Mailed check,South,No,No
+SYN-00951,12,46.31,6,5,32.4,9,One year,Mailed check,Midwest,Yes,No
+SYN-00952,31,131.41,3,2,8.5,8,Month-to-month,Bank transfer,South,No,Yes
+SYN-00953,56,73.03,0,0,40.0,5,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00954,68,48.84,1,5,23.7,6,One year,Electronic check,Northeast,Yes,No
+SYN-00955,60,112.23,2,1,20.8,10,Month-to-month,Credit card,West,No,No
+SYN-00956,33,135.94,2,5,45.6,8,Month-to-month,Credit card,Northeast,No,No
+SYN-00957,12,94.1,2,2,19.8,10,Month-to-month,Electronic check,South,No,No
+SYN-00958,7,52.41,2,4,50.6,5,One year,Bank transfer,Northeast,No,No
+SYN-00959,28,81.51,2,0,47.2,7,Month-to-month,Credit card,West,Yes,No
+SYN-00960,49,96.01,2,0,41.8,7,One year,Mailed check,Northeast,No,No
+SYN-00961,40,83.5,2,0,18.2,5,Month-to-month,Bank transfer,South,No,No
+SYN-00962,2,34.11,2,6,69.6,6,One year,Mailed check,West,No,No
+SYN-00963,14,46.05,2,3,18.0,8,Month-to-month,Credit card,Midwest,Yes,Yes
+SYN-00964,39,118.15,0,6,34.7,10,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00965,30,97.75,0,6,28.5,9,One year,Bank transfer,Midwest,No,No
+SYN-00966,17,129.53,0,6,21.8,7,One year,Mailed check,West,No,No
+SYN-00967,13,106.52,0,4,19.0,7,Month-to-month,Mailed check,West,No,Yes
+SYN-00968,59,60.96,2,0,30.5,7,One year,Credit card,West,Yes,No
+SYN-00969,35,48.64,3,3,51.9,5,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-00970,19,142.5,1,0,17.2,7,Month-to-month,Mailed check,Northeast,Yes,Yes
+SYN-00971,70,114.76,3,1,16.4,7,One year,Credit card,West,Yes,No
+SYN-00972,10,140.61,1,0,27.1,6,Two year,Electronic check,South,Yes,No
+SYN-00973,11,73.86,4,4,15.8,7,Month-to-month,Bank transfer,West,Yes,No
+SYN-00974,46,102.72,1,1,28.4,8,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00975,46,72.3,0,7,36.2,9,Month-to-month,Bank transfer,West,No,No
+SYN-00976,13,120.78,3,0,1,5,One year,Credit card,Northeast,No,No
+SYN-00977,36,91.72,3,2,38.9,8,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-00978,31,85.44,2,5,5.6,5,One year,Bank transfer,West,No,No
+SYN-00979,26,98.39,3,12,11.1,5,One year,Credit card,Midwest,Yes,Yes
+SYN-00980,44,32.29,5,3,33.4,6,One year,Bank transfer,Midwest,No,No
+SYN-00981,38,32.06,1,0,29.8,5,Month-to-month,Credit card,Northeast,Yes,No
+SYN-00982,62,132.91,1,0,35.3,9,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-00983,37,107.88,2,0,14.6,6,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00984,16,114.91,3,2,19.4,8,One year,Credit card,South,Yes,No
+SYN-00985,56,49.49,1,0,19.0,8,Month-to-month,Bank transfer,West,No,No
+SYN-00986,62,89.8,0,4,23.6,9,One year,Mailed check,Northeast,Yes,No
+SYN-00987,30,141.16,1,0,29.8,6,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-00988,10,58.06,1,0,24.6,7,Two year,Electronic check,Midwest,Yes,No
+SYN-00989,33,36.77,0,1,13.9,9,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-00990,58,131.44,0,4,19.9,5,Month-to-month,Electronic check,West,No,No
+SYN-00991,9,80.14,2,1,39.4,10,Month-to-month,Electronic check,South,No,No
+SYN-00992,34,82.69,3,2,30.2,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-00993,35,54.33,1,0,31.2,6,Month-to-month,Credit card,West,Yes,No
+SYN-00994,37,52.3,0,10,25.9,7,Month-to-month,Credit card,Northeast,No,No
+SYN-00995,46,50.82,1,2,24.9,6,One year,Credit card,South,No,No
+SYN-00996,19,103.25,0,9,28.3,6,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-00997,17,115.52,2,15,1,10,One year,Bank transfer,South,Yes,No
+SYN-00998,70,118.64,1,0,20.8,3,Two year,Credit card,Northeast,Yes,No
+SYN-00999,61,92.6,0,10,43.2,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01000,14,33.89,5,6,33.4,9,Month-to-month,Credit card,Midwest,No,No
+SYN-01001,54,88.57,4,9,32.1,10,One year,Electronic check,Midwest,No,No
+SYN-01002,56,132.84,1,7,18.2,7,Two year,Credit card,South,Yes,No
+SYN-01003,25,29.03,1,7,44.9,6,Month-to-month,Mailed check,West,No,No
+SYN-01004,20,116.87,0,0,24.8,3,One year,Credit card,South,No,No
+SYN-01005,6,105.32,5,5,45.5,9,One year,Electronic check,South,Yes,No
+SYN-01006,22,108.08,3,5,27.5,7,Month-to-month,Electronic check,South,Yes,Yes
+SYN-01007,67,68.06,6,8,29.4,5,Two year,Electronic check,Northeast,No,No
+SYN-01008,1,91.56,2,1,19.2,8,One year,Electronic check,West,Yes,No
+SYN-01009,41,124.64,2,2,11.3,9,Month-to-month,Mailed check,South,No,No
+SYN-01010,62,132.06,0,3,27.8,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01011,20,139.8,6,0,11.2,7,Month-to-month,Bank transfer,West,No,Yes
+SYN-01012,12,103.26,2,11,33.5,8,Month-to-month,Credit card,Midwest,Yes,Yes
+SYN-01013,7,83.81,2,6,19.1,8,Two year,Credit card,South,Yes,No
+SYN-01014,41,106.56,3,5,21.3,6,Month-to-month,Credit card,South,No,Yes
+SYN-01015,52,32.7,2,5,37.4,7,Two year,Electronic check,Northeast,No,No
+SYN-01016,27,65.09,0,2,21.6,4,One year,Electronic check,Northeast,No,No
+SYN-01017,54,82.17,0,1,34.2,9,Two year,Credit card,Midwest,Yes,No
+SYN-01018,11,82.25,1,2,20.0,7,Two year,Mailed check,West,No,No
+SYN-01019,51,126.87,2,4,22.2,7,One year,Mailed check,Northeast,No,No
+SYN-01020,25,104.73,7,8,51.1,8,Two year,Electronic check,West,No,No
+SYN-01021,26,141.51,5,3,24.9,7,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01022,48,35.06,0,1,12.9,5,Two year,Electronic check,South,No,No
+SYN-01023,60,119.36,1,0,17.0,9,Month-to-month,Bank transfer,West,Yes,No
+SYN-01024,7,54.43,0,2,43.1,9,Month-to-month,Electronic check,Midwest,No,No
+SYN-01025,2,89.57,2,0,30.7,7,Month-to-month,Electronic check,West,No,Yes
+SYN-01026,57,90.94,3,0,23.1,8,Two year,Credit card,West,No,No
+SYN-01027,28,26.55,3,1,40.3,5,Two year,Mailed check,Midwest,No,No
+SYN-01028,70,123.37,1,3,33.6,8,One year,Bank transfer,West,No,No
+SYN-01029,66,119.0,2,5,7.4,7,Month-to-month,Mailed check,Midwest,No,No
+SYN-01030,8,136.68,0,8,34.5,7,Month-to-month,Bank transfer,West,No,Yes
+SYN-01031,57,123.82,3,0,30.2,5,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01032,47,49.88,2,1,9.3,10,Two year,Mailed check,Midwest,Yes,No
+SYN-01033,1,38.57,4,4,13.4,5,Two year,Credit card,South,No,No
+SYN-01034,5,114.4,3,0,54.9,10,Two year,Bank transfer,South,Yes,No
+SYN-01035,61,80.55,3,0,49.4,10,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01036,56,104.94,1,8,33.1,3,One year,Electronic check,Northeast,No,No
+SYN-01037,1,79.85,2,0,20.0,7,Two year,Bank transfer,South,Yes,No
+SYN-01038,40,61.27,4,8,4.4,10,Month-to-month,Credit card,West,No,No
+SYN-01039,53,51.28,2,5,41.4,4,One year,Mailed check,Midwest,No,No
+SYN-01040,66,121.31,3,1,30.1,7,Month-to-month,Credit card,South,Yes,No
+SYN-01041,24,138.97,2,4,34.1,7,Month-to-month,Mailed check,West,Yes,Yes
+SYN-01042,63,70.61,4,0,20.6,8,One year,Credit card,Midwest,No,No
+SYN-01043,12,91.66,5,0,44.3,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-01044,32,97.71,0,0,15.7,7,Two year,Mailed check,South,No,No
+SYN-01045,10,27.73,4,0,14.1,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-01046,37,101.7,0,0,28.5,8,Month-to-month,Mailed check,West,Yes,No
+SYN-01047,44,118.61,1,0,29.5,4,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01048,33,79.23,1,6,39.6,9,Two year,Electronic check,Midwest,No,No
+SYN-01049,71,139.09,0,12,34.2,9,One year,Mailed check,South,No,No
+SYN-01050,29,64.0,0,4,43.2,7,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01051,62,41.41,2,0,24.6,8,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01052,8,54.68,2,3,13.7,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01053,63,78.27,4,8,13.3,8,Month-to-month,Electronic check,South,Yes,No
+SYN-01054,42,123.77,2,10,44.2,7,Month-to-month,Mailed check,South,Yes,No
+SYN-01055,50,35.48,1,1,22.9,9,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01056,2,123.71,0,5,43.4,7,Month-to-month,Bank transfer,South,No,Yes
+SYN-01057,43,70.56,4,1,31.6,7,Month-to-month,Electronic check,Northeast,No,No
+SYN-01058,60,66.69,0,0,26.4,5,Two year,Electronic check,Midwest,Yes,No
+SYN-01059,65,27.25,2,0,34.8,6,Month-to-month,Credit card,West,No,No
+SYN-01060,6,79.84,1,2,11.5,4,Month-to-month,Credit card,Northeast,No,No
+SYN-01061,70,96.08,5,7,6.6,7,Two year,Mailed check,Midwest,Yes,No
+SYN-01062,71,114.51,1,0,12.4,8,Two year,Electronic check,Northeast,No,No
+SYN-01063,33,34.69,4,8,20.8,7,Month-to-month,Bank transfer,West,Yes,Yes
+SYN-01064,56,115.5,3,4,30.0,10,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01065,7,101.84,1,8,46.9,5,Month-to-month,Mailed check,West,Yes,Yes
+SYN-01066,35,119.9,5,0,43.9,6,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01067,33,112.94,2,4,28.4,7,One year,Credit card,Midwest,Yes,No
+SYN-01068,6,121.38,0,2,19.0,6,Month-to-month,Credit card,Midwest,Yes,Yes
+SYN-01069,6,45.42,3,9,39.0,7,Two year,Bank transfer,Northeast,No,No
+SYN-01070,39,86.22,3,0,48.8,8,Two year,Credit card,South,No,No
+SYN-01071,55,126.08,2,0,17.2,9,Month-to-month,Credit card,West,Yes,No
+SYN-01072,24,80.72,1,10,21.4,7,Month-to-month,Electronic check,South,Yes,Yes
+SYN-01073,54,110.14,0,0,25.7,6,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01074,20,132.72,3,3,30.1,8,Month-to-month,Mailed check,South,Yes,No
+SYN-01075,54,130.36,0,3,41.5,8,One year,Credit card,Midwest,No,No
+SYN-01076,21,35.83,5,1,44.4,7,Month-to-month,Electronic check,Midwest,No,No
+SYN-01077,11,39.15,1,0,24.3,5,Month-to-month,Bank transfer,West,Yes,No
+SYN-01078,40,75.78,1,3,32.0,7,Month-to-month,Electronic check,West,Yes,No
+SYN-01079,71,30.49,3,2,27.7,9,Two year,Electronic check,Midwest,No,No
+SYN-01080,18,51.78,6,5,46.1,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-01081,44,136.3,4,4,29.3,7,One year,Mailed check,Midwest,Yes,No
+SYN-01082,70,76.22,1,11,31.8,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01083,65,44.97,2,0,35.9,7,One year,Electronic check,South,No,No
+SYN-01084,68,69.1,3,4,29.3,8,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01085,12,86.05,4,0,28.6,9,Month-to-month,Mailed check,South,Yes,No
+SYN-01086,15,31.85,3,0,31.5,8,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01087,45,26.4,4,0,16.2,5,One year,Mailed check,South,Yes,No
+SYN-01088,62,73.78,4,0,11.7,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01089,53,77.42,2,0,33.1,9,One year,Mailed check,South,Yes,No
+SYN-01090,7,70.95,0,0,27.1,6,One year,Credit card,South,No,No
+SYN-01091,61,45.25,4,4,13.8,6,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01092,42,137.89,1,6,11.2,8,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01093,31,77.51,2,4,31.6,10,One year,Bank transfer,South,No,No
+SYN-01094,16,129.43,1,7,31.7,6,One year,Mailed check,Northeast,No,No
+SYN-01095,55,130.73,3,2,9.3,4,Month-to-month,Credit card,Northeast,No,Yes
+SYN-01096,4,113.88,3,5,32.3,7,One year,Mailed check,Midwest,Yes,No
+SYN-01097,26,126.85,5,2,45.6,8,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01098,46,46.15,1,0,40.7,7,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01099,18,99.35,1,5,20.7,6,Month-to-month,Credit card,South,No,No
+SYN-01100,66,123.54,4,4,16.4,8,One year,Electronic check,Northeast,No,No
+SYN-01101,39,32.68,2,2,16.8,6,Month-to-month,Credit card,South,No,No
+SYN-01102,9,123.24,5,4,26.8,9,One year,Electronic check,Midwest,No,No
+SYN-01103,70,93.89,3,5,10.3,8,Month-to-month,Electronic check,South,No,No
+SYN-01104,29,141.75,1,2,29.8,8,Two year,Mailed check,South,Yes,No
+SYN-01105,72,112.54,4,0,10.3,5,Month-to-month,Mailed check,Northeast,No,No
+SYN-01106,28,78.58,1,3,41.1,7,Month-to-month,Mailed check,South,Yes,No
+SYN-01107,67,100.15,0,0,9.4,6,Month-to-month,Electronic check,South,No,No
+SYN-01108,52,33.51,1,0,42.1,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01109,6,108.03,0,4,14.1,6,Two year,Bank transfer,West,Yes,No
+SYN-01110,50,93.19,2,2,31.7,10,Month-to-month,Mailed check,South,Yes,No
+SYN-01111,7,98.91,2,9,27.6,5,Two year,Bank transfer,Northeast,Yes,No
+SYN-01112,68,67.58,1,7,22.0,8,Month-to-month,Credit card,Northeast,No,No
+SYN-01113,61,112.97,0,4,33.4,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01114,70,78.49,0,0,27.5,7,Two year,Credit card,Midwest,No,No
+SYN-01115,47,43.34,4,0,17.4,10,Month-to-month,Electronic check,South,No,No
+SYN-01116,38,72.99,0,11,32.0,6,Month-to-month,Bank transfer,South,Yes,Yes
+SYN-01117,61,93.88,0,7,27.0,9,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-01118,18,139.89,1,0,17.1,6,Two year,Mailed check,South,No,No
+SYN-01119,4,113.82,2,3,47.4,5,Month-to-month,Electronic check,South,Yes,Yes
+SYN-01120,70,132.98,0,0,25.5,6,Month-to-month,Bank transfer,West,Yes,No
+SYN-01121,32,98.5,1,3,44.8,7,One year,Mailed check,Northeast,Yes,No
+SYN-01122,47,49.33,4,3,22.3,5,Two year,Credit card,Midwest,Yes,No
+SYN-01123,62,108.97,1,2,23.1,9,Two year,Bank transfer,West,No,No
+SYN-01124,54,138.42,4,0,28.3,3,One year,Mailed check,Northeast,No,No
+SYN-01125,40,47.3,3,0,25.2,6,Month-to-month,Mailed check,South,No,No
+SYN-01126,9,105.61,3,0,41.9,8,Two year,Bank transfer,Northeast,No,No
+SYN-01127,29,117.52,2,0,31.2,7,One year,Mailed check,Northeast,Yes,No
+SYN-01128,58,140.01,0,3,47.8,6,One year,Mailed check,Northeast,No,No
+SYN-01129,40,117.25,5,0,32.0,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01130,71,77.13,1,0,29.6,4,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01131,35,142.81,2,10,22.1,5,One year,Bank transfer,West,Yes,No
+SYN-01132,49,49.86,2,2,25.2,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01133,29,141.56,1,4,34.7,9,One year,Electronic check,South,No,No
+SYN-01134,51,69.95,0,0,18.0,10,Month-to-month,Electronic check,West,Yes,No
+SYN-01135,26,34.86,2,5,43.3,6,One year,Electronic check,South,No,No
+SYN-01136,58,118.19,0,10,36.9,8,Two year,Mailed check,Northeast,No,No
+SYN-01137,3,29.59,2,2,25.1,9,One year,Bank transfer,West,Yes,No
+SYN-01138,62,110.8,2,4,34.4,5,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01139,11,105.91,0,1,40.3,10,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01140,54,57.36,4,7,20.1,6,One year,Electronic check,Northeast,Yes,No
+SYN-01141,52,126.56,6,0,28.8,8,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01142,31,30.18,3,1,31.1,8,Two year,Bank transfer,South,Yes,No
+SYN-01143,58,94.73,1,1,16.4,4,Month-to-month,Bank transfer,South,No,No
+SYN-01144,68,60.23,0,7,19.3,10,Two year,Bank transfer,West,Yes,No
+SYN-01145,40,75.59,0,0,35.6,5,Month-to-month,Credit card,Northeast,No,No
+SYN-01146,47,106.9,3,3,17.8,6,Two year,Electronic check,Northeast,No,No
+SYN-01147,33,57.85,0,0,42.1,8,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01148,36,61.16,3,0,8.1,8,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01149,38,95.43,0,10,12.5,6,One year,Bank transfer,Northeast,No,No
+SYN-01150,34,103.84,1,3,36.9,9,One year,Credit card,South,No,No
+SYN-01151,51,74.49,2,0,23.6,7,One year,Electronic check,Midwest,No,No
+SYN-01152,36,118.29,4,3,28.9,6,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-01153,64,128.16,3,0,40.6,8,Month-to-month,Electronic check,South,No,Yes
+SYN-01154,28,119.83,3,6,14.6,4,Month-to-month,Credit card,Midwest,No,Yes
+SYN-01155,62,75.24,2,3,35.3,6,Month-to-month,Bank transfer,West,Yes,No
+SYN-01156,29,49.6,6,5,22.4,5,Month-to-month,Mailed check,West,Yes,Yes
+SYN-01157,65,69.43,3,0,24.3,7,Month-to-month,Mailed check,Midwest,No,No
+SYN-01158,44,111.87,6,0,46.4,7,Month-to-month,Electronic check,West,Yes,No
+SYN-01159,22,85.68,2,4,20.5,6,Two year,Electronic check,South,Yes,No
+SYN-01160,6,94.18,3,2,43.5,6,Month-to-month,Electronic check,South,Yes,No
+SYN-01161,35,97.83,3,6,34.9,5,Month-to-month,Electronic check,Midwest,No,No
+SYN-01162,14,70.3,5,2,24.6,9,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01163,52,59.11,0,2,27.5,5,Month-to-month,Mailed check,West,No,No
+SYN-01164,38,39.28,6,5,42.7,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01165,30,106.91,2,0,35.3,7,Month-to-month,Bank transfer,West,No,No
+SYN-01166,48,109.94,3,0,55.3,7,One year,Bank transfer,South,Yes,No
+SYN-01167,8,42.28,0,4,44.3,5,Month-to-month,Electronic check,West,No,No
+SYN-01168,30,100.9,0,0,15.1,4,Month-to-month,Credit card,West,No,No
+SYN-01169,35,136.84,3,0,35.0,10,Month-to-month,Bank transfer,South,Yes,No
+SYN-01170,4,38.82,2,8,10.4,9,Month-to-month,Bank transfer,South,No,No
+SYN-01171,64,144.26,6,0,32.7,10,One year,Credit card,South,No,No
+SYN-01172,46,67.44,5,9,16.7,8,Two year,Electronic check,Midwest,Yes,No
+SYN-01173,23,67.88,1,4,35.4,4,Two year,Electronic check,Northeast,Yes,No
+SYN-01174,60,121.06,1,0,22.8,7,One year,Mailed check,Midwest,Yes,No
+SYN-01175,4,101.63,1,1,49.0,9,Month-to-month,Electronic check,Midwest,No,No
+SYN-01176,49,53.64,3,4,26.5,9,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01177,57,103.35,5,8,19.2,10,Month-to-month,Credit card,West,No,No
+SYN-01178,29,68.31,5,3,8.1,7,One year,Mailed check,South,No,No
+SYN-01179,25,59.86,4,7,26.2,6,One year,Credit card,Midwest,No,No
+SYN-01180,69,55.61,0,9,51.7,8,One year,Bank transfer,South,No,No
+SYN-01181,14,82.26,1,10,14.5,4,One year,Mailed check,Northeast,Yes,Yes
+SYN-01182,26,42.52,2,12,41.3,10,Two year,Bank transfer,West,Yes,No
+SYN-01183,20,107.75,3,3,30.2,10,One year,Credit card,South,No,No
+SYN-01184,59,95.54,2,3,24.8,8,One year,Electronic check,Midwest,Yes,No
+SYN-01185,62,99.64,5,4,5.9,10,One year,Electronic check,Northeast,Yes,No
+SYN-01186,48,31.8,0,11,22.0,8,Month-to-month,Electronic check,Midwest,No,No
+SYN-01187,35,66.62,0,3,45.1,9,Month-to-month,Electronic check,South,Yes,No
+SYN-01188,12,93.44,1,4,25.3,8,Two year,Credit card,West,No,No
+SYN-01189,20,31.88,3,0,18.0,6,Month-to-month,Mailed check,West,No,No
+SYN-01190,32,104.81,4,1,23.7,6,Month-to-month,Credit card,South,No,No
+SYN-01191,37,85.28,3,5,35.6,6,One year,Bank transfer,Midwest,Yes,No
+SYN-01192,49,132.02,0,0,14.5,5,One year,Electronic check,West,Yes,No
+SYN-01193,69,134.15,6,0,32.7,6,One year,Bank transfer,Northeast,Yes,No
+SYN-01194,35,27.63,0,6,28.0,6,Two year,Bank transfer,Northeast,Yes,No
+SYN-01195,36,132.5,1,4,50.9,5,Month-to-month,Electronic check,South,No,No
+SYN-01196,45,76.61,3,0,35.0,10,Month-to-month,Bank transfer,West,Yes,No
+SYN-01197,7,70.75,2,2,24.0,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-01198,40,38.38,5,7,35.3,10,Month-to-month,Electronic check,West,No,No
+SYN-01199,58,144.7,1,1,4.9,7,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01200,12,97.56,3,0,30.5,9,Two year,Electronic check,Northeast,Yes,No
+SYN-01201,35,124.15,1,5,6.3,6,One year,Electronic check,Midwest,No,No
+SYN-01202,57,92.35,1,14,39.6,7,One year,Credit card,Midwest,Yes,No
+SYN-01203,31,75.85,0,9,18.6,5,One year,Bank transfer,West,No,No
+SYN-01204,14,121.43,4,2,25.7,6,One year,Credit card,West,No,No
+SYN-01205,1,71.74,3,3,15.1,8,Month-to-month,Credit card,South,No,Yes
+SYN-01206,61,65.43,2,0,51.9,6,Month-to-month,Mailed check,South,No,No
+SYN-01207,63,58.59,2,6,25.4,5,One year,Mailed check,West,Yes,No
+SYN-01208,13,119.72,0,3,41.7,6,Two year,Mailed check,Northeast,No,No
+SYN-01209,20,128.38,3,5,27.2,6,Two year,Electronic check,West,Yes,Yes
+SYN-01210,50,40.46,4,11,46.5,5,One year,Bank transfer,Midwest,No,No
+SYN-01211,17,96.41,0,2,41.0,4,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01212,60,116.1,2,2,20.0,7,Month-to-month,Bank transfer,West,No,No
+SYN-01213,16,119.08,5,4,39.2,6,One year,Electronic check,West,No,Yes
+SYN-01214,47,69.13,2,3,19.9,8,One year,Bank transfer,West,No,No
+SYN-01215,36,46.83,0,5,31.4,9,Month-to-month,Electronic check,South,No,No
+SYN-01216,26,86.68,1,8,26.9,5,Month-to-month,Bank transfer,West,Yes,Yes
+SYN-01217,48,75.39,3,7,28.2,6,One year,Bank transfer,South,No,No
+SYN-01218,8,112.32,3,0,8.1,7,Month-to-month,Credit card,Northeast,No,Yes
+SYN-01219,5,108.48,3,8,36.8,9,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01220,3,105.44,1,7,38.2,5,Two year,Bank transfer,Midwest,Yes,No
+SYN-01221,9,86.71,3,6,21.9,4,One year,Credit card,West,Yes,No
+SYN-01222,67,33.09,0,6,13.9,8,Month-to-month,Electronic check,South,Yes,No
+SYN-01223,7,106.01,5,3,27.8,7,Month-to-month,Electronic check,South,Yes,Yes
+SYN-01224,63,112.92,2,0,49.2,9,One year,Credit card,West,Yes,No
+SYN-01225,59,71.53,2,13,41.8,3,One year,Mailed check,West,Yes,No
+SYN-01226,47,30.21,1,10,40.2,8,Two year,Electronic check,South,Yes,No
+SYN-01227,4,72.16,3,0,41.8,9,Month-to-month,Credit card,South,Yes,No
+SYN-01228,65,73.28,0,0,10.6,8,Month-to-month,Electronic check,West,No,No
+SYN-01229,66,120.06,2,0,33.7,7,Two year,Bank transfer,Northeast,Yes,No
+SYN-01230,48,95.32,0,0,34.2,6,One year,Credit card,West,Yes,No
+SYN-01231,42,82.93,3,1,38.0,9,Month-to-month,Electronic check,South,No,No
+SYN-01232,13,83.84,3,3,22.3,6,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01233,10,47.57,2,2,43.1,9,One year,Mailed check,Midwest,No,No
+SYN-01234,65,121.22,0,0,31.9,5,One year,Mailed check,Northeast,Yes,No
+SYN-01235,4,133.5,3,8,10.0,5,Month-to-month,Credit card,West,Yes,Yes
+SYN-01236,1,68.68,0,2,37.1,8,One year,Electronic check,West,No,No
+SYN-01237,40,120.2,1,3,25.1,9,Month-to-month,Mailed check,South,Yes,No
+SYN-01238,46,113.01,2,0,14.0,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-01239,61,101.21,1,1,42.7,5,One year,Credit card,Northeast,Yes,No
+SYN-01240,8,121.93,0,2,12.3,7,One year,Credit card,South,No,No
+SYN-01241,2,27.39,0,2,38.7,8,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01242,18,119.29,2,2,21.6,7,One year,Bank transfer,Midwest,No,No
+SYN-01243,1,50.59,4,0,13.6,7,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01244,1,61.3,4,3,17.5,8,One year,Credit card,Northeast,No,No
+SYN-01245,37,116.92,2,3,41.4,8,Month-to-month,Mailed check,West,Yes,No
+SYN-01246,7,104.56,2,6,14.7,8,Two year,Credit card,South,Yes,No
+SYN-01247,67,79.99,4,1,39.3,7,Month-to-month,Mailed check,South,Yes,No
+SYN-01248,4,72.77,3,3,44.7,6,Month-to-month,Mailed check,South,Yes,Yes
+SYN-01249,47,138.9,1,5,39.5,5,Two year,Mailed check,West,No,No
+SYN-01250,7,130.52,2,3,29.5,9,One year,Bank transfer,Northeast,Yes,No
+SYN-01251,52,68.65,5,0,28.4,6,Two year,Bank transfer,South,Yes,No
+SYN-01252,31,71.63,3,0,20.4,3,One year,Electronic check,Northeast,No,No
+SYN-01253,62,117.6,1,0,26.3,5,One year,Credit card,West,Yes,No
+SYN-01254,5,89.93,1,6,32.5,8,Two year,Bank transfer,South,Yes,No
+SYN-01255,31,108.23,0,10,59.9,7,One year,Credit card,Northeast,Yes,No
+SYN-01256,64,115.92,1,0,32.3,9,Two year,Bank transfer,Midwest,No,No
+SYN-01257,18,118.02,3,0,31.7,9,Month-to-month,Mailed check,West,No,No
+SYN-01258,44,61.98,2,0,21.9,7,Two year,Bank transfer,Midwest,No,No
+SYN-01259,57,34.97,2,5,26.3,8,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01260,58,124.91,3,6,31.8,7,Two year,Credit card,West,Yes,No
+SYN-01261,31,141.5,3,11,46.7,7,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01262,5,42.27,4,7,16.6,8,One year,Mailed check,Northeast,Yes,No
+SYN-01263,46,57.18,2,0,22.8,9,Month-to-month,Electronic check,West,No,No
+SYN-01264,46,71.89,2,2,47.2,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01265,68,110.29,0,4,45.8,6,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01266,41,124.01,3,0,26.2,7,Month-to-month,Credit card,Northeast,No,No
+SYN-01267,16,70.83,2,7,34.1,10,Month-to-month,Mailed check,West,No,No
+SYN-01268,1,89.16,3,0,20.3,7,Month-to-month,Electronic check,Northeast,Yes,Yes
+SYN-01269,50,84.76,3,0,26.4,3,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01270,17,88.21,3,0,39.3,8,Month-to-month,Bank transfer,West,No,No
+SYN-01271,45,119.26,1,0,20.3,7,Two year,Mailed check,South,Yes,No
+SYN-01272,16,102.31,0,10,42.6,6,Month-to-month,Bank transfer,South,Yes,No
+SYN-01273,5,32.83,6,1,51.0,4,One year,Electronic check,South,No,No
+SYN-01274,37,29.02,2,0,29.1,5,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01275,48,46.37,5,3,26.7,9,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01276,37,79.87,0,2,14.9,9,Month-to-month,Credit card,West,No,No
+SYN-01277,18,36.72,5,4,34.5,9,Month-to-month,Bank transfer,South,No,No
+SYN-01278,70,143.4,2,6,64.2,8,One year,Bank transfer,Midwest,No,No
+SYN-01279,34,109.43,1,4,8.8,5,One year,Electronic check,Northeast,Yes,No
+SYN-01280,68,128.02,3,4,56.1,6,One year,Electronic check,South,No,No
+SYN-01281,22,50.55,4,2,26.2,7,Two year,Mailed check,Northeast,Yes,No
+SYN-01282,8,28.04,3,0,30.7,5,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01283,5,73.67,4,0,36.5,8,One year,Electronic check,South,Yes,No
+SYN-01284,43,117.04,4,4,17.2,5,Two year,Bank transfer,West,Yes,No
+SYN-01285,51,84.95,0,1,36.0,9,One year,Bank transfer,Northeast,No,No
+SYN-01286,57,49.5,4,0,13.2,5,Month-to-month,Mailed check,West,Yes,No
+SYN-01287,29,134.94,4,2,42.4,6,Month-to-month,Electronic check,West,Yes,Yes
+SYN-01288,23,97.08,2,6,37.1,5,Two year,Bank transfer,Northeast,Yes,No
+SYN-01289,32,68.48,4,4,52.7,9,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-01290,29,135.63,0,0,46.0,4,Month-to-month,Bank transfer,South,No,Yes
+SYN-01291,58,50.37,3,0,26.5,5,One year,Credit card,Northeast,No,No
+SYN-01292,21,55.94,1,6,11.6,7,Two year,Electronic check,South,No,No
+SYN-01293,58,104.17,1,0,20.2,9,Month-to-month,Bank transfer,West,Yes,No
+SYN-01294,14,57.38,6,3,17.7,4,Month-to-month,Mailed check,West,Yes,Yes
+SYN-01295,14,81.44,0,0,16.5,5,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01296,61,36.85,0,7,19.3,8,One year,Mailed check,South,No,No
+SYN-01297,32,139.68,0,2,29.2,9,One year,Mailed check,South,No,No
+SYN-01298,51,31.88,3,0,19.1,6,Month-to-month,Electronic check,South,No,No
+SYN-01299,5,49.8,2,1,18.7,6,Month-to-month,Mailed check,Northeast,No,No
+SYN-01300,67,82.7,1,0,41.3,8,One year,Electronic check,Midwest,No,No
+SYN-01301,70,110.39,1,2,8.5,5,One year,Bank transfer,West,No,No
+SYN-01302,8,91.86,5,4,24.9,8,Month-to-month,Bank transfer,Midwest,No,Yes
+SYN-01303,5,129.38,0,8,15.9,6,Month-to-month,Credit card,Northeast,No,Yes
+SYN-01304,21,69.2,3,4,33.2,5,One year,Bank transfer,West,No,No
+SYN-01305,64,115.22,2,3,48.0,6,One year,Mailed check,West,Yes,No
+SYN-01306,20,103.67,0,1,39.7,7,Two year,Electronic check,West,Yes,No
+SYN-01307,20,82.99,0,6,17.8,9,Month-to-month,Mailed check,Northeast,No,No
+SYN-01308,4,76.57,2,0,26.9,7,Two year,Mailed check,South,Yes,No
+SYN-01309,60,68.38,7,13,30.1,9,Two year,Bank transfer,Midwest,No,No
+SYN-01310,34,85.95,3,0,17.6,5,Two year,Credit card,Midwest,Yes,No
+SYN-01311,63,93.25,2,0,25.2,9,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01312,63,97.42,0,0,27.4,3,Two year,Mailed check,West,No,No
+SYN-01313,62,129.4,0,4,22.6,7,One year,Credit card,South,Yes,No
+SYN-01314,51,86.44,1,11,8.9,5,Month-to-month,Mailed check,West,Yes,No
+SYN-01315,31,81.19,5,5,39.6,8,Month-to-month,Mailed check,West,Yes,No
+SYN-01316,10,71.5,4,0,25.1,6,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01317,65,86.96,1,0,1,8,Two year,Bank transfer,West,No,No
+SYN-01318,54,88.15,0,0,13.4,8,One year,Electronic check,Northeast,Yes,No
+SYN-01319,4,97.46,2,4,50.1,5,Two year,Bank transfer,Northeast,No,No
+SYN-01320,68,139.37,6,1,3.6,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01321,15,72.11,2,3,12.1,8,Two year,Bank transfer,Midwest,Yes,No
+SYN-01322,8,87.73,0,9,47.5,5,Month-to-month,Mailed check,South,Yes,Yes
+SYN-01323,20,80.48,2,11,45.1,10,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-01324,56,109.9,2,6,20.9,6,Month-to-month,Electronic check,Northeast,No,No
+SYN-01325,46,59.34,4,5,15.2,5,One year,Credit card,South,Yes,No
+SYN-01326,12,129.98,5,2,32.6,8,Two year,Mailed check,Northeast,No,No
+SYN-01327,15,43.86,4,5,26.8,6,Two year,Electronic check,Midwest,Yes,No
+SYN-01328,22,69.29,3,4,7.8,6,Two year,Electronic check,South,No,No
+SYN-01329,22,116.0,1,5,49.0,5,Month-to-month,Mailed check,Northeast,No,Yes
+SYN-01330,20,58.17,0,4,36.4,8,One year,Bank transfer,Northeast,No,No
+SYN-01331,43,144.99,5,2,17.9,8,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01332,40,141.95,2,1,15.2,6,One year,Bank transfer,West,No,No
+SYN-01333,21,58.62,4,3,13.1,9,Month-to-month,Bank transfer,South,No,Yes
+SYN-01334,69,139.46,5,0,8.3,5,Month-to-month,Bank transfer,South,No,No
+SYN-01335,37,83.8,3,2,20.2,9,Month-to-month,Electronic check,West,No,No
+SYN-01336,46,92.98,1,6,27.2,9,Month-to-month,Bank transfer,South,Yes,No
+SYN-01337,49,125.4,1,0,14.9,8,One year,Credit card,South,Yes,No
+SYN-01338,53,34.73,2,6,29.5,6,One year,Mailed check,Northeast,Yes,No
+SYN-01339,41,119.9,3,4,50.2,9,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01340,67,48.34,2,8,40.0,10,Month-to-month,Bank transfer,West,No,No
+SYN-01341,23,133.03,0,10,33.4,5,Month-to-month,Bank transfer,South,No,Yes
+SYN-01342,60,30.78,0,1,9.5,5,Month-to-month,Bank transfer,West,Yes,No
+SYN-01343,39,134.17,0,0,18.3,8,One year,Electronic check,South,No,No
+SYN-01344,67,126.94,2,7,26.1,4,Month-to-month,Mailed check,West,No,Yes
+SYN-01345,27,129.18,2,3,10.8,5,Month-to-month,Credit card,West,Yes,Yes
+SYN-01346,50,33.55,3,4,49.0,6,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01347,55,119.05,2,0,18.1,8,Month-to-month,Credit card,South,Yes,No
+SYN-01348,56,35.03,0,0,1,5,Month-to-month,Electronic check,West,Yes,No
+SYN-01349,13,111.73,0,3,31.7,8,Month-to-month,Electronic check,Midwest,No,No
+SYN-01350,54,42.17,3,0,28.6,7,One year,Mailed check,Northeast,Yes,No
+SYN-01351,25,53.78,2,2,34.2,8,Month-to-month,Bank transfer,South,Yes,No
+SYN-01352,41,101.91,4,0,25.6,6,Two year,Bank transfer,West,Yes,No
+SYN-01353,32,61.55,3,7,27.2,10,One year,Bank transfer,South,No,No
+SYN-01354,61,99.34,0,3,19.5,10,Two year,Bank transfer,Northeast,No,No
+SYN-01355,13,35.57,3,5,44.5,7,One year,Credit card,West,Yes,No
+SYN-01356,62,134.79,0,4,26.2,6,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01357,58,136.92,5,4,53.4,6,Two year,Electronic check,Northeast,Yes,No
+SYN-01358,50,126.34,4,2,16.0,6,Month-to-month,Mailed check,West,Yes,No
+SYN-01359,64,84.84,3,8,17.7,9,One year,Electronic check,South,No,No
+SYN-01360,72,125.38,0,11,9.3,8,One year,Electronic check,Midwest,Yes,No
+SYN-01361,9,87.57,5,6,42.9,3,One year,Credit card,South,No,Yes
+SYN-01362,72,122.67,4,3,16.6,8,Month-to-month,Electronic check,South,Yes,No
+SYN-01363,24,71.04,1,3,33.5,6,Month-to-month,Electronic check,Northeast,No,No
+SYN-01364,43,131.04,5,6,49.0,7,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01365,64,33.43,1,11,29.8,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01366,49,111.93,5,0,17.3,8,One year,Credit card,South,No,No
+SYN-01367,13,54.43,8,7,12.3,7,One year,Bank transfer,Northeast,No,No
+SYN-01368,14,92.87,4,0,33.7,7,Two year,Mailed check,South,No,No
+SYN-01369,41,122.11,4,6,14.9,5,Two year,Mailed check,Northeast,No,No
+SYN-01370,70,79.54,1,9,53.3,8,Month-to-month,Credit card,West,Yes,No
+SYN-01371,24,29.05,1,6,52.5,5,One year,Bank transfer,Midwest,No,No
+SYN-01372,11,27.07,1,4,5.4,7,One year,Bank transfer,South,Yes,No
+SYN-01373,28,92.41,0,8,49.5,5,Two year,Electronic check,Northeast,Yes,No
+SYN-01374,36,96.42,5,8,41.1,6,Two year,Mailed check,South,Yes,No
+SYN-01375,9,114.68,2,5,45.3,6,Month-to-month,Electronic check,Northeast,Yes,Yes
+SYN-01376,33,136.9,2,0,42.4,5,Two year,Credit card,Midwest,Yes,No
+SYN-01377,45,76.68,0,4,21.1,8,Month-to-month,Credit card,South,No,No
+SYN-01378,40,66.36,4,5,13.7,6,Month-to-month,Bank transfer,South,No,No
+SYN-01379,67,107.81,2,7,34.7,8,One year,Credit card,South,Yes,No
+SYN-01380,29,41.9,2,5,49.8,9,One year,Electronic check,Northeast,Yes,No
+SYN-01381,46,43.28,2,6,21.8,8,One year,Bank transfer,West,No,No
+SYN-01382,70,102.66,0,0,33.6,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-01383,38,44.01,0,6,32.9,8,Two year,Bank transfer,West,Yes,No
+SYN-01384,18,114.01,3,0,16.2,4,Month-to-month,Bank transfer,South,Yes,Yes
+SYN-01385,3,79.2,3,5,12.3,8,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01386,49,65.89,1,0,39.4,10,Month-to-month,Credit card,South,No,No
+SYN-01387,24,141.84,3,0,30.6,7,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01388,27,122.62,3,2,24.9,9,Two year,Mailed check,West,No,No
+SYN-01389,68,138.01,2,9,35.4,8,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01390,6,74.89,1,0,32.9,9,One year,Credit card,Midwest,No,No
+SYN-01391,63,118.04,0,3,5.1,6,Month-to-month,Credit card,West,Yes,No
+SYN-01392,39,119.24,1,1,14.9,8,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-01393,53,30.57,1,3,31.2,8,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01394,14,116.71,2,4,12.0,7,Month-to-month,Credit card,South,Yes,No
+SYN-01395,12,55.3,2,4,18.9,5,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-01396,12,30.18,6,0,21.1,5,One year,Bank transfer,Northeast,No,No
+SYN-01397,6,119.89,1,4,44.3,7,Two year,Credit card,South,No,No
+SYN-01398,4,91.44,4,2,17.6,7,Month-to-month,Mailed check,Northeast,No,Yes
+SYN-01399,2,136.97,5,4,32.1,7,Month-to-month,Mailed check,Northeast,No,Yes
+SYN-01400,67,110.56,0,1,30.9,4,Two year,Bank transfer,West,No,No
+SYN-01401,38,44.72,1,0,46.9,8,One year,Electronic check,Midwest,Yes,No
+SYN-01402,20,79.41,4,0,35.5,5,One year,Bank transfer,Midwest,Yes,No
+SYN-01403,52,140.36,2,0,7.8,8,Two year,Bank transfer,South,No,No
+SYN-01404,45,42.59,2,4,38.5,7,Month-to-month,Bank transfer,West,No,No
+SYN-01405,2,37.67,2,2,28.2,8,Month-to-month,Bank transfer,South,Yes,No
+SYN-01406,32,112.34,5,0,24.3,4,Two year,Bank transfer,Midwest,No,No
+SYN-01407,62,40.15,4,0,29.4,4,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01408,64,80.35,3,2,33.2,6,Month-to-month,Bank transfer,South,Yes,No
+SYN-01409,7,102.49,5,0,31.9,10,Month-to-month,Credit card,Northeast,No,No
+SYN-01410,71,106.39,0,4,19.1,7,Two year,Electronic check,West,Yes,No
+SYN-01411,50,77.0,5,1,10.4,9,Two year,Credit card,Northeast,Yes,No
+SYN-01412,58,118.83,0,6,25.9,5,Two year,Electronic check,West,No,No
+SYN-01413,24,28.66,1,1,2.9,7,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01414,8,64.77,0,1,39.4,6,Two year,Mailed check,Northeast,Yes,No
+SYN-01415,55,38.63,3,1,27.1,6,Two year,Electronic check,South,No,No
+SYN-01416,57,29.85,0,4,20.6,10,Two year,Credit card,South,Yes,No
+SYN-01417,9,56.13,0,7,22.7,7,One year,Bank transfer,West,No,No
+SYN-01418,3,142.03,2,0,17.5,9,Month-to-month,Bank transfer,Midwest,Yes,Yes
+SYN-01419,56,111.67,1,6,45.0,8,One year,Mailed check,West,No,No
+SYN-01420,24,82.67,4,3,30.5,7,One year,Electronic check,West,Yes,No
+SYN-01421,49,106.75,5,3,15.0,5,Two year,Credit card,West,No,No
+SYN-01422,59,122.39,3,2,9.8,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01423,56,103.28,2,4,33.4,10,Month-to-month,Mailed check,West,No,No
+SYN-01424,47,99.76,3,6,26.1,7,Month-to-month,Electronic check,Midwest,No,No
+SYN-01425,28,109.39,3,2,25.9,7,One year,Bank transfer,South,Yes,No
+SYN-01426,13,87.18,4,4,20.6,7,One year,Credit card,West,Yes,No
+SYN-01427,64,61.48,9,5,10.2,9,Two year,Bank transfer,South,Yes,No
+SYN-01428,12,79.84,0,5,25.6,5,One year,Credit card,Midwest,Yes,No
+SYN-01429,25,69.94,1,1,18.9,7,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01430,26,86.99,0,9,17.8,6,Month-to-month,Credit card,West,No,No
+SYN-01431,26,60.97,0,7,29.1,9,Two year,Credit card,Midwest,Yes,No
+SYN-01432,56,104.72,3,5,46.8,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01433,62,25.77,3,7,24.5,6,One year,Credit card,West,Yes,No
+SYN-01434,8,92.71,3,3,22.1,9,Month-to-month,Bank transfer,West,Yes,No
+SYN-01435,72,111.07,1,2,16.7,4,Two year,Credit card,Midwest,Yes,No
+SYN-01436,53,34.76,3,6,35.2,10,One year,Mailed check,Northeast,Yes,No
+SYN-01437,20,85.48,0,4,25.7,8,One year,Electronic check,Northeast,No,No
+SYN-01438,66,45.68,0,3,21.0,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-01439,46,46.48,2,0,40.6,9,Two year,Mailed check,Midwest,Yes,No
+SYN-01440,71,142.81,0,0,33.3,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01441,15,129.78,3,0,42.6,9,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01442,56,93.16,3,0,47.0,6,One year,Bank transfer,Midwest,No,No
+SYN-01443,41,86.04,1,1,29.3,8,One year,Electronic check,South,No,No
+SYN-01444,50,81.48,1,1,24.4,5,Month-to-month,Mailed check,Midwest,No,No
+SYN-01445,20,110.96,2,0,46.1,8,One year,Credit card,Northeast,Yes,No
+SYN-01446,5,61.77,4,0,41.9,6,One year,Mailed check,West,Yes,No
+SYN-01447,70,112.93,4,7,1,3,One year,Credit card,South,No,No
+SYN-01448,54,47.17,2,0,42.3,9,Month-to-month,Mailed check,West,Yes,No
+SYN-01449,15,89.55,2,4,31.4,5,Month-to-month,Bank transfer,South,Yes,No
+SYN-01450,36,35.85,6,0,19.9,7,Two year,Electronic check,Northeast,No,No
+SYN-01451,63,111.39,4,2,35.7,9,Month-to-month,Credit card,South,No,No
+SYN-01452,38,47.63,4,6,32.9,8,Month-to-month,Mailed check,South,No,No
+SYN-01453,21,119.18,4,1,9.1,6,Month-to-month,Mailed check,West,Yes,Yes
+SYN-01454,58,53.72,3,7,3.0,2,One year,Bank transfer,Northeast,No,No
+SYN-01455,61,134.58,4,5,52.3,5,Month-to-month,Mailed check,South,Yes,Yes
+SYN-01456,57,132.02,1,6,28.1,9,Month-to-month,Mailed check,West,Yes,No
+SYN-01457,50,40.48,0,5,26.6,5,Month-to-month,Electronic check,Midwest,No,No
+SYN-01458,2,121.88,2,0,11.5,5,Month-to-month,Electronic check,South,Yes,Yes
+SYN-01459,55,54.67,2,0,16.8,10,One year,Electronic check,West,Yes,No
+SYN-01460,64,33.06,2,1,40.6,7,Two year,Mailed check,West,No,No
+SYN-01461,60,139.73,4,3,33.7,10,One year,Electronic check,West,No,No
+SYN-01462,29,29.57,4,0,18.5,5,Month-to-month,Mailed check,South,Yes,No
+SYN-01463,36,78.77,0,2,30.6,5,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01464,68,33.92,2,8,41.0,7,One year,Electronic check,Midwest,Yes,No
+SYN-01465,6,68.3,1,8,22.5,5,One year,Bank transfer,Midwest,Yes,No
+SYN-01466,30,125.37,2,4,34.6,7,One year,Bank transfer,Midwest,No,No
+SYN-01467,16,27.43,5,4,38.5,6,One year,Mailed check,South,No,No
+SYN-01468,11,58.37,2,0,35.6,6,One year,Electronic check,West,No,No
+SYN-01469,32,100.01,1,0,37.6,4,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-01470,52,136.52,2,6,37.7,10,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01471,35,116.3,3,2,25.9,8,Month-to-month,Electronic check,West,Yes,Yes
+SYN-01472,43,77.79,2,8,20.8,7,Month-to-month,Mailed check,West,Yes,No
+SYN-01473,53,40.51,0,0,36.2,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01474,50,25.02,3,5,1,7,One year,Bank transfer,Northeast,Yes,No
+SYN-01475,32,120.3,1,0,17.9,6,Two year,Electronic check,Midwest,No,No
+SYN-01476,19,75.48,0,2,50.7,5,Month-to-month,Credit card,South,No,Yes
+SYN-01477,53,130.99,4,4,19.9,7,Month-to-month,Credit card,West,Yes,No
+SYN-01478,27,63.21,3,6,28.5,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01479,48,94.27,2,0,34.4,3,Month-to-month,Bank transfer,South,No,Yes
+SYN-01480,7,90.72,2,7,32.1,9,One year,Credit card,South,No,No
+SYN-01481,69,30.76,1,5,28.1,9,Month-to-month,Mailed check,South,Yes,No
+SYN-01482,21,128.06,0,2,46.0,10,Month-to-month,Mailed check,West,No,No
+SYN-01483,66,139.89,5,6,16.4,5,Month-to-month,Mailed check,South,No,Yes
+SYN-01484,58,40.57,1,0,38.9,5,One year,Credit card,South,Yes,No
+SYN-01485,48,137.03,4,1,26.0,6,Two year,Electronic check,Midwest,Yes,No
+SYN-01486,58,67.77,1,6,32.1,6,Month-to-month,Mailed check,South,Yes,No
+SYN-01487,48,54.42,0,0,28.3,8,One year,Mailed check,Midwest,No,No
+SYN-01488,6,136.2,5,7,22.1,10,Month-to-month,Electronic check,West,Yes,No
+SYN-01489,5,81.09,2,4,48.4,8,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01490,3,44.94,1,0,35.1,7,Two year,Bank transfer,West,No,No
+SYN-01491,40,95.23,0,5,12.6,6,One year,Credit card,West,Yes,No
+SYN-01492,66,104.35,3,2,15.7,4,Month-to-month,Electronic check,Northeast,No,No
+SYN-01493,58,123.86,2,6,26.3,5,Two year,Credit card,Northeast,Yes,No
+SYN-01494,33,138.74,6,0,36.2,6,Two year,Bank transfer,Northeast,No,No
+SYN-01495,10,33.47,4,5,22.6,7,Two year,Credit card,Midwest,Yes,No
+SYN-01496,2,74.89,3,0,18.5,6,One year,Credit card,Midwest,Yes,No
+SYN-01497,40,134.74,2,2,26.4,10,Month-to-month,Credit card,West,Yes,No
+SYN-01498,44,116.49,6,4,17.0,9,One year,Mailed check,South,Yes,No
+SYN-01499,26,61.63,0,0,56.9,9,Two year,Bank transfer,South,Yes,No
+SYN-01500,22,60.03,2,1,51.0,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-01501,51,60.54,0,2,13.2,4,Month-to-month,Electronic check,Midwest,No,No
+SYN-01502,41,131.78,6,3,42.3,8,Month-to-month,Mailed check,South,Yes,No
+SYN-01503,53,48.51,0,3,18.0,8,One year,Bank transfer,Midwest,No,No
+SYN-01504,25,137.94,3,0,21.0,7,Month-to-month,Electronic check,West,No,Yes
+SYN-01505,14,39.56,5,3,35.2,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01506,38,42.8,2,7,23.3,6,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01507,70,143.66,3,4,38.1,6,One year,Mailed check,Midwest,Yes,No
+SYN-01508,2,92.68,3,3,16.7,8,One year,Mailed check,West,Yes,No
+SYN-01509,19,93.37,0,1,19.6,8,Two year,Mailed check,Northeast,No,No
+SYN-01510,10,81.14,3,3,35.1,8,Two year,Electronic check,West,Yes,No
+SYN-01511,22,119.16,5,0,44.9,10,One year,Mailed check,South,Yes,No
+SYN-01512,28,76.69,5,0,35.6,6,Two year,Credit card,West,No,No
+SYN-01513,49,45.33,3,2,23.8,7,Month-to-month,Mailed check,South,No,No
+SYN-01514,24,56.49,1,3,32.5,4,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-01515,20,53.14,2,0,16.4,6,Month-to-month,Mailed check,Midwest,No,No
+SYN-01516,53,96.37,1,2,48.2,7,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01517,25,105.28,3,6,35.6,7,Two year,Mailed check,West,No,No
+SYN-01518,62,65.06,0,4,40.6,10,Two year,Bank transfer,South,No,No
+SYN-01519,43,125.89,5,2,21.0,6,Month-to-month,Bank transfer,Midwest,No,Yes
+SYN-01520,17,54.01,1,7,33.1,7,Month-to-month,Mailed check,South,No,No
+SYN-01521,9,37.34,3,5,22.9,8,One year,Mailed check,West,Yes,No
+SYN-01522,57,123.11,0,2,20.5,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01523,68,26.35,0,0,24.4,8,Two year,Bank transfer,Midwest,Yes,No
+SYN-01524,4,66.95,3,5,7.4,8,Two year,Bank transfer,Northeast,No,No
+SYN-01525,57,61.74,4,10,32.5,6,Month-to-month,Credit card,Midwest,No,No
+SYN-01526,15,97.56,0,9,55.2,9,One year,Mailed check,Midwest,No,No
+SYN-01527,45,60.91,0,3,16.1,6,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01528,68,39.99,0,11,21.2,10,Month-to-month,Electronic check,West,No,No
+SYN-01529,36,40.79,2,0,56.5,9,Two year,Credit card,Midwest,No,No
+SYN-01530,14,59.86,1,0,20.3,5,One year,Electronic check,South,Yes,No
+SYN-01531,20,96.39,1,0,32.6,9,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01532,57,122.68,2,5,25.2,8,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01533,47,41.25,1,3,36.2,6,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01534,37,95.86,1,0,20.1,3,Month-to-month,Mailed check,Northeast,No,Yes
+SYN-01535,57,81.73,2,6,9.4,8,One year,Mailed check,Midwest,No,No
+SYN-01536,44,141.01,4,7,14.4,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-01537,17,133.74,3,0,44.7,5,Month-to-month,Credit card,South,No,No
+SYN-01538,36,42.4,3,0,29.6,8,One year,Bank transfer,South,No,No
+SYN-01539,36,130.6,2,6,45.3,7,One year,Bank transfer,Midwest,Yes,No
+SYN-01540,9,63.32,0,0,16.9,9,One year,Electronic check,South,Yes,No
+SYN-01541,31,73.97,2,0,41.1,6,Month-to-month,Mailed check,West,No,No
+SYN-01542,49,128.92,3,3,18.3,10,Two year,Mailed check,South,Yes,No
+SYN-01543,44,41.99,2,4,33.0,10,Two year,Mailed check,West,No,No
+SYN-01544,43,95.05,2,0,26.6,10,One year,Mailed check,South,Yes,No
+SYN-01545,14,27.55,0,2,32.5,6,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01546,12,33.94,0,10,25.7,8,Month-to-month,Bank transfer,West,No,No
+SYN-01547,48,99.02,3,2,36.5,10,One year,Bank transfer,Midwest,No,No
+SYN-01548,44,94.58,3,5,19.3,8,Month-to-month,Electronic check,West,No,No
+SYN-01549,68,78.77,0,4,47.7,8,One year,Mailed check,West,Yes,No
+SYN-01550,46,105.89,1,10,37.8,8,One year,Electronic check,West,No,No
+SYN-01551,14,90.31,2,0,39.3,7,One year,Credit card,Northeast,Yes,No
+SYN-01552,6,120.48,1,0,33.1,8,One year,Bank transfer,Midwest,Yes,No
+SYN-01553,31,110.93,3,3,9.9,6,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01554,23,103.92,3,3,33.2,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+SYN-01555,42,90.93,2,6,20.6,3,Month-to-month,Credit card,Northeast,Yes,Yes
+SYN-01556,66,81.68,1,5,30.0,9,Two year,Mailed check,Midwest,Yes,No
+SYN-01557,69,125.59,3,5,7.1,5,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01558,40,130.33,2,1,45.8,7,Two year,Bank transfer,Northeast,Yes,No
+SYN-01559,72,92.67,2,0,36.0,7,Two year,Electronic check,Midwest,No,No
+SYN-01560,35,118.85,3,5,24.3,6,One year,Electronic check,Northeast,Yes,No
+SYN-01561,32,111.79,4,6,37.2,10,One year,Electronic check,Midwest,No,No
+SYN-01562,31,74.2,0,0,20.5,7,One year,Credit card,South,Yes,No
+SYN-01563,39,140.9,5,9,22.8,7,Month-to-month,Electronic check,Northeast,Yes,Yes
+SYN-01564,62,47.42,4,3,22.4,5,One year,Bank transfer,Midwest,Yes,No
+SYN-01565,27,131.1,3,1,41.6,5,Month-to-month,Credit card,West,No,Yes
+SYN-01566,46,80.5,3,12,18.9,5,One year,Mailed check,West,Yes,No
+SYN-01567,42,84.72,2,2,26.3,6,Month-to-month,Bank transfer,West,No,No
+SYN-01568,41,97.67,2,10,27.6,9,Month-to-month,Mailed check,West,Yes,No
+SYN-01569,21,95.64,5,8,39.5,5,One year,Credit card,Northeast,No,No
+SYN-01570,37,127.21,0,7,28.0,7,One year,Electronic check,West,Yes,No
+SYN-01571,58,123.04,0,2,20.2,6,Two year,Bank transfer,Midwest,Yes,No
+SYN-01572,39,38.32,6,0,32.2,8,Month-to-month,Credit card,West,No,No
+SYN-01573,32,84.12,3,0,36.9,10,One year,Electronic check,South,Yes,No
+SYN-01574,25,79.39,2,8,33.7,8,Two year,Credit card,Northeast,Yes,No
+SYN-01575,24,114.12,0,4,31.7,5,Month-to-month,Bank transfer,South,No,No
+SYN-01576,66,66.57,2,0,24.4,8,One year,Electronic check,South,Yes,No
+SYN-01577,52,128.4,3,0,23.3,10,Month-to-month,Electronic check,Northeast,Yes,No
+SYN-01578,30,107.19,3,2,1,8,Month-to-month,Electronic check,South,Yes,No
+SYN-01579,54,112.06,1,2,12.1,10,Month-to-month,Mailed check,South,Yes,No
+SYN-01580,26,83.47,0,10,37.2,4,Month-to-month,Bank transfer,South,No,Yes
+SYN-01581,13,34.66,7,8,7.5,8,Month-to-month,Credit card,West,No,No
+SYN-01582,59,114.59,2,1,20.7,7,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-01583,20,92.15,4,7,25.0,9,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01584,41,102.14,0,0,40.6,6,Month-to-month,Credit card,South,Yes,No
+SYN-01585,40,32.42,1,2,15.4,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01586,22,69.72,5,7,34.6,5,Month-to-month,Bank transfer,West,Yes,Yes
+SYN-01587,34,60.82,0,2,38.9,5,Month-to-month,Credit card,South,No,No
+SYN-01588,41,133.72,0,2,38.9,6,Two year,Electronic check,West,No,No
+SYN-01589,49,63.1,1,2,10.3,9,Month-to-month,Credit card,South,No,No
+SYN-01590,69,48.65,4,4,22.8,6,One year,Electronic check,Northeast,Yes,No
+SYN-01591,71,115.22,2,2,45.2,10,Month-to-month,Electronic check,West,No,No
+SYN-01592,48,42.21,1,6,40.6,6,One year,Mailed check,South,No,No
+SYN-01593,42,106.98,1,2,42.0,7,Two year,Bank transfer,Midwest,No,No
+SYN-01594,63,100.76,0,2,26.0,7,Two year,Credit card,Midwest,No,No
+SYN-01595,25,142.49,3,0,35.4,8,Two year,Bank transfer,South,Yes,No
+SYN-01596,26,85.46,4,3,29.6,8,Two year,Bank transfer,West,No,No
+SYN-01597,39,88.33,6,5,21.9,5,Month-to-month,Mailed check,West,Yes,No
+SYN-01598,54,127.63,3,0,18.0,8,One year,Electronic check,Midwest,No,No
+SYN-01599,30,63.44,1,5,34.0,6,Month-to-month,Mailed check,West,No,Yes
+SYN-01600,44,117.2,5,1,12.7,5,One year,Electronic check,Midwest,Yes,No
+SYN-01601,64,143.95,3,3,45.1,7,Two year,Mailed check,South,No,No
+SYN-01602,34,63.12,1,3,32.0,8,One year,Electronic check,Midwest,No,No
+SYN-01603,15,32.56,0,0,11.9,9,One year,Bank transfer,South,No,No
+SYN-01604,70,35.64,3,3,25.4,5,Month-to-month,Mailed check,South,Yes,No
+SYN-01605,38,102.47,1,5,40.3,8,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01606,52,137.32,4,2,34.0,6,Month-to-month,Electronic check,South,No,No
+SYN-01607,66,51.82,0,8,47.0,4,Month-to-month,Bank transfer,South,Yes,No
+SYN-01608,19,117.43,6,5,8.3,2,One year,Credit card,Midwest,No,Yes
+SYN-01609,58,114.04,1,3,36.5,9,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01610,3,141.43,2,1,39.0,10,Month-to-month,Electronic check,South,Yes,No
+SYN-01611,66,52.46,1,0,24.1,8,Month-to-month,Bank transfer,West,Yes,No
+SYN-01612,22,133.69,2,2,29.8,6,Two year,Electronic check,Midwest,No,No
+SYN-01613,43,54.57,1,0,30.0,6,One year,Electronic check,Midwest,No,No
+SYN-01614,63,33.96,2,0,21.1,5,Two year,Mailed check,South,No,No
+SYN-01615,22,66.42,1,13,32.3,6,One year,Bank transfer,Midwest,Yes,No
+SYN-01616,31,43.41,3,5,11.6,10,One year,Mailed check,Northeast,Yes,No
+SYN-01617,42,58.99,1,1,36.6,8,Month-to-month,Electronic check,West,No,No
+SYN-01618,55,139.46,5,0,13.1,5,One year,Bank transfer,Northeast,Yes,No
+SYN-01619,67,50.02,3,0,26.9,6,Month-to-month,Electronic check,Northeast,No,No
+SYN-01620,62,78.17,1,6,45.7,4,Two year,Mailed check,Midwest,Yes,No
+SYN-01621,16,136.6,2,4,39.6,10,Two year,Electronic check,West,Yes,No
+SYN-01622,58,75.99,2,3,39.1,10,Month-to-month,Mailed check,Midwest,No,No
+SYN-01623,26,85.46,2,2,22.9,10,One year,Bank transfer,South,Yes,No
+SYN-01624,1,127.45,2,3,35.5,5,Month-to-month,Bank transfer,West,No,Yes
+SYN-01625,41,127.05,0,2,27.8,4,Month-to-month,Bank transfer,West,Yes,Yes
+SYN-01626,64,75.55,2,0,45.1,10,One year,Bank transfer,Midwest,Yes,No
+SYN-01627,11,79.69,4,8,25.8,7,Month-to-month,Credit card,Midwest,No,Yes
+SYN-01628,48,29.93,6,4,24.0,6,Month-to-month,Credit card,South,No,No
+SYN-01629,31,33.28,4,2,30.5,8,Two year,Bank transfer,West,Yes,No
+SYN-01630,40,137.24,0,0,35.4,9,One year,Credit card,Northeast,No,No
+SYN-01631,56,50.81,4,6,28.6,5,One year,Electronic check,Northeast,No,No
+SYN-01632,29,77.95,0,0,22.3,9,Month-to-month,Credit card,West,Yes,No
+SYN-01633,57,27.67,7,0,40.5,8,Two year,Electronic check,West,No,No
+SYN-01634,18,26.58,4,0,26.7,8,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01635,39,29.45,0,0,32.0,5,One year,Mailed check,South,Yes,No
+SYN-01636,13,112.75,2,6,25.2,5,One year,Mailed check,West,No,No
+SYN-01637,10,69.55,3,1,31.1,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-01638,35,110.8,0,0,18.5,9,Two year,Mailed check,South,No,No
+SYN-01639,44,64.6,0,3,43.0,5,Month-to-month,Mailed check,West,No,No
+SYN-01640,63,37.3,2,0,20.6,7,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01641,42,136.97,0,0,17.8,7,Month-to-month,Credit card,Northeast,No,No
+SYN-01642,50,116.47,1,5,21.5,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01643,47,30.77,1,8,17.7,5,Two year,Mailed check,Midwest,No,No
+SYN-01644,67,98.84,2,0,29.6,6,One year,Credit card,Northeast,Yes,No
+SYN-01645,2,78.59,2,4,18.5,6,Two year,Bank transfer,Midwest,No,No
+SYN-01646,60,90.91,5,0,8.5,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01647,3,101.58,5,3,19.4,7,One year,Bank transfer,West,No,Yes
+SYN-01648,5,44.77,2,7,45.7,6,One year,Electronic check,South,Yes,No
+SYN-01649,13,94.5,3,0,19.3,8,One year,Credit card,Northeast,Yes,No
+SYN-01650,71,31.65,3,4,29.7,7,One year,Mailed check,West,Yes,No
+SYN-01651,33,64.27,2,2,25.9,8,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01652,68,138.41,0,11,31.5,7,Two year,Credit card,South,No,No
+SYN-01653,61,32.23,1,3,39.0,10,One year,Bank transfer,West,Yes,No
+SYN-01654,55,51.36,5,3,21.1,8,One year,Electronic check,Northeast,Yes,No
+SYN-01655,72,73.88,3,0,11.9,9,Month-to-month,Mailed check,South,No,No
+SYN-01656,35,103.12,1,6,10.5,9,Month-to-month,Mailed check,South,No,No
+SYN-01657,18,71.2,4,4,32.6,6,Month-to-month,Credit card,West,Yes,No
+SYN-01658,51,38.35,0,0,41.5,9,Two year,Mailed check,West,No,No
+SYN-01659,20,97.79,5,0,50.8,8,One year,Credit card,West,No,No
+SYN-01660,22,109.73,1,7,32.7,9,Two year,Bank transfer,West,No,No
+SYN-01661,41,32.11,1,0,50.0,9,One year,Credit card,South,No,No
+SYN-01662,31,91.48,0,0,35.3,4,One year,Bank transfer,Midwest,No,No
+SYN-01663,26,144.68,0,11,31.5,6,Month-to-month,Bank transfer,South,No,Yes
+SYN-01664,34,44.84,5,4,41.0,5,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01665,69,142.97,4,0,26.4,9,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-01666,11,75.76,5,2,9.3,7,Month-to-month,Credit card,West,No,Yes
+SYN-01667,62,137.75,2,0,33.3,6,One year,Mailed check,Northeast,No,No
+SYN-01668,49,34.25,1,0,23.9,7,Month-to-month,Electronic check,Midwest,No,No
+SYN-01669,35,99.12,2,7,37.2,9,Two year,Electronic check,South,Yes,No
+SYN-01670,64,73.93,4,0,4.0,7,One year,Mailed check,West,No,No
+SYN-01671,8,104.74,5,2,28.0,8,Month-to-month,Mailed check,West,No,No
+SYN-01672,33,37.81,2,5,29.5,8,One year,Electronic check,West,No,No
+SYN-01673,65,80.53,3,3,31.3,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01674,60,74.22,3,4,28.5,10,Two year,Credit card,South,No,No
+SYN-01675,47,59.93,1,2,43.8,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-01676,27,140.47,1,3,24.5,8,Two year,Bank transfer,Northeast,No,No
+SYN-01677,51,120.22,1,0,42.1,6,Two year,Electronic check,Northeast,No,No
+SYN-01678,1,131.98,1,10,24.1,7,Two year,Credit card,Northeast,Yes,Yes
+SYN-01679,27,25.4,2,2,17.4,3,Two year,Credit card,Northeast,No,No
+SYN-01680,66,57.26,0,0,29.9,5,One year,Credit card,South,Yes,No
+SYN-01681,1,121.32,3,1,22.4,5,One year,Electronic check,South,Yes,Yes
+SYN-01682,22,83.33,3,0,21.9,7,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01683,53,65.78,0,5,28.1,8,Month-to-month,Bank transfer,West,Yes,No
+SYN-01684,65,141.26,1,0,25.6,6,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01685,51,117.96,5,0,13.2,8,Month-to-month,Electronic check,West,No,No
+SYN-01686,59,117.93,4,0,40.7,5,Month-to-month,Electronic check,South,Yes,No
+SYN-01687,45,132.13,1,5,25.2,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01688,15,97.9,1,6,26.1,9,One year,Electronic check,West,No,No
+SYN-01689,64,49.1,3,4,15.9,6,Two year,Mailed check,Midwest,Yes,No
+SYN-01690,16,136.9,1,3,22.9,9,Two year,Mailed check,Northeast,No,No
+SYN-01691,48,142.25,0,0,30.4,5,One year,Credit card,Midwest,No,No
+SYN-01692,56,130.29,2,11,41.7,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01693,57,76.42,0,6,17.6,6,Month-to-month,Credit card,South,Yes,No
+SYN-01694,24,103.69,3,3,23.8,5,Two year,Bank transfer,Midwest,No,No
+SYN-01695,12,79.67,0,4,25.6,8,Month-to-month,Bank transfer,West,Yes,No
+SYN-01696,21,110.1,0,0,15.5,4,One year,Electronic check,South,No,No
+SYN-01697,41,126.3,1,1,22.0,9,One year,Electronic check,West,No,No
+SYN-01698,58,136.52,0,7,29.5,8,Month-to-month,Mailed check,South,Yes,No
+SYN-01699,15,143.62,2,1,13.2,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+SYN-01700,24,87.09,2,6,29.7,3,Month-to-month,Mailed check,South,No,Yes
+SYN-01701,28,45.87,3,12,1,8,Month-to-month,Electronic check,West,Yes,No
+SYN-01702,35,26.85,3,12,25.2,6,Two year,Electronic check,South,No,No
+SYN-01703,35,60.72,2,0,46.4,5,Month-to-month,Electronic check,Midwest,No,No
+SYN-01704,39,120.02,0,6,15.8,4,Two year,Mailed check,West,Yes,No
+SYN-01705,64,121.56,1,3,32.3,7,One year,Bank transfer,Northeast,Yes,No
+SYN-01706,48,50.82,0,3,41.2,6,Month-to-month,Mailed check,South,Yes,No
+SYN-01707,60,48.71,1,0,31.8,8,Month-to-month,Electronic check,Northeast,No,No
+SYN-01708,40,139.91,4,5,9.1,9,Two year,Electronic check,Midwest,No,No
+SYN-01709,7,40.0,4,1,20.4,4,One year,Bank transfer,West,No,No
+SYN-01710,7,61.26,3,1,21.8,5,One year,Credit card,Northeast,No,No
+SYN-01711,48,79.07,4,1,1,6,One year,Bank transfer,Midwest,Yes,No
+SYN-01712,48,33.07,4,7,39.8,7,One year,Mailed check,West,Yes,No
+SYN-01713,30,139.84,5,3,28.3,7,One year,Bank transfer,South,Yes,Yes
+SYN-01714,63,124.98,0,6,21.0,5,Month-to-month,Electronic check,South,Yes,Yes
+SYN-01715,12,58.27,1,9,21.5,6,Month-to-month,Electronic check,West,Yes,Yes
+SYN-01716,35,133.55,1,12,19.6,5,Month-to-month,Credit card,West,Yes,No
+SYN-01717,34,132.51,4,0,29.6,8,Month-to-month,Mailed check,West,No,No
+SYN-01718,56,27.19,0,0,38.5,9,Two year,Credit card,South,Yes,No
+SYN-01719,32,127.8,4,3,19.5,6,Two year,Credit card,Northeast,Yes,No
+SYN-01720,30,73.01,2,4,13.3,6,Month-to-month,Credit card,Northeast,No,No
+SYN-01721,25,32.58,2,1,21.1,6,Two year,Mailed check,Northeast,No,No
+SYN-01722,65,74.64,1,12,33.2,9,One year,Mailed check,West,Yes,No
+SYN-01723,53,60.35,1,0,28.9,4,Two year,Electronic check,Northeast,Yes,No
+SYN-01724,1,31.94,0,11,26.9,5,Two year,Credit card,West,Yes,No
+SYN-01725,71,32.84,5,2,30.4,5,One year,Bank transfer,Northeast,No,No
+SYN-01726,2,89.88,1,3,48.6,6,One year,Credit card,South,Yes,No
+SYN-01727,39,122.65,4,8,38.3,9,One year,Mailed check,South,No,No
+SYN-01728,11,76.08,6,0,51.4,6,Two year,Electronic check,Northeast,No,Yes
+SYN-01729,23,61.99,4,0,26.1,8,One year,Electronic check,Northeast,Yes,No
+SYN-01730,34,51.89,6,3,31.7,5,One year,Mailed check,Midwest,Yes,No
+SYN-01731,40,98.23,2,1,4.8,8,One year,Credit card,Northeast,Yes,No
+SYN-01732,13,68.1,4,0,46.1,7,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01733,72,36.97,1,0,23.0,8,One year,Mailed check,South,No,No
+SYN-01734,50,67.65,0,0,13.5,6,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01735,29,77.92,0,0,25.9,6,One year,Mailed check,West,Yes,No
+SYN-01736,29,36.13,4,0,39.5,5,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01737,66,133.38,3,9,33.4,9,Month-to-month,Bank transfer,South,No,No
+SYN-01738,23,79.9,4,0,30.7,9,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01739,17,132.21,4,0,36.2,5,Two year,Bank transfer,Midwest,Yes,No
+SYN-01740,13,116.77,3,0,19.9,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+SYN-01741,29,123.74,4,0,36.2,7,Month-to-month,Credit card,South,No,Yes
+SYN-01742,23,76.8,2,0,29.1,6,Month-to-month,Credit card,South,No,No
+SYN-01743,59,105.12,6,0,44.6,8,Month-to-month,Bank transfer,South,Yes,No
+SYN-01744,1,142.81,1,4,19.2,5,One year,Electronic check,Northeast,No,Yes
+SYN-01745,35,25.65,4,0,56.4,9,Two year,Bank transfer,Northeast,No,No
+SYN-01746,27,38.59,0,0,24.6,6,One year,Electronic check,Midwest,No,No
+SYN-01747,3,29.64,3,1,23.6,10,Month-to-month,Mailed check,South,Yes,No
+SYN-01748,23,106.38,1,0,15.4,7,Month-to-month,Electronic check,Midwest,No,No
+SYN-01749,21,113.9,0,0,10.1,9,One year,Bank transfer,South,No,No
+SYN-01750,62,37.21,1,2,1,9,Two year,Bank transfer,South,Yes,No
+SYN-01751,20,115.97,2,6,27.8,6,Month-to-month,Credit card,South,Yes,Yes
+SYN-01752,40,106.42,1,5,14.6,7,One year,Electronic check,Midwest,Yes,No
+SYN-01753,10,77.93,0,1,37.5,6,Month-to-month,Credit card,South,No,No
+SYN-01754,54,117.21,4,8,20.4,8,Month-to-month,Credit card,West,Yes,No
+SYN-01755,54,67.07,5,1,13.9,10,One year,Mailed check,Midwest,Yes,No
+SYN-01756,35,110.71,0,3,48.5,8,Month-to-month,Credit card,West,No,No
+SYN-01757,16,68.05,4,3,14.1,7,Month-to-month,Electronic check,West,No,Yes
+SYN-01758,64,70.83,0,7,18.1,6,Month-to-month,Bank transfer,West,No,No
+SYN-01759,46,65.95,1,4,22.0,5,Two year,Mailed check,South,Yes,No
+SYN-01760,52,59.1,3,10,19.3,8,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-01761,59,75.0,0,5,11.8,6,Month-to-month,Credit card,Midwest,No,No
+SYN-01762,18,62.66,2,0,28.8,4,One year,Electronic check,South,No,No
+SYN-01763,4,137.15,0,6,26.7,10,Month-to-month,Mailed check,West,No,No
+SYN-01764,66,121.73,1,0,32.7,5,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01765,31,35.92,2,3,39.0,7,Month-to-month,Bank transfer,West,Yes,No
+SYN-01766,12,113.18,1,9,23.5,6,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01767,36,65.95,3,2,25.9,5,Two year,Bank transfer,Midwest,Yes,No
+SYN-01768,38,66.86,0,8,36.9,8,Month-to-month,Mailed check,South,No,No
+SYN-01769,64,64.51,5,0,24.7,6,Month-to-month,Credit card,West,No,No
+SYN-01770,38,45.72,4,4,23.0,7,Month-to-month,Credit card,Midwest,No,No
+SYN-01771,25,39.52,4,8,23.6,9,One year,Mailed check,West,Yes,No
+SYN-01772,71,32.86,3,4,33.8,8,Two year,Credit card,West,No,No
+SYN-01773,47,27.62,1,0,34.4,6,One year,Mailed check,South,No,No
+SYN-01774,10,76.92,2,0,37.8,7,One year,Mailed check,West,No,No
+SYN-01775,19,68.26,2,0,21.5,6,One year,Bank transfer,Northeast,No,No
+SYN-01776,55,114.32,2,3,15.0,10,Two year,Electronic check,Midwest,No,No
+SYN-01777,7,55.75,2,4,28.6,6,Two year,Electronic check,Midwest,No,No
+SYN-01778,59,106.1,3,7,46.1,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01779,21,105.14,1,2,18.7,7,Two year,Bank transfer,West,No,No
+SYN-01780,47,28.19,2,0,20.7,10,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01781,32,127.7,2,0,33.5,9,Two year,Credit card,West,Yes,No
+SYN-01782,16,41.42,4,1,23.7,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01783,51,50.2,4,8,80.5,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01784,15,99.89,0,5,40.3,7,Month-to-month,Mailed check,South,Yes,No
+SYN-01785,49,78.68,2,0,16.4,10,Two year,Credit card,South,No,No
+SYN-01786,14,98.31,0,0,19.5,10,Two year,Mailed check,Midwest,No,No
+SYN-01787,8,135.09,6,9,26.9,7,One year,Electronic check,Northeast,No,Yes
+SYN-01788,70,103.94,0,1,44.1,6,Two year,Bank transfer,Midwest,Yes,No
+SYN-01789,29,44.64,4,7,7.2,6,Month-to-month,Bank transfer,South,No,No
+SYN-01790,28,25.68,0,0,27.0,6,Month-to-month,Bank transfer,West,Yes,No
+SYN-01791,55,118.31,3,4,27.4,9,Month-to-month,Mailed check,South,Yes,No
+SYN-01792,61,120.58,2,8,8.7,9,Two year,Bank transfer,Northeast,No,No
+SYN-01793,35,29.08,2,0,30.6,9,Month-to-month,Bank transfer,West,No,No
+SYN-01794,22,102.01,0,0,27.3,6,Month-to-month,Electronic check,West,No,No
+SYN-01795,9,89.8,3,0,30.2,8,One year,Electronic check,Northeast,Yes,No
+SYN-01796,34,27.44,3,0,3.7,8,Two year,Mailed check,South,Yes,No
+SYN-01797,38,102.24,1,10,23.7,6,Two year,Bank transfer,West,Yes,No
+SYN-01798,62,65.9,2,0,33.5,8,One year,Electronic check,South,No,No
+SYN-01799,53,121.7,4,0,3.1,5,One year,Mailed check,South,Yes,No
+SYN-01800,65,130.72,1,5,44.2,5,Two year,Mailed check,Northeast,Yes,No
+SYN-01801,20,26.64,1,2,53.8,4,One year,Mailed check,South,Yes,No
+SYN-01802,58,54.05,1,3,22.4,4,Two year,Mailed check,West,Yes,No
+SYN-01803,27,26.46,3,3,25.8,5,Two year,Credit card,South,No,No
+SYN-01804,57,89.06,0,3,48.7,5,Month-to-month,Credit card,Midwest,Yes,No
+SYN-01805,51,110.34,0,13,24.7,10,Two year,Credit card,Northeast,Yes,No
+SYN-01806,46,94.41,3,4,35.5,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01807,39,111.67,2,7,50.7,9,One year,Credit card,South,Yes,No
+SYN-01808,35,116.96,0,5,49.8,7,Month-to-month,Bank transfer,Midwest,Yes,Yes
+SYN-01809,37,54.44,4,1,8.7,7,Two year,Electronic check,South,No,No
+SYN-01810,9,126.54,3,0,22.7,7,Month-to-month,Electronic check,Midwest,Yes,Yes
+SYN-01811,50,94.79,4,1,23.7,8,Two year,Credit card,South,Yes,No
+SYN-01812,15,89.7,6,5,32.9,9,Two year,Electronic check,Northeast,No,No
+SYN-01813,57,58.04,2,0,8.3,9,One year,Credit card,Midwest,Yes,No
+SYN-01814,41,142.68,4,5,27.7,8,Month-to-month,Bank transfer,West,No,Yes
+SYN-01815,20,86.36,4,3,13.3,10,Month-to-month,Mailed check,West,No,No
+SYN-01816,41,40.95,1,1,39.8,9,One year,Mailed check,Northeast,No,No
+SYN-01817,16,74.95,2,0,38.0,7,One year,Credit card,Northeast,No,No
+SYN-01818,69,142.83,4,11,11.2,8,Month-to-month,Credit card,South,No,No
+SYN-01819,71,41.24,3,2,21.2,6,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01820,10,38.82,1,3,29.7,6,One year,Electronic check,South,Yes,No
+SYN-01821,26,89.37,1,4,42.0,5,Month-to-month,Mailed check,South,No,Yes
+SYN-01822,46,45.7,0,1,16.1,8,One year,Electronic check,South,Yes,No
+SYN-01823,33,129.22,2,5,38.1,8,Month-to-month,Mailed check,South,No,Yes
+SYN-01824,71,132.24,1,3,9.5,9,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01825,32,38.16,2,6,42.3,6,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01826,43,55.99,1,6,23.4,8,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01827,6,54.77,0,0,51.5,7,One year,Bank transfer,West,Yes,No
+SYN-01828,71,74.56,3,1,20.1,10,One year,Credit card,Northeast,No,No
+SYN-01829,45,32.81,3,4,35.4,5,One year,Electronic check,West,No,No
+SYN-01830,55,124.51,6,11,33.3,4,One year,Bank transfer,West,No,Yes
+SYN-01831,33,87.18,2,0,44.2,10,Month-to-month,Credit card,Northeast,No,No
+SYN-01832,35,100.28,3,9,40.6,5,Month-to-month,Credit card,South,No,Yes
+SYN-01833,48,64.17,4,3,21.3,9,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01834,53,128.93,4,7,29.5,8,Two year,Bank transfer,West,Yes,No
+SYN-01835,31,107.93,5,4,10.4,6,Month-to-month,Credit card,South,Yes,Yes
+SYN-01836,51,88.66,0,7,36.3,9,One year,Mailed check,South,No,No
+SYN-01837,29,81.6,1,9,27.0,9,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01838,25,39.85,3,9,22.0,7,Month-to-month,Mailed check,Midwest,No,No
+SYN-01839,1,78.3,1,7,8.7,9,One year,Credit card,Midwest,No,No
+SYN-01840,11,75.74,1,5,48.6,8,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01841,47,104.85,0,1,29.7,10,Month-to-month,Electronic check,West,No,No
+SYN-01842,30,78.75,3,4,25.5,9,Two year,Electronic check,Northeast,No,No
+SYN-01843,58,113.87,5,0,47.2,6,One year,Mailed check,Northeast,No,No
+SYN-01844,70,68.18,7,10,11.3,6,One year,Credit card,Midwest,No,No
+SYN-01845,4,122.29,4,0,38.9,10,Month-to-month,Electronic check,Northeast,No,Yes
+SYN-01846,29,63.95,4,0,20.2,9,Month-to-month,Electronic check,South,Yes,No
+SYN-01847,2,96.42,0,9,10.3,7,Two year,Credit card,West,Yes,No
+SYN-01848,51,90.56,2,3,19.1,6,One year,Credit card,West,No,No
+SYN-01849,33,98.7,0,1,32.6,9,Two year,Mailed check,Midwest,Yes,No
+SYN-01850,28,142.89,3,0,21.6,5,Month-to-month,Credit card,South,No,Yes
+SYN-01851,57,121.63,1,4,33.4,8,Month-to-month,Mailed check,South,No,No
+SYN-01852,4,56.59,3,0,48.7,6,One year,Mailed check,West,No,No
+SYN-01853,3,125.01,6,6,23.0,9,One year,Bank transfer,South,Yes,No
+SYN-01854,35,54.44,0,0,25.8,5,Two year,Electronic check,Northeast,Yes,No
+SYN-01855,39,75.04,3,8,1,6,One year,Electronic check,Northeast,No,No
+SYN-01856,14,81.01,0,3,15.7,8,Month-to-month,Electronic check,West,Yes,No
+SYN-01857,72,133.71,1,0,50.3,8,Month-to-month,Electronic check,West,No,No
+SYN-01858,37,67.47,0,2,17.2,8,Month-to-month,Electronic check,Midwest,No,No
+SYN-01859,9,77.63,3,3,26.9,5,Month-to-month,Electronic check,South,Yes,Yes
+SYN-01860,36,44.62,4,0,29.0,4,Month-to-month,Bank transfer,West,No,No
+SYN-01861,46,55.48,5,0,62.0,10,Month-to-month,Credit card,West,Yes,No
+SYN-01862,70,85.28,0,4,11.7,5,Month-to-month,Electronic check,West,Yes,No
+SYN-01863,28,61.58,4,0,18.0,5,Two year,Bank transfer,West,No,No
+SYN-01864,35,80.06,4,3,7.4,4,Month-to-month,Credit card,South,Yes,Yes
+SYN-01865,40,121.49,5,2,43.0,5,Month-to-month,Mailed check,West,Yes,Yes
+SYN-01866,26,62.99,2,8,22.2,3,Month-to-month,Electronic check,Midwest,No,Yes
+SYN-01867,20,50.5,0,0,8.2,8,Month-to-month,Electronic check,West,No,No
+SYN-01868,22,30.92,0,0,37.8,8,One year,Credit card,West,No,No
+SYN-01869,23,95.42,1,9,35.9,5,Two year,Credit card,South,Yes,No
+SYN-01870,65,59.74,1,6,9.5,7,Month-to-month,Mailed check,West,Yes,No
+SYN-01871,55,41.26,3,2,25.5,7,One year,Electronic check,West,No,No
+SYN-01872,71,85.35,0,4,46.8,8,Month-to-month,Bank transfer,Northeast,Yes,No
+SYN-01873,63,106.4,1,2,35.7,9,Month-to-month,Mailed check,South,Yes,No
+SYN-01874,58,45.5,3,8,26.6,9,Month-to-month,Mailed check,South,No,No
+SYN-01875,68,87.15,2,6,32.1,5,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01876,66,46.67,0,5,18.9,8,Month-to-month,Mailed check,West,No,No
+SYN-01877,58,130.74,4,6,39.6,6,Month-to-month,Electronic check,South,No,Yes
+SYN-01878,6,119.45,2,2,16.9,10,Two year,Credit card,Midwest,Yes,No
+SYN-01879,69,63.59,0,1,29.3,7,One year,Mailed check,Northeast,No,No
+SYN-01880,72,95.35,3,0,20.3,7,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01881,6,32.8,3,4,25.2,8,Two year,Bank transfer,Northeast,Yes,No
+SYN-01882,2,133.9,0,7,39.3,6,One year,Electronic check,West,No,Yes
+SYN-01883,39,134.1,2,6,22.6,7,Two year,Mailed check,Northeast,No,No
+SYN-01884,13,134.42,4,3,48.8,4,Month-to-month,Credit card,Northeast,No,Yes
+SYN-01885,47,142.23,0,4,29.8,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-01886,43,79.96,5,4,27.0,10,Two year,Electronic check,South,Yes,No
+SYN-01887,32,128.77,4,2,25.5,9,Month-to-month,Mailed check,Northeast,Yes,No
+SYN-01888,64,84.69,0,3,17.8,8,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01889,60,84.09,2,6,12.5,9,Two year,Mailed check,Northeast,No,No
+SYN-01890,29,44.57,4,5,19.5,7,Month-to-month,Electronic check,Midwest,Yes,No
+SYN-01891,6,89.92,3,7,30.2,6,Month-to-month,Credit card,West,Yes,Yes
+SYN-01892,1,60.43,1,5,23.6,7,One year,Credit card,West,No,No
+SYN-01893,58,77.98,0,3,18.3,10,Two year,Electronic check,West,Yes,No
+SYN-01894,52,55.96,1,0,38.7,4,Two year,Credit card,Midwest,Yes,No
+SYN-01895,69,77.22,0,5,13.7,10,Month-to-month,Electronic check,Northeast,No,No
+SYN-01896,70,130.01,0,2,45.6,4,Month-to-month,Mailed check,West,No,No
+SYN-01897,15,83.43,4,5,19.5,8,One year,Electronic check,South,No,No
+SYN-01898,36,144.35,4,4,34.6,7,Month-to-month,Credit card,Northeast,Yes,Yes
+SYN-01899,55,137.57,2,3,10.7,10,One year,Bank transfer,West,Yes,No
+SYN-01900,59,141.83,3,0,33.9,6,One year,Credit card,South,Yes,No
+SYN-01901,21,129.85,0,2,27.3,9,Month-to-month,Credit card,Northeast,No,No
+SYN-01902,41,102.92,0,7,24.2,6,Month-to-month,Bank transfer,South,No,No
+SYN-01903,53,41.65,0,0,43.3,8,Month-to-month,Electronic check,Midwest,No,No
+SYN-01904,30,42.87,2,5,20.8,4,Month-to-month,Bank transfer,South,Yes,No
+SYN-01905,26,102.88,4,2,11.1,7,One year,Credit card,Midwest,Yes,No
+SYN-01906,70,136.95,4,7,25.5,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-01907,33,28.05,2,2,11.1,8,Month-to-month,Mailed check,South,No,No
+SYN-01908,65,126.53,2,2,15.5,9,Two year,Electronic check,Northeast,Yes,No
+SYN-01909,47,83.89,2,9,55.0,3,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01910,71,93.55,0,5,20.5,9,Month-to-month,Electronic check,Midwest,No,No
+SYN-01911,30,91.49,2,11,27.8,7,One year,Bank transfer,West,Yes,No
+SYN-01912,41,64.94,0,3,33.8,5,Month-to-month,Mailed check,South,No,No
+SYN-01913,9,93.32,1,7,37.3,9,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01914,60,102.17,4,0,46.9,5,One year,Bank transfer,West,Yes,No
+SYN-01915,12,28.74,2,0,36.7,7,Month-to-month,Bank transfer,West,Yes,No
+SYN-01916,46,93.05,3,5,55.1,7,Month-to-month,Credit card,West,Yes,No
+SYN-01917,3,116.92,0,0,21.8,8,Two year,Mailed check,Midwest,Yes,No
+SYN-01918,38,89.88,0,2,17.4,3,Month-to-month,Mailed check,Midwest,No,No
+SYN-01919,18,92.66,3,0,34.5,6,Month-to-month,Electronic check,West,No,Yes
+SYN-01920,48,133.09,3,0,35.7,7,Month-to-month,Bank transfer,South,Yes,No
+SYN-01921,18,69.41,0,0,44.1,8,Two year,Credit card,Midwest,Yes,No
+SYN-01922,63,64.69,1,0,17.1,4,Month-to-month,Credit card,West,No,No
+SYN-01923,19,99.05,4,0,31.7,8,Month-to-month,Mailed check,Midwest,No,Yes
+SYN-01924,40,29.07,2,6,53.2,3,Month-to-month,Electronic check,Midwest,No,No
+SYN-01925,59,67.12,2,1,23.9,6,Two year,Mailed check,Midwest,Yes,No
+SYN-01926,5,143.97,3,0,23.7,6,One year,Mailed check,West,No,No
+SYN-01927,40,35.57,3,0,1,7,Two year,Electronic check,Northeast,No,No
+SYN-01928,33,95.36,3,6,46.2,6,Month-to-month,Electronic check,West,Yes,No
+SYN-01929,35,121.01,0,1,22.7,6,Two year,Credit card,South,No,No
+SYN-01930,23,61.67,1,2,53.2,9,Two year,Mailed check,West,No,No
+SYN-01931,24,111.97,0,5,22.5,3,Month-to-month,Electronic check,West,No,Yes
+SYN-01932,40,128.76,4,0,18.9,6,Two year,Credit card,Midwest,No,No
+SYN-01933,12,73.09,1,5,26.1,4,Month-to-month,Mailed check,Midwest,No,No
+SYN-01934,15,100.03,3,4,30.2,7,Month-to-month,Bank transfer,West,Yes,No
+SYN-01935,61,132.62,0,6,39.8,8,Month-to-month,Electronic check,Midwest,No,No
+SYN-01936,71,132.63,3,6,45.1,5,One year,Mailed check,South,Yes,No
+SYN-01937,58,59.69,3,6,18.8,10,Month-to-month,Mailed check,South,Yes,No
+SYN-01938,2,131.33,3,0,40.3,7,One year,Bank transfer,South,No,No
+SYN-01939,6,94.57,0,0,34.8,7,One year,Bank transfer,Midwest,Yes,No
+SYN-01940,57,138.13,2,0,19.2,4,Month-to-month,Electronic check,West,Yes,No
+SYN-01941,31,64.0,2,5,24.2,10,One year,Electronic check,South,Yes,No
+SYN-01942,23,90.82,1,4,29.5,5,Two year,Bank transfer,Northeast,Yes,No
+SYN-01943,69,96.12,5,3,19.3,6,Two year,Credit card,West,Yes,No
+SYN-01944,47,42.09,6,0,21.7,6,Month-to-month,Bank transfer,West,Yes,No
+SYN-01945,68,58.38,3,0,43.6,7,One year,Credit card,Northeast,No,No
+SYN-01946,45,95.66,2,4,31.1,6,Month-to-month,Mailed check,West,No,No
+SYN-01947,28,141.0,0,1,29.8,4,One year,Electronic check,Midwest,No,No
+SYN-01948,35,46.86,2,6,30.6,10,One year,Bank transfer,Northeast,No,No
+SYN-01949,38,136.9,2,9,42.5,9,Month-to-month,Mailed check,West,No,No
+SYN-01950,38,92.95,6,0,25.2,10,Month-to-month,Electronic check,West,No,No
+SYN-01951,32,141.63,2,5,17.3,6,Two year,Bank transfer,South,No,No
+SYN-01952,38,57.17,1,0,36.8,5,Two year,Credit card,West,Yes,No
+SYN-01953,72,79.93,1,0,22.7,7,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-01954,60,63.17,4,5,18.6,8,Month-to-month,Mailed check,West,No,No
+SYN-01955,27,64.68,1,8,24.0,7,Month-to-month,Mailed check,Northeast,No,No
+SYN-01956,16,80.29,2,1,45.9,7,Month-to-month,Electronic check,South,Yes,No
+SYN-01957,58,98.08,7,2,31.5,8,Month-to-month,Electronic check,West,Yes,No
+SYN-01958,18,57.55,4,1,26.9,6,Two year,Electronic check,Midwest,No,No
+SYN-01959,64,127.18,2,3,1,5,One year,Electronic check,Northeast,No,No
+SYN-01960,20,95.3,2,0,25.5,10,Month-to-month,Mailed check,Northeast,No,No
+SYN-01961,1,83.35,3,0,1,8,Two year,Mailed check,West,No,No
+SYN-01962,39,38.92,2,0,33.4,10,Month-to-month,Mailed check,West,Yes,No
+SYN-01963,6,102.11,0,0,31.2,6,Month-to-month,Credit card,Northeast,Yes,No
+SYN-01964,20,133.26,2,3,5.5,8,Month-to-month,Credit card,Midwest,No,No
+SYN-01965,58,141.16,3,7,31.1,7,One year,Bank transfer,South,No,No
+SYN-01966,2,130.06,3,9,28.5,5,Two year,Credit card,West,Yes,Yes
+SYN-01967,22,58.24,2,0,28.5,8,Month-to-month,Credit card,Midwest,No,No
+SYN-01968,36,79.97,2,0,48.5,8,Month-to-month,Bank transfer,West,Yes,No
+SYN-01969,32,58.62,2,0,18.1,8,One year,Bank transfer,West,No,No
+SYN-01970,28,38.16,7,3,21.6,8,Two year,Bank transfer,South,No,No
+SYN-01971,71,107.69,3,8,25.8,8,Month-to-month,Bank transfer,Northeast,No,No
+SYN-01972,42,119.92,2,0,38.3,6,One year,Credit card,Northeast,No,No
+SYN-01973,61,50.96,6,5,20.3,7,Month-to-month,Mailed check,Midwest,No,No
+SYN-01974,68,134.07,2,3,12.4,10,One year,Bank transfer,West,No,No
+SYN-01975,53,92.45,1,0,37.3,10,Month-to-month,Bank transfer,Midwest,Yes,No
+SYN-01976,32,44.72,1,0,22.9,8,Two year,Bank transfer,West,No,No
+SYN-01977,66,31.74,4,0,49.7,5,One year,Credit card,South,Yes,No
+SYN-01978,51,44.43,5,5,26.9,8,One year,Mailed check,West,Yes,No
+SYN-01979,31,78.22,1,7,54.2,7,One year,Mailed check,Midwest,Yes,No
+SYN-01980,23,58.41,2,10,25.5,7,Two year,Credit card,Northeast,No,No
+SYN-01981,63,26.95,1,0,16.0,5,Month-to-month,Mailed check,Midwest,No,No
+SYN-01982,6,32.36,3,2,24.6,7,One year,Bank transfer,Midwest,No,No
+SYN-01983,14,87.07,1,3,52.0,8,One year,Electronic check,South,Yes,No
+SYN-01984,19,61.87,3,0,30.0,5,Month-to-month,Bank transfer,Midwest,No,No
+SYN-01985,49,119.88,1,0,30.3,4,Two year,Credit card,West,Yes,No
+SYN-01986,13,81.36,4,4,31.9,8,Month-to-month,Credit card,West,Yes,Yes
+SYN-01987,5,139.52,4,0,28.5,6,One year,Electronic check,West,No,No
+SYN-01988,13,98.24,2,4,21.1,4,Month-to-month,Credit card,West,No,Yes
+SYN-01989,65,59.02,2,4,31.4,8,One year,Bank transfer,South,Yes,No
+SYN-01990,29,135.33,0,2,13.6,8,Month-to-month,Credit card,South,Yes,No
+SYN-01991,61,135.04,2,0,22.0,9,One year,Mailed check,South,Yes,No
+SYN-01992,26,59.85,2,0,19.7,6,Month-to-month,Mailed check,West,No,No
+SYN-01993,35,50.17,3,0,30.8,5,One year,Electronic check,Northeast,No,No
+SYN-01994,4,72.45,4,2,10.4,7,Month-to-month,Bank transfer,Northeast,Yes,Yes
+SYN-01995,3,42.66,1,0,23.0,8,One year,Electronic check,Midwest,Yes,No
+SYN-01996,58,59.78,2,0,38.4,7,Month-to-month,Electronic check,West,Yes,No
+SYN-01997,65,31.7,2,0,42.8,8,Month-to-month,Electronic check,Northeast,No,No
+SYN-01998,28,142.85,0,0,28.3,6,Month-to-month,Mailed check,Midwest,Yes,No
+SYN-01999,55,80.67,0,4,37.9,9,Two year,Electronic check,Midwest,No,No
+SYN-02000,29,123.22,5,3,23.8,5,One year,Mailed check,West,No,Yes

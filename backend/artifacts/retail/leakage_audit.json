@@ -1,0 +1,67 @@
+{
+  "target_column": "churn_flag",
+  "total_columns_checked": 8,
+  "excluded_structural": [],
+  "flagged_for_review": [],
+  "cleared": [
+    "frequency",
+    "monetary",
+    "n_line_items",
+    "recency_days",
+    "customer_tenure_days",
+    "avg_order_value",
+    "Country"
+  ],
+  "details": [
+    {
+      "feature": "frequency",
+      "check": "statistical",
+      "association_score": 0.0873,
+      "status": "cleared",
+      "reason": "Association with target = 0.09, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "monetary",
+      "check": "statistical",
+      "association_score": 0.0538,
+      "status": "cleared",
+      "reason": "Association with target = 0.05, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "n_line_items",
+      "check": "statistical",
+      "association_score": 0.0352,
+      "status": "cleared",
+      "reason": "Association with target = 0.04, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "recency_days",
+      "check": "statistical",
+      "association_score": 0.3045,
+      "status": "cleared",
+      "reason": "Association with target = 0.30, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "customer_tenure_days",
+      "check": "statistical",
+      "association_score": 0.3731,
+      "status": "cleared",
+      "reason": "Association with target = 0.37, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "avg_order_value",
+      "check": "statistical",
+      "association_score": 0.0021,
+      "status": "cleared",
+      "reason": "Association with target = 0.00, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Country",
+      "check": "statistical",
+      "association_score": 0.1196,
+      "status": "cleared",
+      "reason": "Association with target = 0.12, within normal range for a legitimate predictor."
+    }
+  ],
+  "note": "This dataset is a single-snapshot (cross-sectional) sample -- it has no event timestamps, so a temporal train/validation/test split is not applicable here. We use a stratified random split instead and document that explicitly (see split.py). If a future dataset carries timestamps, this pipeline must switch to a temporal split before training."
+}

@@ -1,0 +1,17 @@
+[
+  "recency_days",
+  "frequency",
+  "monetary",
+  "avg_order_value",
+  "customer_tenure_days",
+  "n_line_items",
+  "Country_Belgium",
+  "Country_Channel Islands",
+  "Country_France",
+  "Country_Germany",
+  "Country_Other",
+  "Country_Portugal",
+  "Country_Spain",
+  "Country_Switzerland",
+  "Country_United Kingdom"
+]

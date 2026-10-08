@@ -1,0 +1,124 @@
+{
+  "target_column": "churn_flag",
+  "total_columns_checked": 15,
+  "excluded_structural": [],
+  "flagged_for_review": [
+    "churn"
+  ],
+  "cleared": [
+    "call_failure",
+    "complains",
+    "charge_amount",
+    "seconds_of_use",
+    "frequency_of_use",
+    "frequency_of_sms",
+    "distinct_called_numbers",
+    "age_group",
+    "tariff_plan",
+    "status",
+    "age",
+    "customer_value",
+    "subscription_length"
+  ],
+  "details": [
+    {
+      "feature": "call_failure",
+      "check": "statistical",
+      "association_score": 0.009,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "complains",
+      "check": "statistical",
+      "association_score": 0.5321,
+      "status": "cleared",
+      "reason": "Association with target = 0.53, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "charge_amount",
+      "check": "statistical",
+      "association_score": 0.2023,
+      "status": "cleared",
+      "reason": "Association with target = 0.20, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "seconds_of_use",
+      "check": "statistical",
+      "association_score": 0.2989,
+      "status": "cleared",
+      "reason": "Association with target = 0.30, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "frequency_of_use",
+      "check": "statistical",
+      "association_score": 0.3033,
+      "status": "cleared",
+      "reason": "Association with target = 0.30, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "frequency_of_sms",
+      "check": "statistical",
+      "association_score": 0.2208,
+      "status": "cleared",
+      "reason": "Association with target = 0.22, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "distinct_called_numbers",
+      "check": "statistical",
+      "association_score": 0.2789,
+      "status": "cleared",
+      "reason": "Association with target = 0.28, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "age_group",
+      "check": "statistical",
+      "association_score": 0.0146,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "tariff_plan",
+      "check": "statistical",
+      "association_score": 0.1059,
+      "status": "cleared",
+      "reason": "Association with target = 0.11, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "status",
+      "check": "statistical",
+      "association_score": 0.499,
+      "status": "cleared",
+      "reason": "Association with target = 0.50, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "age",
+      "check": "statistical",
+      "association_score": 0.0177,
+      "status": "cleared",
+      "reason": "Association with target = 0.02, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "customer_value",
+      "check": "statistical",
+      "association_score": 0.2891,
+      "status": "cleared",
+      "reason": "Association with target = 0.29, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "subscription_length",
+      "check": "statistical",
+      "association_score": 0.0326,
+      "status": "cleared",
+      "reason": "Association with target = 0.03, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "churn",
+      "check": "statistical",
+      "association_score": 1.0,
+      "status": "flagged_for_review",
+      "reason": "Association with target = 1.00, above the 0.55 review threshold -- verify this value is genuinely known BEFORE the prediction timestamp and not a symptom/consequence of churn itself."
+    }
+  ],
+  "note": "This dataset is a single-snapshot (cross-sectional) sample -- it has no event timestamps, so a temporal train/validation/test split is not applicable here. We use a stratified random split instead and document that explicitly (see split.py). If a future dataset carries timestamps, this pipeline must switch to a temporal split before training."
+}

@@ -1,0 +1,40 @@
+{
+  "note": "Reference vs comparison are two real halves of the held-out test set (ordered by original row index as a proxy for 'earlier vs later' cohorts -- the source dataset has no real timestamps). See ml/monitoring/drift.py.",
+  "feature_drift": [
+    {
+      "feature": "tenure",
+      "psi": 0.0184,
+      "ks_statistic": 0.0401,
+      "ks_p_value": 0.6056,
+      "status": "stable",
+      "reference_mean": 31.932,
+      "comparison_mean": 33.004
+    },
+    {
+      "feature": "MonthlyCharges",
+      "psi": 0.0304,
+      "ks_statistic": 0.0716,
+      "ks_p_value": 0.0505,
+      "status": "stable",
+      "reference_mean": 62.64,
+      "comparison_mean": 66.463
+    },
+    {
+      "feature": "TotalCharges",
+      "psi": 0.0255,
+      "ks_statistic": 0.0688,
+      "ks_p_value": 0.0663,
+      "status": "stable",
+      "reference_mean": 2161.121,
+      "comparison_mean": 2367.597
+    }
+  ],
+  "prediction_drift": {
+    "psi": 0.0236,
+    "ks_statistic": 0.0457,
+    "ks_p_value": 0.4379,
+    "status": "stable",
+    "reference_mean_score": 0.2607,
+    "comparison_mean_score": 0.269
+  }
+}

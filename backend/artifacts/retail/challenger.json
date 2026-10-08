@@ -1,0 +1,50 @@
+{
+  "dataset": "retail",
+  "baseline_model": "random_forest",
+  "cv": {
+    "baseline": {
+      "pr_auc_mean": 0.6441,
+      "roc_auc_mean": 0.7446,
+      "brier_mean": 0.2033
+    },
+    "stacking_ensemble": {
+      "pr_auc_mean": 0.6377,
+      "roc_auc_mean": 0.744,
+      "brier_mean": 0.2011,
+      "pr_auc_gain_vs_baseline": -0.0064,
+      "gain_se": 0.0059,
+      "statistically_better": false,
+      "practically_meaningful": false
+    },
+    "soft_voting_ensemble": {
+      "pr_auc_mean": 0.6307,
+      "roc_auc_mean": 0.7347,
+      "brier_mean": 0.2062,
+      "pr_auc_gain_vs_baseline": -0.0135,
+      "gain_se": 0.004,
+      "statistically_better": false,
+      "practically_meaningful": false
+    }
+  },
+  "test": {
+    "baseline": {
+      "roc_auc": 0.7638,
+      "pr_auc": 0.66,
+      "brier_score": 0.194
+    },
+    "stacking_ensemble": {
+      "roc_auc": 0.7585,
+      "pr_auc": 0.6374,
+      "brier_score": 0.1952
+    },
+    "soft_voting_ensemble": {
+      "roc_auc": 0.7611,
+      "pr_auc": 0.6591,
+      "brier_score": 0.1946
+    }
+  },
+  "statistically_better": [],
+  "promoted": [],
+  "decision": "NOT PROMOTED: no challenger beat the baseline by more than 1 SE. Extra complexity is not justified.",
+  "rule": "Paired 5x3 CV on train split. Promote only if gain > 1 SE of paired differences AND >= 0.02 PR-AUC (0.02 floor added after seeing the Telco result; disclosed)."
+}

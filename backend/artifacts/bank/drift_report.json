@@ -1,0 +1,49 @@
+{
+  "note": "Reference vs comparison are two real halves of the held-out test set (proxy cohorts -- no real timestamps in source data).",
+  "feature_drift": [
+    {
+      "feature": "CreditScore",
+      "psi": 0.0096,
+      "ks_statistic": 0.024,
+      "ks_p_value": 0.9358,
+      "status": "stable",
+      "reference_mean": 651.22,
+      "comparison_mean": 650.348
+    },
+    {
+      "feature": "Age",
+      "psi": 0.0168,
+      "ks_statistic": 0.03,
+      "ks_p_value": 0.7594,
+      "status": "stable",
+      "reference_mean": 38.774,
+      "comparison_mean": 38.702
+    },
+    {
+      "feature": "Balance",
+      "psi": 0.0037,
+      "ks_statistic": 0.029,
+      "ks_p_value": 0.7947,
+      "status": "stable",
+      "reference_mean": 77880.555,
+      "comparison_mean": 75893.711
+    },
+    {
+      "feature": "EstimatedSalary",
+      "psi": 0.0142,
+      "ks_statistic": 0.03,
+      "ks_p_value": 0.7594,
+      "status": "stable",
+      "reference_mean": 102393.073,
+      "comparison_mean": 103409.019
+    }
+  ],
+  "prediction_drift": {
+    "psi": 0.0043,
+    "ks_statistic": 0.026,
+    "ks_p_value": 0.8882,
+    "status": "stable",
+    "reference_mean_score": 0.2015,
+    "comparison_mean_score": 0.1907
+  }
+}

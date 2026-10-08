@@ -1,0 +1,312 @@
+{
+  "population_curve": [
+    {
+      "tenure_months": 0.0,
+      "survival_probability": 1.0
+    },
+    {
+      "tenure_months": 1.0,
+      "survival_probability": 0.946
+    },
+    {
+      "tenure_months": 2.0,
+      "survival_probability": 0.9278
+    },
+    {
+      "tenure_months": 3.0,
+      "survival_probability": 0.9137
+    },
+    {
+      "tenure_months": 4.0,
+      "survival_probability": 0.901
+    },
+    {
+      "tenure_months": 5.0,
+      "survival_probability": 0.8911
+    },
+    {
+      "tenure_months": 6.0,
+      "survival_probability": 0.8848
+    },
+    {
+      "tenure_months": 7.0,
+      "survival_probability": 0.8767
+    },
+    {
+      "tenure_months": 8.0,
+      "survival_probability": 0.8699
+    },
+    {
+      "tenure_months": 9.0,
+      "survival_probability": 0.8624
+    },
+    {
+      "tenure_months": 10.0,
+      "survival_probability": 0.8549
+    },
+    {
+      "tenure_months": 11.0,
+      "survival_probability": 0.8497
+    },
+    {
+      "tenure_months": 12.0,
+      "survival_probability": 0.8432
+    },
+    {
+      "tenure_months": 13.0,
+      "survival_probability": 0.8366
+    },
+    {
+      "tenure_months": 14.0,
+      "survival_probability": 0.8324
+    },
+    {
+      "tenure_months": 15.0,
+      "survival_probability": 0.8258
+    },
+    {
+      "tenure_months": 16.0,
+      "survival_probability": 0.8207
+    },
+    {
+      "tenure_months": 17.0,
+      "survival_probability": 0.816
+    },
+    {
+      "tenure_months": 18.0,
+      "survival_probability": 0.8115
+    },
+    {
+      "tenure_months": 19.0,
+      "survival_probability": 0.808
+    },
+    {
+      "tenure_months": 20.0,
+      "survival_probability": 0.8045
+    },
+    {
+      "tenure_months": 21.0,
+      "survival_probability": 0.8012
+    },
+    {
+      "tenure_months": 22.0,
+      "survival_probability": 0.796
+    },
+    {
+      "tenure_months": 23.0,
+      "survival_probability": 0.7934
+    },
+    {
+      "tenure_months": 24.0,
+      "survival_probability": 0.7887
+    },
+    {
+      "tenure_months": 25.0,
+      "survival_probability": 0.784
+    },
+    {
+      "tenure_months": 26.0,
+      "survival_probability": 0.7809
+    },
+    {
+      "tenure_months": 27.0,
+      "survival_probability": 0.7781
+    },
+    {
+      "tenure_months": 28.0,
+      "survival_probability": 0.7755
+    },
+    {
+      "tenure_months": 29.0,
+      "survival_probability": 0.7722
+    },
+    {
+      "tenure_months": 30.0,
+      "survival_probability": 0.7687
+    },
+    {
+      "tenure_months": 31.0,
+      "survival_probability": 0.7651
+    },
+    {
+      "tenure_months": 32.0,
+      "survival_probability": 0.7607
+    },
+    {
+      "tenure_months": 33.0,
+      "survival_probability": 0.7574
+    },
+    {
+      "tenure_months": 34.0,
+      "survival_probability": 0.7546
+    },
+    {
+      "tenure_months": 35.0,
+      "survival_probability": 0.751
+    },
+    {
+      "tenure_months": 36.0,
+      "survival_probability": 0.7485
+    },
+    {
+      "tenure_months": 37.0,
+      "survival_probability": 0.7448
+    },
+    {
+      "tenure_months": 38.0,
+      "survival_probability": 0.7415
+    },
+    {
+      "tenure_months": 39.0,
+      "survival_probability": 0.7379
+    },
+    {
+      "tenure_months": 40.0,
+      "survival_probability": 0.7345
+    },
+    {
+      "tenure_months": 41.0,
+      "survival_probability": 0.7308
+    },
+    {
+      "tenure_months": 42.0,
+      "survival_probability": 0.727
+    },
+    {
+      "tenure_months": 43.0,
+      "survival_probability": 0.7228
+    },
+    {
+      "tenure_months": 44.0,
+      "survival_probability": 0.7211
+    },
+    {
+      "tenure_months": 45.0,
+      "survival_probability": 0.7194
+    },
+    {
+      "tenure_months": 46.0,
+      "survival_probability": 0.7158
+    },
+    {
+      "tenure_months": 47.0,
+      "survival_probability": 0.7116
+    },
+    {
+      "tenure_months": 48.0,
+      "survival_probability": 0.7088
+    },
+    {
+      "tenure_months": 49.0,
+      "survival_probability": 0.7041
+    },
+    {
+      "tenure_months": 50.0,
+      "survival_probability": 0.7009
+    },
+    {
+      "tenure_months": 51.0,
+      "survival_probability": 0.6982
+    },
+    {
+      "tenure_months": 52.0,
+      "survival_probability": 0.6954
+    },
+    {
+      "tenure_months": 53.0,
+      "survival_probability": 0.6905
+    },
+    {
+      "tenure_months": 54.0,
+      "survival_probability": 0.6857
+    },
+    {
+      "tenure_months": 55.0,
+      "survival_probability": 0.6823
+    },
+    {
+      "tenure_months": 56.0,
+      "survival_probability": 0.6784
+    },
+    {
+      "tenure_months": 57.0,
+      "survival_probability": 0.6752
+    },
+    {
+      "tenure_months": 58.0,
+      "survival_probability": 0.6706
+    },
+    {
+      "tenure_months": 59.0,
+      "survival_probability": 0.6671
+    },
+    {
+      "tenure_months": 60.0,
+      "survival_probability": 0.6644
+    },
+    {
+      "tenure_months": 61.0,
+      "survival_probability": 0.6606
+    },
+    {
+      "tenure_months": 62.0,
+      "survival_probability": 0.6581
+    },
+    {
+      "tenure_months": 63.0,
+      "survival_probability": 0.6561
+    },
+    {
+      "tenure_months": 64.0,
+      "survival_probability": 0.6538
+    },
+    {
+      "tenure_months": 65.0,
+      "survival_probability": 0.6485
+    },
+    {
+      "tenure_months": 66.0,
+      "survival_probability": 0.6404
+    },
+    {
+      "tenure_months": 67.0,
+      "survival_probability": 0.6336
+    },
+    {
+      "tenure_months": 68.0,
+      "survival_probability": 0.6269
+    },
+    {
+      "tenure_months": 69.0,
+      "survival_probability": 0.6201
+    },
+    {
+      "tenure_months": 70.0,
+      "survival_probability": 0.6097
+    },
+    {
+      "tenure_months": 71.0,
+      "survival_probability": 0.6028
+    },
+    {
+      "tenure_months": 72.0,
+      "survival_probability": 0.5928
+    }
+  ],
+  "checkpoint_survival": {
+    "1": 0.946,
+    "3": 0.9137,
+    "6": 0.8848,
+    "12": 0.8432,
+    "24": 0.7887,
+    "36": 0.7485
+  },
+  "c_index_test": 0.8473,
+  "conditional_6m_risk_auc_test": 0.7485,
+  "covariates_excluded": [
+    "tenure",
+    "TotalCharges"
+  ],
+  "caveat": "Single snapshot per customer: covariates are not baseline values. Associations only; not causal hazard ratios.",
+  "method": "Kaplan-Meier (population) + Cox Proportional Hazards (per-customer), fit on real tenure (duration) and churn_flag (event) columns."
+}

@@ -1,0 +1,53 @@
+{
+  "dataset": "telco",
+  "baseline_model": "xgboost",
+  "cv": {
+    "baseline": {
+      "pr_auc_mean": 0.6672,
+      "roc_auc_mean": 0.8438,
+      "brier_mean": 0.136
+    },
+    "stacking_ensemble": {
+      "pr_auc_mean": 0.6735,
+      "roc_auc_mean": 0.8493,
+      "brier_mean": 0.1341,
+      "pr_auc_gain_vs_baseline": 0.0063,
+      "gain_se": 0.0033,
+      "statistically_better": true,
+      "practically_meaningful": false
+    },
+    "soft_voting_ensemble": {
+      "pr_auc_mean": 0.6742,
+      "roc_auc_mean": 0.8488,
+      "brier_mean": 0.1457,
+      "pr_auc_gain_vs_baseline": 0.007,
+      "gain_se": 0.0022,
+      "statistically_better": true,
+      "practically_meaningful": false
+    }
+  },
+  "test": {
+    "baseline": {
+      "roc_auc": 0.8212,
+      "pr_auc": 0.6105,
+      "brier_score": 0.1457
+    },
+    "stacking_ensemble": {
+      "roc_auc": 0.8335,
+      "pr_auc": 0.6272,
+      "brier_score": 0.1411
+    },
+    "soft_voting_ensemble": {
+      "roc_auc": 0.8299,
+      "pr_auc": 0.6269,
+      "brier_score": 0.1548
+    }
+  },
+  "statistically_better": [
+    "stacking_ensemble",
+    "soft_voting_ensemble"
+  ],
+  "promoted": [],
+  "decision": "MARGINAL: stacking_ensemble, soft_voting_ensemble beat the baseline by more than 1 SE but by < 0.02 PR-AUC. Not promoted: the gain is too small to justify losing simple SHAP explanations and adding latency.",
+  "rule": "Paired 5x3 CV on train split. Promote only if gain > 1 SE of paired differences AND >= 0.02 PR-AUC (0.02 floor added after seeing the Telco result; disclosed)."
+}

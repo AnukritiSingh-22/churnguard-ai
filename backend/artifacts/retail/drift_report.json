@@ -1,0 +1,49 @@
+{
+  "note": "Reference vs comparison are two real halves of the held-out test set (proxy cohorts -- no real timestamps in source data).",
+  "feature_drift": [
+    {
+      "feature": "recency_days",
+      "psi": 0.0323,
+      "ks_statistic": 0.0639,
+      "ks_p_value": 0.4691,
+      "status": "stable",
+      "reference_mean": 92.81,
+      "comparison_mean": 91.175
+    },
+    {
+      "feature": "frequency",
+      "psi": 0.0241,
+      "ks_statistic": 0.0552,
+      "ks_p_value": 0.6513,
+      "status": "stable",
+      "reference_mean": 3.372,
+      "comparison_mean": 3.816
+    },
+    {
+      "feature": "monetary",
+      "psi": 0.0526,
+      "ks_statistic": 0.0439,
+      "ks_p_value": 0.8777,
+      "status": "stable",
+      "reference_mean": 1246.145,
+      "comparison_mean": 1332.779
+    },
+    {
+      "feature": "avg_order_value",
+      "psi": 0.0109,
+      "ks_statistic": 0.0464,
+      "ks_p_value": 0.8347,
+      "status": "stable",
+      "reference_mean": 355.402,
+      "comparison_mean": 346.249
+    }
+  ],
+  "prediction_drift": {
+    "psi": 0.0215,
+    "ks_statistic": 0.0351,
+    "ks_p_value": 0.9777,
+    "status": "stable",
+    "reference_mean_score": 0.4339,
+    "comparison_mean_score": 0.4293
+  }
+}

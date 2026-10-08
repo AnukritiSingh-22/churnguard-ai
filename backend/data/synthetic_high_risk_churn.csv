@@ -1,0 +1,1801 @@
+customer_id,tenure_months,monthly_charges,support_calls_last_90d,payment_delay_days,monthly_usage_gb,satisfaction_score,contract_type,payment_method,region,auto_pay,churn
+HIGH-00001,19,100.21,8,20,57.2,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00002,2,98.58,7,7,64.2,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00003,30,81.11,5,7,28.9,5,Two year,Electronic check,South,No,No
+HIGH-00004,6,144.83,8,6,82.3,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00005,7,119.96,7,10,45.8,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00006,21,155.35,6,5,80.2,7,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00007,30,151.91,5,8,41.5,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00008,8,107.17,3,12,48.7,4,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00009,27,154.84,4,5,49.6,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00010,33,168.62,6,11,54.1,6,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00011,20,88.58,9,4,43.5,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00012,12,103.09,2,5,47.4,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-00013,2,154.48,1,10,39.8,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00014,14,101.71,3,8,35.3,2,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00015,22,89.3,6,0,37.6,5,One year,Bank transfer,West,Yes,No
+HIGH-00016,29,104.26,4,9,55.9,5,Two year,Mailed check,Northeast,Yes,No
+HIGH-00017,30,164.46,2,15,35.7,8,One year,Credit card,South,No,No
+HIGH-00018,27,88.06,8,5,52.4,3,One year,Credit card,South,Yes,Yes
+HIGH-00019,20,97.36,4,8,61.7,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00020,30,86.32,6,15,51.8,3,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00021,10,120.58,2,10,61.4,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00022,19,128.24,7,9,23.7,1,Month-to-month,Mailed check,West,No,Yes
+HIGH-00023,30,102.04,5,13,38.7,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00024,2,153.42,4,16,27.8,5,Two year,Bank transfer,South,No,Yes
+HIGH-00025,23,136.12,6,3,15.9,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00026,11,169.25,5,8,53.4,7,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00027,8,88.22,5,14,52.5,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00028,36,177.54,7,20,51.1,2,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00029,25,132.26,5,8,29.8,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00030,28,128.4,4,6,25.6,5,One year,Electronic check,Northeast,No,No
+HIGH-00031,23,154.97,4,2,35.3,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00032,10,94.49,8,11,38.3,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00033,16,124.74,4,5,46.4,7,Month-to-month,Bank transfer,Midwest,No,No
+HIGH-00034,31,114.0,7,8,63.8,8,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00035,36,129.66,2,6,72.1,7,Month-to-month,Bank transfer,West,No,No
+HIGH-00036,34,109.46,3,11,49.3,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00037,5,146.36,8,15,48.6,8,One year,Electronic check,Midwest,No,Yes
+HIGH-00038,4,176.49,1,8,64.9,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00039,32,130.48,7,11,27.6,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00040,27,119.22,1,11,28.2,3,Month-to-month,Credit card,West,No,Yes
+HIGH-00041,19,78.29,7,4,32.0,4,One year,Bank transfer,Midwest,No,No
+HIGH-00042,29,83.84,4,14,41.7,7,Month-to-month,Mailed check,South,Yes,No
+HIGH-00043,20,172.14,9,8,13.6,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00044,14,106.6,8,9,39.4,2,Month-to-month,Electronic check,South,No,Yes
+HIGH-00045,16,75.69,2,5,67.3,5,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00046,24,170.71,5,10,73.7,8,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00047,9,123.58,8,15,43.0,6,One year,Mailed check,South,No,Yes
+HIGH-00048,30,146.59,0,10,79.0,7,Month-to-month,Electronic check,South,No,Yes
+HIGH-00049,11,132.33,5,12,27.7,5,Month-to-month,Credit card,South,No,Yes
+HIGH-00050,11,111.37,6,11,37.7,4,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00051,11,95.25,4,0,62.6,5,One year,Bank transfer,Midwest,No,No
+HIGH-00052,11,172.07,6,2,34.4,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00053,36,124.4,4,17,33.4,6,Two year,Bank transfer,Midwest,No,Yes
+HIGH-00054,27,143.68,5,3,24.1,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00055,17,175.92,4,6,54.3,7,Month-to-month,Credit card,South,No,Yes
+HIGH-00056,35,177.47,2,14,46.1,5,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00057,7,167.76,4,8,43.8,3,One year,Mailed check,South,No,Yes
+HIGH-00058,15,110.24,4,19,46.2,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00059,25,179.32,5,0,56.9,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00060,24,103.09,3,13,66.9,7,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00061,17,86.14,3,18,20.3,3,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00062,14,161.75,5,11,36.5,9,One year,Bank transfer,South,No,No
+HIGH-00063,10,155.13,2,0,35.6,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-00064,25,119.24,4,4,80.5,5,One year,Mailed check,South,No,No
+HIGH-00065,27,97.21,1,13,70.9,7,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00066,31,88.3,4,10,44.4,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00067,32,167.95,5,0,23.7,7,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00068,21,165.09,4,5,14.1,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00069,6,96.49,5,14,68.4,6,One year,Mailed check,West,No,Yes
+HIGH-00070,21,146.31,6,5,49.3,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00071,29,133.95,5,11,49.7,7,Month-to-month,Mailed check,West,No,Yes
+HIGH-00072,33,156.47,3,8,61.9,6,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00073,31,154.99,5,13,61.5,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00074,25,79.33,5,7,44.0,1,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00075,19,164.82,3,9,21.3,10,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00076,2,85.92,0,11,40.1,5,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00077,13,143.33,4,18,48.3,8,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00078,31,116.45,2,9,36.4,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00079,30,160.86,5,8,44.6,1,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00080,4,140.16,4,0,47.4,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00081,24,127.85,10,11,49.6,6,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00082,22,123.13,2,16,33.6,3,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00083,22,167.93,8,9,28.5,3,Month-to-month,Credit card,South,No,Yes
+HIGH-00084,14,145.92,2,5,64.7,3,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00085,20,80.55,7,0,36.1,6,One year,Electronic check,Midwest,No,No
+HIGH-00086,4,129.95,4,11,38.3,7,One year,Credit card,South,Yes,Yes
+HIGH-00087,14,167.23,11,12,59.7,6,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00088,11,179.85,4,12,39.5,5,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00089,5,124.51,3,5,45.8,2,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00090,12,140.54,3,13,52.7,7,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00091,10,167.07,6,12,44.2,9,Month-to-month,Credit card,West,No,Yes
+HIGH-00092,32,179.45,2,12,7.7,9,Month-to-month,Mailed check,South,Yes,No
+HIGH-00093,11,142.76,4,11,63.1,7,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00094,36,133.09,3,8,47.8,5,Month-to-month,Bank transfer,Midwest,Yes,No
+HIGH-00095,11,102.9,4,6,28.0,4,One year,Credit card,West,No,No
+HIGH-00096,20,81.83,7,2,43.5,5,One year,Bank transfer,West,No,Yes
+HIGH-00097,7,134.91,5,4,29.1,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00098,21,110.85,5,12,62.9,4,One year,Credit card,Northeast,No,Yes
+HIGH-00099,28,135.9,0,13,42.5,3,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00100,32,170.08,4,8,33.6,3,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00101,15,76.11,7,11,42.2,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00102,31,82.77,1,8,60.9,5,Month-to-month,Electronic check,West,No,No
+HIGH-00103,15,124.59,8,3,40.8,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00104,12,156.05,6,20,32.1,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-00105,27,90.94,3,0,49.7,4,One year,Electronic check,West,No,No
+HIGH-00106,20,174.56,2,3,40.6,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00107,23,143.69,5,16,52.9,3,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00108,22,165.85,1,6,56.5,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00109,34,115.82,9,5,26.1,6,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-00110,13,165.27,2,3,23.3,6,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00111,33,155.65,9,15,86.8,7,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00112,31,152.56,3,14,32.4,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00113,6,80.06,5,9,36.6,3,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00114,25,160.8,6,4,1,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00115,18,123.65,1,11,83.2,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-00116,30,78.46,3,4,55.5,5,One year,Mailed check,Northeast,No,No
+HIGH-00117,19,171.2,5,18,51.2,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00118,29,162.67,3,6,10.2,3,Month-to-month,Credit card,South,Yes,Yes
+HIGH-00119,9,133.23,7,1,35.1,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00120,6,88.08,3,0,54.3,2,Month-to-month,Electronic check,West,No,No
+HIGH-00121,24,146.95,4,6,48.3,8,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00122,4,141.98,4,7,35.4,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00123,16,105.07,1,12,1,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00124,5,162.22,5,10,55.9,6,One year,Bank transfer,Midwest,Yes,Yes
+HIGH-00125,9,163.41,3,10,60.7,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-00126,9,165.43,6,6,34.1,8,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00127,3,76.16,6,9,58.0,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00128,27,114.99,6,0,36.1,3,Month-to-month,Credit card,South,No,No
+HIGH-00129,3,175.47,8,13,58.5,3,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00130,18,92.7,7,0,56.8,8,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00131,14,106.22,4,8,51.6,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00132,3,122.64,6,7,51.7,4,One year,Electronic check,South,Yes,Yes
+HIGH-00133,5,151.01,7,10,68.1,6,One year,Mailed check,South,Yes,Yes
+HIGH-00134,1,165.74,6,3,37.0,6,Two year,Mailed check,South,No,Yes
+HIGH-00135,5,81.4,4,0,68.1,5,Month-to-month,Credit card,Northeast,No,No
+HIGH-00136,1,177.68,5,8,43.0,7,Month-to-month,Electronic check,West,No,Yes
+HIGH-00137,22,143.19,4,13,45.0,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00138,32,137.37,3,4,50.0,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00139,32,172.52,4,19,39.9,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-00140,22,155.04,6,1,63.2,6,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00141,3,128.1,3,11,37.7,3,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-00142,33,85.0,5,9,47.4,5,Month-to-month,Electronic check,Northeast,Yes,No
+HIGH-00143,7,101.06,8,13,65.0,5,One year,Electronic check,Northeast,No,Yes
+HIGH-00144,25,97.17,4,11,20.0,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00145,30,98.1,0,8,48.5,5,Month-to-month,Credit card,South,No,No
+HIGH-00146,24,168.95,3,6,9.1,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00147,12,112.54,5,9,63.9,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00148,10,88.91,2,3,18.4,3,Two year,Electronic check,West,No,No
+HIGH-00149,8,173.58,3,4,37.3,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-00150,13,79.51,5,5,60.3,1,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00151,23,89.9,4,20,32.6,7,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00152,16,172.16,3,7,57.7,8,One year,Electronic check,Northeast,No,No
+HIGH-00153,19,106.78,7,4,54.6,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00154,13,161.57,4,1,5.5,6,One year,Electronic check,West,No,No
+HIGH-00155,20,164.71,9,7,38.2,2,Month-to-month,Electronic check,South,No,Yes
+HIGH-00156,10,76.9,0,12,46.2,4,One year,Bank transfer,Midwest,No,No
+HIGH-00157,4,149.23,5,6,47.8,6,One year,Bank transfer,South,Yes,No
+HIGH-00158,36,151.45,7,2,52.1,3,Two year,Bank transfer,Midwest,Yes,Yes
+HIGH-00159,9,124.02,6,8,63.7,4,One year,Electronic check,Midwest,No,Yes
+HIGH-00160,1,178.65,0,11,29.4,5,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00161,34,176.41,4,7,18.6,5,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00162,27,100.86,6,5,40.6,3,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00163,11,101.94,6,5,68.4,9,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00164,6,156.2,5,1,49.1,6,One year,Electronic check,Northeast,No,Yes
+HIGH-00165,29,147.21,4,9,53.3,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00166,9,155.69,3,15,37.7,7,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00167,27,153.73,4,3,54.2,6,Month-to-month,Credit card,South,Yes,Yes
+HIGH-00168,29,81.61,5,4,33.5,7,Month-to-month,Electronic check,West,No,No
+HIGH-00169,17,114.16,1,14,30.7,3,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00170,16,129.23,6,7,43.9,6,One year,Bank transfer,South,No,No
+HIGH-00171,4,87.87,4,13,74.3,8,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00172,3,151.22,9,9,49.7,7,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00173,6,116.89,7,12,71.8,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-00174,20,144.21,7,13,41.0,7,One year,Electronic check,Northeast,No,Yes
+HIGH-00175,3,128.21,3,9,27.2,3,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00176,26,153.09,3,8,57.4,6,One year,Electronic check,South,No,No
+HIGH-00177,25,164.22,5,4,59.4,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00178,23,82.93,8,13,50.7,8,One year,Credit card,Northeast,No,No
+HIGH-00179,1,152.75,3,15,51.1,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00180,29,107.12,5,14,59.4,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00181,31,99.48,6,14,33.0,7,Month-to-month,Electronic check,South,No,Yes
+HIGH-00182,19,110.71,5,10,31.8,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00183,25,161.34,0,6,33.6,5,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00184,17,178.5,7,9,88.3,4,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00185,9,82.93,6,7,30.1,7,Two year,Mailed check,South,No,No
+HIGH-00186,6,174.72,8,0,47.4,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00187,27,95.81,3,1,91.8,6,Month-to-month,Bank transfer,West,No,No
+HIGH-00188,36,140.08,8,0,35.3,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00189,21,147.24,6,4,45.8,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-00190,26,155.22,2,6,60.8,5,One year,Bank transfer,West,No,No
+HIGH-00191,7,104.26,7,4,52.4,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00192,34,174.48,4,5,29.3,5,Two year,Mailed check,South,Yes,No
+HIGH-00193,23,167.76,3,4,43.5,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00194,7,103.42,6,5,46.2,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00195,8,171.64,3,20,36.7,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00196,5,175.09,5,9,54.4,5,One year,Mailed check,Midwest,No,Yes
+HIGH-00197,6,78.16,6,15,24.7,8,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00198,36,157.55,8,8,51.4,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00199,34,161.77,7,5,68.1,7,Month-to-month,Electronic check,West,No,Yes
+HIGH-00200,12,171.12,2,5,67.7,8,Month-to-month,Credit card,South,Yes,Yes
+HIGH-00201,17,79.82,2,19,55.4,6,Two year,Electronic check,West,No,No
+HIGH-00202,19,173.9,2,13,27.6,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00203,2,133.33,2,9,1,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00204,4,125.85,6,8,41.4,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00205,23,94.19,9,13,14.3,2,Month-to-month,Electronic check,South,No,Yes
+HIGH-00206,33,139.99,5,11,71.6,3,Month-to-month,Credit card,South,No,Yes
+HIGH-00207,4,123.7,7,12,52.7,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00208,26,86.31,4,18,41.1,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00209,21,118.1,5,5,53.8,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00210,19,115.3,7,13,61.0,3,Month-to-month,Electronic check,West,No,Yes
+HIGH-00211,18,175.28,5,12,62.7,3,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00212,9,113.85,4,1,12.6,4,Month-to-month,Credit card,South,Yes,No
+HIGH-00213,33,103.99,7,6,37.4,6,Month-to-month,Mailed check,Midwest,Yes,No
+HIGH-00214,22,117.75,9,9,34.9,2,Month-to-month,Electronic check,West,No,Yes
+HIGH-00215,2,166.74,6,6,25.7,7,One year,Electronic check,Northeast,No,Yes
+HIGH-00216,24,83.19,5,10,76.6,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00217,35,179.84,3,7,1,4,One year,Bank transfer,South,No,Yes
+HIGH-00218,19,111.53,7,5,19.7,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00219,13,149.63,5,4,39.5,3,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00220,24,80.92,6,14,42.6,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00221,35,125.88,8,13,36.3,5,Two year,Bank transfer,South,No,No
+HIGH-00222,22,88.32,4,3,51.9,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-00223,20,85.03,3,5,2.7,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00224,1,84.97,1,12,41.6,5,One year,Credit card,Midwest,Yes,Yes
+HIGH-00225,26,86.86,4,0,26.7,4,One year,Credit card,West,No,No
+HIGH-00226,19,127.71,7,11,12.5,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-00227,14,103.48,4,11,64.7,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-00228,10,140.68,5,1,60.1,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00229,15,92.79,7,7,61.5,3,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00230,33,147.77,2,5,76.9,6,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00231,33,164.06,4,6,45.6,6,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00232,1,121.97,3,5,25.1,4,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00233,26,98.52,0,12,66.0,2,One year,Credit card,Northeast,No,Yes
+HIGH-00234,9,123.48,7,12,61.5,5,Two year,Mailed check,West,Yes,No
+HIGH-00235,34,75.68,5,6,50.0,6,One year,Electronic check,West,No,No
+HIGH-00236,28,86.55,5,6,9.2,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-00237,21,112.58,4,14,29.3,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00238,35,96.5,5,14,54.2,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00239,35,146.14,5,14,50.8,4,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00240,29,89.38,7,8,10.0,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-00241,8,136.55,4,18,17.9,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00242,15,169.27,0,9,40.7,5,Two year,Mailed check,South,No,Yes
+HIGH-00243,28,159.21,4,8,47.9,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00244,13,95.39,6,4,37.1,3,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00245,3,136.59,8,4,18.6,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-00246,33,85.63,3,0,41.8,3,Month-to-month,Bank transfer,Northeast,No,No
+HIGH-00247,13,123.62,1,7,62.2,3,Two year,Mailed check,Northeast,No,No
+HIGH-00248,18,131.55,6,0,52.9,9,Month-to-month,Bank transfer,West,Yes,No
+HIGH-00249,8,174.56,4,5,48.6,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00250,17,151.99,6,11,12.5,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00251,23,122.74,0,12,19.0,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-00252,5,102.44,8,3,17.7,5,Month-to-month,Bank transfer,South,Yes,No
+HIGH-00253,30,125.15,6,8,53.7,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00254,34,131.11,1,3,62.0,5,One year,Credit card,West,No,No
+HIGH-00255,3,138.46,2,11,56.2,9,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00256,4,141.49,3,6,52.4,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00257,4,174.48,6,8,23.1,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00258,1,82.02,5,4,54.0,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00259,3,88.94,4,4,62.8,5,One year,Mailed check,South,No,No
+HIGH-00260,11,126.05,1,12,33.3,7,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00261,1,164.15,4,12,24.2,3,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00262,7,145.24,6,1,63.2,1,Two year,Mailed check,South,Yes,Yes
+HIGH-00263,5,137.29,4,4,53.5,6,One year,Electronic check,Northeast,No,No
+HIGH-00264,25,136.54,3,17,66.2,6,One year,Mailed check,South,No,Yes
+HIGH-00265,30,109.7,7,11,57.8,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00266,16,98.39,5,0,73.8,5,Month-to-month,Credit card,South,Yes,No
+HIGH-00267,2,167.77,5,6,48.8,7,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00268,34,91.78,4,14,47.5,5,Month-to-month,Bank transfer,Midwest,No,No
+HIGH-00269,25,107.36,5,12,46.1,5,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00270,14,128.48,5,14,66.8,6,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00271,16,175.74,8,2,40.6,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-00272,30,77.16,0,4,37.1,6,Month-to-month,Mailed check,South,Yes,No
+HIGH-00273,11,178.11,8,10,36.0,3,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00274,34,111.44,1,5,57.0,6,One year,Bank transfer,Midwest,Yes,No
+HIGH-00275,6,98.31,7,5,40.6,6,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00276,33,157.51,4,9,75.4,5,One year,Mailed check,West,No,Yes
+HIGH-00277,17,141.48,8,16,30.7,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00278,28,134.96,3,8,61.2,8,Month-to-month,Credit card,West,Yes,No
+HIGH-00279,30,175.01,9,9,36.3,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00280,36,91.83,6,3,44.0,4,Month-to-month,Bank transfer,West,No,No
+HIGH-00281,4,143.13,6,0,60.6,4,Two year,Bank transfer,Northeast,No,No
+HIGH-00282,23,99.43,4,6,39.4,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00283,1,97.57,2,4,49.9,6,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00284,35,128.16,4,13,4.5,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00285,23,173.42,0,4,31.5,5,One year,Credit card,Northeast,Yes,No
+HIGH-00286,26,171.53,7,3,52.5,7,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00287,33,167.27,2,8,65.6,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00288,32,99.92,8,7,46.4,3,One year,Mailed check,South,No,Yes
+HIGH-00289,20,148.05,5,15,48.7,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00290,3,145.87,8,5,55.2,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00291,16,119.83,5,11,44.5,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00292,16,89.07,8,6,26.7,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00293,23,99.26,3,7,72.9,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00294,16,101.63,6,13,65.0,2,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00295,2,161.03,2,8,56.0,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00296,7,115.42,0,8,47.1,5,One year,Credit card,South,No,No
+HIGH-00297,36,96.91,0,10,28.9,2,Month-to-month,Mailed check,Northeast,Yes,No
+HIGH-00298,27,84.11,2,15,56.9,2,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00299,14,129.51,4,11,24.3,5,One year,Credit card,West,No,Yes
+HIGH-00300,4,100.7,5,10,44.0,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00301,32,143.56,6,9,34.9,4,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00302,3,95.43,11,9,43.2,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00303,14,139.81,1,16,14.5,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00304,1,178.54,8,6,31.1,8,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00305,4,170.57,5,8,62.9,3,Month-to-month,Credit card,South,No,Yes
+HIGH-00306,15,130.89,6,15,50.0,3,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00307,4,107.08,2,12,69.7,2,One year,Bank transfer,Midwest,Yes,Yes
+HIGH-00308,1,114.99,5,3,18.5,5,One year,Bank transfer,West,No,Yes
+HIGH-00309,17,146.8,3,14,39.3,7,Two year,Electronic check,South,No,Yes
+HIGH-00310,35,160.38,6,5,24.1,1,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00311,15,156.63,5,4,40.7,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00312,19,152.6,8,3,24.5,2,Month-to-month,Credit card,South,No,Yes
+HIGH-00313,34,149.69,6,5,22.1,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-00314,34,122.54,5,6,63.6,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00315,3,167.07,2,9,38.3,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00316,23,78.44,12,10,27.8,3,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00317,33,128.1,3,3,7.4,7,Month-to-month,Electronic check,South,No,No
+HIGH-00318,4,77.31,7,6,24.1,5,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00319,8,175.47,5,13,6.7,5,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00320,18,82.47,4,10,34.8,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00321,7,155.44,6,13,53.5,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00322,12,90.26,4,10,42.3,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00323,10,90.35,5,5,23.8,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00324,23,94.93,4,19,13.2,2,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00325,28,160.5,3,5,38.1,7,Two year,Electronic check,Midwest,Yes,No
+HIGH-00326,7,144.39,5,12,37.9,2,Month-to-month,Electronic check,South,No,Yes
+HIGH-00327,7,136.34,5,15,50.2,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00328,34,151.24,6,8,67.2,5,One year,Electronic check,West,No,Yes
+HIGH-00329,1,102.7,3,5,60.6,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00330,19,135.56,4,18,24.5,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-00331,5,121.85,7,5,42.5,4,One year,Bank transfer,Midwest,No,Yes
+HIGH-00332,21,131.65,5,9,32.0,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00333,34,117.38,2,7,11.4,6,Month-to-month,Credit card,West,Yes,No
+HIGH-00334,5,141.4,3,16,48.0,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00335,18,158.04,1,12,41.6,4,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00336,26,168.27,0,11,24.9,7,Month-to-month,Electronic check,West,No,Yes
+HIGH-00337,34,153.63,4,3,44.2,5,Two year,Credit card,Northeast,No,No
+HIGH-00338,14,103.62,1,7,57.0,6,Two year,Credit card,West,No,No
+HIGH-00339,27,93.78,7,8,47.2,3,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00340,33,102.58,5,5,49.2,3,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00341,6,80.93,2,11,51.4,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00342,8,103.64,2,22,30.6,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00343,32,116.6,9,13,51.9,2,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00344,12,127.39,4,3,48.6,2,One year,Mailed check,West,No,Yes
+HIGH-00345,21,140.3,3,2,64.3,8,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00346,13,101.19,3,9,25.6,4,One year,Electronic check,Northeast,Yes,No
+HIGH-00347,15,95.42,0,9,28.8,4,Two year,Bank transfer,South,No,No
+HIGH-00348,20,155.01,3,5,38.9,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00349,7,112.14,5,14,23.8,3,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00350,30,103.62,7,9,20.3,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00351,18,124.46,0,13,40.9,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00352,20,146.41,5,11,59.5,7,One year,Mailed check,West,No,No
+HIGH-00353,5,143.13,5,9,27.3,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00354,34,165.4,8,14,64.9,8,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00355,1,82.06,1,2,39.7,5,Month-to-month,Credit card,Midwest,Yes,No
+HIGH-00356,15,134.97,0,5,36.6,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-00357,32,154.35,4,14,42.2,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00358,29,174.6,3,8,48.6,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00359,17,115.05,4,4,56.0,9,Month-to-month,Bank transfer,Midwest,Yes,No
+HIGH-00360,26,108.1,8,5,41.8,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00361,12,77.0,9,11,23.2,2,Two year,Electronic check,Northeast,No,Yes
+HIGH-00362,35,97.42,3,12,73.6,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00363,18,98.14,8,9,66.3,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00364,16,158.9,7,7,58.1,3,One year,Credit card,South,Yes,Yes
+HIGH-00365,28,145.68,5,17,45.5,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00366,33,99.92,0,12,46.5,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00367,24,102.11,9,0,65.7,6,Two year,Mailed check,South,No,No
+HIGH-00368,7,158.95,0,15,47.0,5,Two year,Electronic check,West,No,No
+HIGH-00369,14,106.03,5,14,61.5,8,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00370,32,110.41,8,4,44.3,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00371,9,105.58,6,9,62.4,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00372,16,114.82,4,12,68.6,7,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00373,17,158.72,4,13,40.1,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00374,26,136.9,5,15,39.8,2,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00375,8,136.88,8,8,31.8,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00376,10,88.57,3,3,39.1,5,Month-to-month,Mailed check,Northeast,Yes,No
+HIGH-00377,21,125.44,3,11,58.3,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00378,35,122.28,5,5,58.8,3,Month-to-month,Credit card,South,No,Yes
+HIGH-00379,19,166.08,1,9,9.8,6,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00380,1,101.68,3,9,92.8,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00381,34,114.22,0,20,30.6,5,Two year,Credit card,Midwest,No,No
+HIGH-00382,30,154.58,0,17,86.4,2,One year,Bank transfer,Northeast,No,Yes
+HIGH-00383,15,152.45,3,2,51.0,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00384,12,173.48,4,12,27.6,1,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00385,19,149.5,3,10,86.1,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00386,10,135.91,0,4,18.1,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00387,29,145.19,5,13,47.5,6,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00388,7,130.74,4,12,48.8,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00389,33,89.96,7,11,38.3,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00390,10,106.63,3,17,48.3,5,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00391,34,125.66,0,11,41.9,9,Month-to-month,Electronic check,Northeast,No,No
+HIGH-00392,6,167.37,1,16,50.9,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00393,17,127.95,7,13,43.2,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00394,4,169.59,3,13,22.2,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00395,3,88.94,5,11,63.3,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00396,34,133.65,12,9,44.2,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00397,31,80.32,9,10,36.7,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00398,10,79.32,3,5,77.9,6,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00399,35,117.37,7,4,31.2,2,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00400,30,138.98,10,16,11.5,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-00401,25,125.07,5,5,48.6,1,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00402,14,167.25,3,16,33.7,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00403,2,169.92,3,12,59.3,6,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00404,30,84.43,4,10,71.3,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00405,21,115.8,7,7,70.3,7,One year,Bank transfer,Midwest,Yes,No
+HIGH-00406,27,88.84,4,4,46.0,3,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00407,36,172.47,7,16,64.4,5,Two year,Mailed check,South,No,Yes
+HIGH-00408,27,131.6,2,11,54.6,4,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00409,32,129.56,4,9,2.7,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00410,2,166.56,3,17,4.7,3,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00411,3,172.06,3,17,75.4,5,One year,Bank transfer,South,No,Yes
+HIGH-00412,16,149.75,6,12,63.1,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00413,36,167.96,6,7,45.2,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00414,12,130.36,3,11,37.5,6,Two year,Bank transfer,South,No,No
+HIGH-00415,8,138.59,4,14,47.8,7,Month-to-month,Electronic check,West,No,Yes
+HIGH-00416,1,104.24,3,6,12.9,9,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00417,7,151.91,6,3,52.0,7,Month-to-month,Credit card,West,No,Yes
+HIGH-00418,10,98.72,3,9,54.7,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00419,26,170.82,7,10,60.5,3,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00420,10,117.48,2,0,47.1,2,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00421,31,137.42,5,0,58.5,4,One year,Electronic check,Northeast,No,No
+HIGH-00422,14,116.02,2,0,29.2,3,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00423,6,179.04,5,5,24.0,6,One year,Credit card,Northeast,No,Yes
+HIGH-00424,28,146.26,0,4,55.8,5,Month-to-month,Credit card,Northeast,No,No
+HIGH-00425,33,99.61,5,8,62.2,4,One year,Electronic check,Midwest,Yes,No
+HIGH-00426,20,107.86,1,11,58.3,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00427,27,147.87,5,12,26.9,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00428,16,148.41,7,5,79.0,4,One year,Bank transfer,Midwest,No,Yes
+HIGH-00429,24,179.93,4,13,42.1,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00430,27,147.5,3,18,33.7,7,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00431,6,130.63,1,4,62.0,7,One year,Electronic check,Midwest,Yes,No
+HIGH-00432,26,164.74,8,6,35.6,8,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00433,10,167.18,5,7,53.0,1,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00434,24,101.38,4,9,50.8,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00435,27,103.37,5,11,25.4,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00436,34,111.88,5,6,62.6,5,Month-to-month,Credit card,Northeast,No,No
+HIGH-00437,17,179.29,7,9,21.9,6,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00438,34,161.71,2,12,48.7,3,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00439,22,164.33,10,4,53.4,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00440,12,129.96,3,2,50.7,5,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00441,33,132.69,2,6,53.9,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00442,24,79.55,5,4,1.4,6,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00443,25,167.79,8,11,31.4,4,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00444,4,153.81,5,14,28.2,4,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-00445,5,131.29,7,13,34.1,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00446,6,147.0,3,1,30.7,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00447,33,162.36,2,15,51.5,7,One year,Credit card,Northeast,No,Yes
+HIGH-00448,11,116.34,5,10,43.3,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-00449,36,140.77,3,9,25.8,4,Two year,Mailed check,South,No,No
+HIGH-00450,8,179.34,8,12,22.6,8,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00451,22,176.68,4,11,57.0,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00452,6,95.11,4,6,53.3,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00453,5,126.25,6,8,23.6,7,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00454,2,157.49,2,10,46.3,3,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00455,34,87.12,6,5,53.9,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00456,8,173.16,0,10,51.6,1,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00457,20,124.62,3,6,61.3,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00458,7,79.73,4,9,34.5,5,One year,Electronic check,West,No,Yes
+HIGH-00459,13,141.24,0,9,9.3,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00460,25,121.99,8,3,62.0,8,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00461,29,116.96,5,8,26.7,8,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00462,19,81.74,1,5,42.1,5,One year,Mailed check,Northeast,No,No
+HIGH-00463,22,153.81,7,3,54.9,3,Month-to-month,Electronic check,West,No,Yes
+HIGH-00464,11,149.7,4,0,58.5,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00465,22,91.32,5,2,15.6,10,Month-to-month,Bank transfer,Midwest,No,No
+HIGH-00466,30,125.84,0,7,37.1,7,Month-to-month,Electronic check,South,No,Yes
+HIGH-00467,27,157.64,2,6,22.2,4,Two year,Electronic check,Midwest,No,No
+HIGH-00468,23,130.45,5,16,1,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00469,27,145.85,4,19,3.2,5,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00470,18,160.25,5,8,68.4,4,Month-to-month,Credit card,South,Yes,Yes
+HIGH-00471,32,125.05,6,5,31.3,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00472,11,169.74,1,2,85.2,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00473,23,145.33,5,12,80.9,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00474,35,84.17,9,8,24.6,2,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00475,10,142.0,9,12,43.4,7,Two year,Bank transfer,South,No,Yes
+HIGH-00476,3,96.16,1,3,54.2,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00477,11,130.81,9,16,43.6,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00478,7,136.81,4,13,19.6,5,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00479,3,108.12,3,7,32.7,4,One year,Bank transfer,Northeast,Yes,Yes
+HIGH-00480,31,109.83,2,7,50.0,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00481,3,157.06,6,11,48.0,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00482,31,163.19,1,2,40.3,2,Two year,Electronic check,West,No,No
+HIGH-00483,9,141.02,6,14,53.1,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00484,23,138.83,7,18,17.7,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00485,6,115.07,6,0,49.1,5,One year,Electronic check,South,No,Yes
+HIGH-00486,30,122.38,5,15,36.7,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00487,23,123.54,8,11,38.9,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00488,32,162.06,6,12,39.5,8,Month-to-month,Electronic check,South,No,Yes
+HIGH-00489,10,81.47,6,12,59.1,7,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00490,1,150.69,7,3,21.2,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00491,31,95.12,12,10,55.1,5,One year,Mailed check,Northeast,No,Yes
+HIGH-00492,22,150.91,4,21,75.2,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00493,12,154.07,7,8,50.9,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00494,24,145.75,10,5,48.5,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00495,34,128.68,4,10,57.7,6,One year,Electronic check,Midwest,Yes,No
+HIGH-00496,8,121.19,1,9,66.4,5,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00497,1,92.34,5,9,45.6,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00498,26,133.05,6,4,29.4,3,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00499,32,104.23,5,5,18.8,7,Month-to-month,Electronic check,West,No,No
+HIGH-00500,7,136.64,3,4,39.8,5,One year,Electronic check,West,No,Yes
+HIGH-00501,17,173.76,5,0,79.5,5,Month-to-month,Credit card,South,No,Yes
+HIGH-00502,1,153.4,7,13,36.5,6,One year,Electronic check,West,No,Yes
+HIGH-00503,15,172.66,0,10,24.3,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00504,29,141.13,0,6,33.8,5,One year,Credit card,West,No,Yes
+HIGH-00505,27,97.82,7,14,16.4,8,One year,Bank transfer,Midwest,Yes,No
+HIGH-00506,22,83.43,8,10,47.2,1,Month-to-month,Credit card,West,No,Yes
+HIGH-00507,22,162.48,4,4,57.2,1,Month-to-month,Credit card,West,No,Yes
+HIGH-00508,12,114.93,2,7,42.8,7,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00509,3,136.48,10,0,49.9,9,One year,Electronic check,Midwest,Yes,No
+HIGH-00510,9,159.51,0,4,28.6,3,One year,Mailed check,West,No,Yes
+HIGH-00511,29,129.48,1,0,27.9,5,One year,Bank transfer,South,No,No
+HIGH-00512,23,178.61,4,5,50.7,2,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00513,24,160.44,5,18,51.9,7,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00514,10,164.62,3,12,27.0,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00515,28,133.03,8,9,23.3,3,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00516,32,110.38,5,7,74.1,5,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00517,34,94.85,3,11,92.5,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00518,2,170.57,5,3,63.5,4,One year,Credit card,Midwest,No,Yes
+HIGH-00519,6,170.56,3,13,9.7,4,One year,Bank transfer,Northeast,No,Yes
+HIGH-00520,3,95.43,4,7,64.1,6,One year,Electronic check,West,No,Yes
+HIGH-00521,3,106.09,6,5,56.9,6,One year,Electronic check,Northeast,No,Yes
+HIGH-00522,35,174.7,0,13,39.1,6,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00523,35,153.91,3,5,57.8,5,Two year,Credit card,Northeast,Yes,No
+HIGH-00524,2,135.47,4,11,45.1,3,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00525,28,168.95,5,6,51.8,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00526,9,153.82,5,8,44.6,6,One year,Bank transfer,Northeast,No,Yes
+HIGH-00527,10,153.25,1,11,44.2,5,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00528,16,166.37,2,7,33.7,5,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00529,14,179.2,4,4,51.1,5,Month-to-month,Credit card,South,Yes,Yes
+HIGH-00530,26,152.0,7,9,35.5,4,One year,Credit card,Northeast,No,Yes
+HIGH-00531,8,134.24,5,20,41.5,8,Month-to-month,Electronic check,West,No,Yes
+HIGH-00532,5,134.09,1,14,43.1,2,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00533,21,79.01,6,4,61.7,6,Two year,Credit card,South,No,No
+HIGH-00534,28,168.83,10,12,17.6,9,Month-to-month,Credit card,South,Yes,Yes
+HIGH-00535,7,83.84,10,9,39.6,7,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00536,18,152.11,3,13,55.2,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00537,3,165.42,0,19,19.4,4,Two year,Credit card,South,No,Yes
+HIGH-00538,6,174.88,7,4,33.1,9,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00539,28,106.69,7,9,62.8,3,Two year,Bank transfer,West,No,No
+HIGH-00540,15,168.93,8,12,9.8,7,Two year,Bank transfer,West,No,Yes
+HIGH-00541,28,96.47,8,4,36.7,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-00542,7,87.7,5,7,54.0,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00543,11,78.26,3,9,52.1,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-00544,7,162.23,2,5,69.9,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00545,7,137.38,3,6,60.6,2,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00546,20,170.55,5,11,66.7,8,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00547,11,98.95,3,4,53.8,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00548,25,101.97,8,9,68.6,7,Month-to-month,Mailed check,South,No,Yes
+HIGH-00549,31,109.95,2,21,41.5,3,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00550,12,101.58,8,9,33.5,6,One year,Bank transfer,South,No,Yes
+HIGH-00551,21,164.87,2,6,63.4,7,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00552,4,129.53,6,4,50.7,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00553,19,103.44,3,7,47.8,5,Month-to-month,Bank transfer,South,Yes,No
+HIGH-00554,10,106.27,9,2,41.8,2,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00555,7,146.72,6,8,21.8,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00556,28,119.95,2,0,66.9,9,Month-to-month,Bank transfer,Northeast,Yes,No
+HIGH-00557,12,146.47,4,16,26.7,3,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00558,6,162.03,7,16,51.8,3,Month-to-month,Credit card,South,No,Yes
+HIGH-00559,4,120.61,4,10,36.9,4,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00560,33,86.78,7,5,78.7,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00561,25,104.39,4,6,23.6,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00562,24,123.03,3,7,39.3,7,Month-to-month,Bank transfer,West,No,No
+HIGH-00563,22,119.04,7,11,55.7,7,Two year,Bank transfer,Northeast,No,No
+HIGH-00564,31,133.22,5,2,41.5,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-00565,5,139.44,7,0,89.1,3,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00566,3,169.69,8,8,76.9,4,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00567,9,103.67,2,1,46.4,6,Month-to-month,Bank transfer,Midwest,No,No
+HIGH-00568,36,113.1,9,0,52.1,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00569,16,139.9,5,5,97.3,7,One year,Mailed check,Midwest,No,Yes
+HIGH-00570,32,121.9,5,6,40.9,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00571,32,93.39,2,4,29.1,3,One year,Mailed check,Northeast,Yes,No
+HIGH-00572,31,134.95,6,18,23.8,4,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00573,30,163.71,5,2,37.3,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00574,8,179.26,8,12,50.6,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00575,30,161.47,6,6,35.0,8,One year,Mailed check,Northeast,Yes,No
+HIGH-00576,11,90.0,2,8,73.4,5,Month-to-month,Credit card,Midwest,Yes,No
+HIGH-00577,19,114.34,7,5,25.3,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00578,21,172.95,6,9,61.0,4,One year,Mailed check,Midwest,No,Yes
+HIGH-00579,31,92.06,9,11,25.7,8,Month-to-month,Electronic check,West,No,Yes
+HIGH-00580,18,81.85,7,5,49.9,7,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00581,21,121.82,6,2,34.6,7,Month-to-month,Credit card,South,Yes,No
+HIGH-00582,19,163.46,5,4,53.4,2,Month-to-month,Electronic check,South,No,Yes
+HIGH-00583,6,88.58,10,5,67.4,7,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00584,26,76.38,6,11,40.6,5,One year,Bank transfer,South,No,Yes
+HIGH-00585,36,173.66,6,5,59.4,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00586,9,145.72,6,0,43.0,8,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00587,36,149.54,3,2,32.6,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00588,34,161.13,5,11,25.0,1,Month-to-month,Credit card,South,No,Yes
+HIGH-00589,22,178.29,4,10,44.7,5,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00590,25,92.9,1,11,62.9,7,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00591,16,95.71,7,11,47.9,8,One year,Mailed check,Midwest,Yes,No
+HIGH-00592,34,88.87,2,11,35.2,3,Month-to-month,Electronic check,West,No,Yes
+HIGH-00593,9,115.86,1,12,69.8,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00594,6,123.77,6,10,3.0,3,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00595,3,90.83,2,13,45.1,6,One year,Mailed check,Midwest,No,No
+HIGH-00596,5,99.5,7,4,30.8,4,One year,Bank transfer,Northeast,No,No
+HIGH-00597,1,106.57,5,7,41.9,6,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00598,32,164.66,2,0,58.5,6,Month-to-month,Bank transfer,West,No,No
+HIGH-00599,22,143.03,6,12,57.7,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00600,28,119.19,3,0,65.3,2,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00601,15,167.15,1,6,70.0,7,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00602,10,125.55,1,15,34.3,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00603,26,122.54,8,11,61.3,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00604,20,89.27,0,9,44.3,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00605,3,173.46,3,16,68.2,7,Month-to-month,Credit card,South,Yes,Yes
+HIGH-00606,12,101.12,7,1,53.8,2,One year,Bank transfer,West,No,Yes
+HIGH-00607,14,150.88,3,0,60.9,5,Two year,Electronic check,Midwest,No,No
+HIGH-00608,19,160.19,8,13,34.4,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00609,3,151.95,0,5,63.4,5,One year,Mailed check,West,Yes,No
+HIGH-00610,36,169.21,5,13,27.3,2,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00611,29,98.68,1,7,95.5,6,One year,Mailed check,Midwest,Yes,No
+HIGH-00612,24,88.65,4,6,66.7,5,One year,Electronic check,Northeast,No,No
+HIGH-00613,10,177.25,2,13,53.9,4,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00614,23,99.79,2,8,63.8,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00615,13,144.92,5,4,35.6,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00616,24,80.36,6,5,39.7,5,Month-to-month,Bank transfer,South,Yes,No
+HIGH-00617,2,146.39,6,10,54.7,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00618,23,171.31,2,3,47.3,5,Month-to-month,Mailed check,Midwest,No,No
+HIGH-00619,5,123.82,2,8,26.0,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00620,34,147.66,4,4,46.0,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00621,33,80.94,3,11,43.0,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-00622,15,107.34,6,7,48.1,5,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00623,22,174.38,7,15,70.9,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-00624,29,161.47,6,0,1,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-00625,29,156.91,6,6,48.0,1,Two year,Bank transfer,Northeast,No,Yes
+HIGH-00626,1,115.78,5,8,49.3,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00627,21,128.8,0,11,39.6,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00628,33,161.36,7,5,61.5,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00629,8,167.56,5,14,22.1,5,Two year,Mailed check,South,No,Yes
+HIGH-00630,26,97.38,5,11,34.1,7,Two year,Credit card,Midwest,No,No
+HIGH-00631,34,152.71,8,8,53.2,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00632,18,175.68,4,8,61.0,6,Month-to-month,Credit card,West,No,Yes
+HIGH-00633,32,93.07,6,17,43.0,7,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00634,19,163.21,8,5,26.2,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00635,35,102.72,5,9,46.4,3,Month-to-month,Electronic check,West,No,Yes
+HIGH-00636,10,103.52,5,12,35.1,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00637,36,88.0,2,11,74.5,5,One year,Mailed check,Midwest,No,No
+HIGH-00638,25,101.96,4,8,55.2,8,One year,Bank transfer,Northeast,No,No
+HIGH-00639,2,96.71,5,7,45.1,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00640,12,78.55,7,6,51.0,7,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00641,16,76.67,2,8,28.6,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-00642,12,134.0,11,7,71.7,7,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00643,5,156.71,5,10,45.1,7,Two year,Bank transfer,Midwest,No,Yes
+HIGH-00644,18,171.79,7,12,88.0,3,One year,Credit card,West,No,Yes
+HIGH-00645,1,85.17,1,12,50.0,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00646,17,83.8,6,14,77.4,8,Month-to-month,Electronic check,West,No,Yes
+HIGH-00647,19,163.44,8,14,36.6,7,Month-to-month,Mailed check,West,No,Yes
+HIGH-00648,7,174.47,10,12,41.1,3,Two year,Electronic check,West,Yes,Yes
+HIGH-00649,11,77.11,5,10,36.8,5,Two year,Mailed check,West,No,No
+HIGH-00650,28,77.15,4,7,53.7,7,Month-to-month,Electronic check,Midwest,No,No
+HIGH-00651,11,96.43,7,9,37.2,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00652,23,174.75,7,1,45.7,7,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00653,9,151.31,4,15,41.7,5,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-00654,4,103.27,0,14,24.2,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00655,29,103.88,6,5,19.9,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00656,26,113.86,0,10,68.8,1,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00657,10,143.26,11,6,40.5,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00658,6,109.03,2,7,3.0,1,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00659,14,96.39,4,15,21.8,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-00660,2,159.06,5,8,34.2,5,One year,Bank transfer,Northeast,No,Yes
+HIGH-00661,24,99.89,3,14,45.5,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00662,33,174.77,4,4,14.8,6,One year,Mailed check,Midwest,Yes,Yes
+HIGH-00663,23,107.24,1,6,51.4,4,Month-to-month,Electronic check,West,No,Yes
+HIGH-00664,12,146.64,2,13,58.2,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00665,34,101.53,3,2,10.3,3,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00666,11,158.43,8,7,55.7,6,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00667,26,159.19,3,8,30.0,3,One year,Mailed check,West,No,Yes
+HIGH-00668,17,78.95,3,6,22.8,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00669,6,123.52,5,8,31.3,4,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00670,25,136.71,4,4,27.6,6,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00671,11,120.57,2,0,43.5,5,Month-to-month,Bank transfer,Northeast,No,No
+HIGH-00672,20,135.75,3,1,62.1,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00673,6,156.3,6,5,46.9,10,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00674,30,79.18,7,11,77.0,3,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00675,27,117.93,6,7,78.2,5,One year,Electronic check,West,No,Yes
+HIGH-00676,1,95.82,5,3,30.0,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-00677,32,88.83,4,14,75.4,5,Two year,Credit card,South,No,No
+HIGH-00678,14,104.89,8,3,53.3,3,Month-to-month,Credit card,West,No,Yes
+HIGH-00679,2,163.52,7,0,72.9,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-00680,28,116.2,6,10,34.4,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00681,27,90.43,4,16,30.5,3,One year,Credit card,West,No,Yes
+HIGH-00682,10,167.94,6,3,44.0,2,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00683,21,166.57,5,3,24.6,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00684,29,78.72,2,4,62.5,7,Month-to-month,Mailed check,Midwest,Yes,No
+HIGH-00685,21,155.54,3,8,27.5,4,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00686,1,125.19,6,17,32.7,2,Two year,Bank transfer,West,No,Yes
+HIGH-00687,12,179.67,8,0,52.8,2,One year,Mailed check,South,No,Yes
+HIGH-00688,10,155.24,0,14,46.5,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00689,20,110.0,0,0,49.0,5,Month-to-month,Credit card,South,No,No
+HIGH-00690,36,150.71,4,15,24.4,6,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00691,20,124.78,6,0,63.9,2,One year,Bank transfer,Northeast,No,Yes
+HIGH-00692,13,109.23,3,0,49.0,2,One year,Mailed check,Northeast,No,No
+HIGH-00693,7,155.74,2,7,63.7,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00694,1,158.05,8,2,39.8,1,Month-to-month,Mailed check,West,No,Yes
+HIGH-00695,5,96.9,4,12,71.3,4,Month-to-month,Electronic check,West,No,Yes
+HIGH-00696,16,156.87,5,8,54.3,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-00697,29,161.99,3,3,30.7,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00698,25,104.88,8,7,43.2,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00699,31,136.43,8,10,22.1,6,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00700,23,118.75,7,12,35.4,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00701,2,150.36,0,3,57.6,6,Month-to-month,Mailed check,South,No,No
+HIGH-00702,19,103.55,4,8,40.1,3,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00703,7,162.89,10,12,51.6,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00704,10,141.54,2,12,47.1,5,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00705,30,126.25,7,10,62.8,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00706,2,102.48,3,4,41.1,2,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00707,17,140.71,6,11,71.2,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00708,36,105.76,3,5,77.3,4,One year,Credit card,West,No,No
+HIGH-00709,2,135.82,7,19,18.2,5,Month-to-month,Credit card,South,No,Yes
+HIGH-00710,1,145.24,4,4,81.5,5,Two year,Bank transfer,South,No,Yes
+HIGH-00711,18,97.81,3,7,38.2,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00712,5,140.2,6,15,45.9,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00713,11,101.35,3,6,33.0,4,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00714,21,75.81,2,11,55.9,4,Two year,Bank transfer,Northeast,No,No
+HIGH-00715,16,160.33,3,14,46.5,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00716,5,92.76,12,8,48.4,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00717,2,170.61,3,0,22.8,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00718,19,154.25,1,8,30.4,6,One year,Mailed check,South,No,No
+HIGH-00719,20,127.48,4,13,51.3,3,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00720,4,157.72,8,13,56.0,7,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00721,2,133.61,5,4,36.6,5,One year,Credit card,Midwest,Yes,Yes
+HIGH-00722,17,126.59,6,4,25.6,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00723,35,176.33,3,13,43.9,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00724,7,105.71,2,10,30.5,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00725,18,114.82,2,5,45.4,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00726,27,167.81,3,11,27.8,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00727,22,105.16,4,4,58.8,4,One year,Bank transfer,South,No,Yes
+HIGH-00728,23,88.05,5,2,46.3,4,Month-to-month,Credit card,Northeast,No,No
+HIGH-00729,30,113.15,4,16,82.8,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00730,15,129.6,1,4,50.6,6,Month-to-month,Mailed check,West,No,No
+HIGH-00731,19,76.08,4,8,52.3,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00732,35,176.24,4,10,46.5,8,One year,Bank transfer,West,No,No
+HIGH-00733,33,107.99,1,12,84.5,4,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00734,20,176.42,6,10,33.1,1,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00735,36,133.23,8,12,28.5,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00736,33,175.64,1,12,54.7,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-00737,35,115.36,8,16,60.8,5,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00738,21,127.91,3,0,60.1,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00739,26,79.3,7,5,46.2,5,One year,Credit card,South,No,Yes
+HIGH-00740,36,138.33,8,9,58.6,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00741,32,145.43,3,6,31.0,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00742,30,147.82,5,8,43.4,3,Two year,Mailed check,South,No,Yes
+HIGH-00743,7,147.0,7,14,69.0,7,One year,Mailed check,Northeast,Yes,Yes
+HIGH-00744,25,100.19,4,8,31.1,4,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-00745,23,114.26,9,9,63.6,4,One year,Credit card,Northeast,Yes,Yes
+HIGH-00746,10,83.16,3,10,64.3,5,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00747,8,135.65,2,3,54.2,8,Month-to-month,Credit card,West,Yes,No
+HIGH-00748,18,113.01,8,22,77.2,7,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00749,25,114.13,1,4,37.6,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00750,31,94.26,6,13,31.4,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-00751,22,158.26,5,11,27.4,1,Two year,Credit card,Midwest,Yes,Yes
+HIGH-00752,22,141.38,7,5,26.8,6,One year,Bank transfer,West,Yes,No
+HIGH-00753,6,94.05,2,13,17.5,6,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00754,36,166.39,5,4,62.3,6,Two year,Bank transfer,Northeast,No,No
+HIGH-00755,27,83.21,5,14,38.5,8,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-00756,8,116.43,7,14,54.9,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00757,7,101.41,4,13,65.9,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00758,28,159.14,3,10,59.5,5,Month-to-month,Mailed check,West,Yes,No
+HIGH-00759,14,154.1,6,17,60.1,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-00760,1,79.1,7,11,12.6,6,Two year,Mailed check,Midwest,No,No
+HIGH-00761,1,147.02,5,18,35.0,2,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00762,20,91.19,9,12,51.1,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-00763,4,153.22,5,4,58.2,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00764,33,100.55,3,2,80.7,1,Month-to-month,Mailed check,West,No,No
+HIGH-00765,8,101.48,4,7,34.4,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-00766,9,87.58,5,10,38.6,2,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00767,17,126.07,4,9,40.8,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00768,34,146.1,4,15,54.2,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00769,7,108.15,2,13,17.7,5,Month-to-month,Credit card,South,No,Yes
+HIGH-00770,36,157.94,9,18,1,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-00771,35,146.66,1,15,18.6,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00772,24,153.7,6,14,33.1,4,One year,Bank transfer,West,Yes,Yes
+HIGH-00773,16,88.17,1,4,56.0,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00774,3,162.06,0,5,38.6,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00775,26,126.67,4,10,47.2,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-00776,14,100.38,7,6,54.6,5,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00777,34,110.22,2,2,36.9,7,Month-to-month,Mailed check,Midwest,No,No
+HIGH-00778,6,169.1,8,14,18.4,7,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00779,8,112.67,5,10,35.6,2,Month-to-month,Credit card,South,No,Yes
+HIGH-00780,1,171.87,5,11,72.9,7,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00781,10,96.1,5,8,51.8,5,Two year,Mailed check,Midwest,No,No
+HIGH-00782,11,134.35,6,10,55.9,6,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00783,13,153.98,5,0,67.9,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00784,13,161.69,5,12,35.2,5,Month-to-month,Credit card,South,No,Yes
+HIGH-00785,9,107.0,3,2,65.1,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-00786,34,161.14,3,6,30.7,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00787,10,159.19,3,8,54.2,4,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00788,5,174.18,10,9,41.0,6,Two year,Bank transfer,South,Yes,Yes
+HIGH-00789,23,151.37,1,11,42.7,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00790,25,80.67,1,7,49.5,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00791,18,168.58,6,6,39.5,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00792,17,157.45,10,15,48.2,2,One year,Credit card,West,No,Yes
+HIGH-00793,18,99.98,5,12,72.0,5,Two year,Mailed check,Northeast,No,No
+HIGH-00794,31,177.46,10,10,18.3,3,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00795,34,174.28,4,16,60.6,3,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00796,14,129.84,4,17,34.1,7,One year,Bank transfer,Midwest,No,Yes
+HIGH-00797,5,103.45,4,14,57.6,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00798,25,134.9,4,5,69.0,7,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00799,33,101.64,2,12,43.3,7,Month-to-month,Mailed check,Northeast,No,No
+HIGH-00800,18,145.82,4,8,19.5,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00801,8,95.85,6,5,15.6,5,Two year,Mailed check,South,No,No
+HIGH-00802,26,76.87,4,5,62.2,5,One year,Electronic check,West,No,Yes
+HIGH-00803,3,154.66,5,12,54.8,5,One year,Credit card,Midwest,No,Yes
+HIGH-00804,18,175.27,6,9,53.5,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-00805,2,130.85,5,9,22.2,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00806,23,157.6,5,9,56.4,5,One year,Mailed check,Northeast,No,Yes
+HIGH-00807,13,140.33,3,0,86.2,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-00808,35,88.42,7,0,57.9,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00809,15,161.48,5,13,45.5,6,One year,Bank transfer,Midwest,No,Yes
+HIGH-00810,20,120.35,6,12,60.1,7,One year,Mailed check,South,Yes,No
+HIGH-00811,6,165.92,5,4,61.8,4,One year,Mailed check,South,Yes,No
+HIGH-00812,35,125.23,3,9,32.2,9,Month-to-month,Electronic check,West,No,No
+HIGH-00813,19,143.83,3,2,33.8,4,Month-to-month,Electronic check,Northeast,Yes,No
+HIGH-00814,34,103.3,3,12,41.5,6,One year,Bank transfer,West,Yes,No
+HIGH-00815,32,126.0,6,6,73.9,1,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00816,29,137.89,6,10,47.8,2,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00817,29,132.01,4,8,52.9,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00818,2,128.19,10,8,48.7,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-00819,36,160.07,3,5,71.8,6,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00820,10,115.34,5,6,58.2,2,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00821,18,137.16,3,14,30.4,6,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00822,27,121.41,4,9,33.7,4,Two year,Bank transfer,South,No,No
+HIGH-00823,32,119.74,0,3,38.3,2,Month-to-month,Bank transfer,Midwest,Yes,No
+HIGH-00824,28,156.0,5,0,27.0,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00825,27,170.72,7,10,78.0,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00826,23,176.13,3,7,29.6,6,One year,Credit card,South,Yes,Yes
+HIGH-00827,26,88.1,4,15,34.4,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00828,34,116.38,3,14,26.5,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00829,1,134.94,7,17,38.5,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00830,2,108.59,2,10,60.1,3,One year,Bank transfer,West,Yes,Yes
+HIGH-00831,32,111.71,8,9,36.1,4,Two year,Mailed check,West,Yes,No
+HIGH-00832,10,117.69,6,2,49.8,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00833,12,135.16,5,8,49.1,5,One year,Mailed check,Midwest,No,Yes
+HIGH-00834,12,147.13,5,1,35.2,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00835,4,142.57,8,18,57.5,1,Two year,Bank transfer,South,No,Yes
+HIGH-00836,15,147.85,1,4,59.5,5,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00837,4,89.6,0,3,55.4,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00838,12,85.52,2,9,58.4,4,Two year,Mailed check,South,No,No
+HIGH-00839,5,109.58,0,6,53.5,7,Month-to-month,Mailed check,West,No,No
+HIGH-00840,32,97.49,4,8,38.3,6,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00841,14,113.44,9,13,48.6,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00842,28,161.82,5,10,14.2,4,One year,Credit card,West,No,Yes
+HIGH-00843,9,178.52,3,11,16.8,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00844,3,141.03,8,8,36.5,4,One year,Credit card,Midwest,No,Yes
+HIGH-00845,21,145.7,8,17,57.6,5,One year,Electronic check,Northeast,No,Yes
+HIGH-00846,12,109.32,5,22,67.4,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00847,20,86.25,3,5,15.1,6,Month-to-month,Electronic check,Midwest,No,No
+HIGH-00848,7,98.04,7,4,11.5,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00849,11,104.02,0,7,10.3,5,Month-to-month,Credit card,West,Yes,No
+HIGH-00850,5,113.59,4,14,36.1,7,Month-to-month,Credit card,South,No,Yes
+HIGH-00851,29,99.99,7,13,25.4,4,Month-to-month,Credit card,West,No,Yes
+HIGH-00852,10,166.27,6,7,65.6,5,One year,Credit card,Midwest,No,Yes
+HIGH-00853,16,93.77,6,14,28.5,6,One year,Mailed check,West,No,Yes
+HIGH-00854,34,79.33,2,8,45.0,5,Month-to-month,Electronic check,Northeast,No,No
+HIGH-00855,27,105.12,5,11,78.5,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00856,3,83.98,8,4,69.0,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00857,1,85.03,4,7,44.7,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-00858,18,132.34,5,5,54.7,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00859,5,82.58,6,14,69.8,7,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00860,20,89.14,1,15,28.3,4,One year,Bank transfer,West,No,No
+HIGH-00861,14,165.1,3,7,32.5,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00862,35,144.14,1,4,41.2,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-00863,9,136.81,3,2,41.8,1,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00864,33,81.12,5,15,42.5,7,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00865,13,131.24,6,3,21.6,6,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00866,10,171.12,4,10,28.4,7,Month-to-month,Credit card,South,No,Yes
+HIGH-00867,15,111.75,6,6,56.0,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00868,28,166.68,4,4,22.8,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00869,6,134.47,4,11,75.3,5,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-00870,18,121.8,7,13,52.6,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00871,17,135.31,2,8,54.6,5,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-00872,28,157.09,2,5,60.9,3,One year,Electronic check,Midwest,No,No
+HIGH-00873,12,134.92,9,10,25.2,7,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00874,23,108.81,5,0,40.4,7,Month-to-month,Electronic check,Northeast,Yes,No
+HIGH-00875,33,132.96,10,3,73.1,7,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00876,32,128.53,4,6,61.7,8,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00877,19,169.63,3,13,8.1,6,Month-to-month,Credit card,South,No,Yes
+HIGH-00878,29,148.03,4,0,60.9,6,Month-to-month,Mailed check,Northeast,Yes,No
+HIGH-00879,24,166.4,5,9,58.8,5,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00880,36,131.6,3,6,56.6,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-00881,3,95.72,6,5,66.4,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00882,30,112.59,1,5,71.4,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00883,36,113.07,5,15,49.1,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-00884,9,117.02,5,15,63.1,2,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00885,27,86.48,7,10,40.9,2,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00886,26,128.26,8,0,50.4,5,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00887,17,97.53,6,11,49.1,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00888,18,76.8,5,15,29.8,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00889,4,95.7,9,0,76.5,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00890,15,157.55,0,3,60.5,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00891,31,150.47,3,13,14.6,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00892,23,105.54,5,6,56.7,4,One year,Electronic check,West,Yes,Yes
+HIGH-00893,33,153.75,6,15,14.1,5,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00894,11,107.01,8,14,39.3,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-00895,36,133.71,6,14,26.4,8,One year,Mailed check,Northeast,Yes,No
+HIGH-00896,35,94.6,4,13,57.8,4,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00897,24,119.14,0,12,56.6,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00898,35,175.72,7,4,36.7,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00899,29,146.07,5,10,35.8,7,Month-to-month,Mailed check,West,Yes,No
+HIGH-00900,10,76.66,3,6,6.8,8,Month-to-month,Electronic check,Northeast,Yes,No
+HIGH-00901,1,145.82,5,1,35.0,2,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00902,18,176.72,7,6,71.1,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00903,21,141.94,2,3,64.7,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00904,28,146.87,4,10,55.0,4,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00905,30,174.48,6,15,49.9,5,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00906,27,122.38,4,0,35.2,3,Two year,Electronic check,South,No,Yes
+HIGH-00907,7,102.32,0,4,49.5,2,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00908,4,83.07,5,16,75.6,6,One year,Mailed check,West,No,Yes
+HIGH-00909,5,175.69,9,2,14.7,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-00910,10,148.05,2,12,64.1,4,One year,Credit card,West,Yes,Yes
+HIGH-00911,24,128.19,4,15,34.0,1,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00912,25,77.91,0,8,53.5,4,One year,Credit card,Northeast,No,No
+HIGH-00913,15,163.57,2,12,52.5,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-00914,2,144.62,6,6,67.5,4,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-00915,21,77.65,6,0,58.1,6,Two year,Bank transfer,Northeast,No,No
+HIGH-00916,21,90.25,0,5,48.5,4,One year,Credit card,Midwest,Yes,No
+HIGH-00917,9,91.76,4,4,43.3,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00918,9,132.96,5,17,25.9,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00919,15,75.54,0,0,14.9,8,Month-to-month,Credit card,Midwest,No,No
+HIGH-00920,28,176.04,2,14,56.6,3,Month-to-month,Bank transfer,South,No,Yes
+HIGH-00921,33,117.21,5,7,33.0,8,Month-to-month,Bank transfer,Northeast,No,No
+HIGH-00922,12,100.62,2,10,1,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-00923,30,99.45,1,2,80.4,6,Month-to-month,Bank transfer,Midwest,Yes,No
+HIGH-00924,4,128.49,6,2,34.7,5,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00925,7,96.96,3,11,77.8,4,Month-to-month,Credit card,South,No,Yes
+HIGH-00926,6,127.86,4,11,51.1,5,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-00927,26,97.36,7,8,39.1,5,One year,Electronic check,South,No,No
+HIGH-00928,16,155.29,7,6,41.1,3,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00929,16,162.8,4,6,69.3,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00930,14,118.73,1,12,63.8,6,Two year,Bank transfer,South,Yes,No
+HIGH-00931,20,98.46,6,6,56.5,6,Two year,Bank transfer,West,No,No
+HIGH-00932,20,152.47,3,17,78.6,3,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00933,11,99.98,6,5,29.9,4,One year,Electronic check,Midwest,Yes,No
+HIGH-00934,18,102.45,5,16,49.2,4,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-00935,3,101.37,4,10,41.7,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-00936,17,176.48,8,11,14.2,5,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-00937,4,138.11,6,18,35.0,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00938,33,178.2,2,12,46.6,4,One year,Credit card,Midwest,Yes,Yes
+HIGH-00939,5,161.5,3,1,44.3,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00940,35,114.45,6,15,65.0,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00941,25,118.96,4,10,32.6,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00942,1,101.78,3,14,41.3,4,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-00943,30,161.06,11,12,17.1,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00944,25,122.77,8,9,41.0,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00945,15,114.28,4,13,43.1,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00946,14,171.8,5,18,32.0,4,One year,Mailed check,West,No,Yes
+HIGH-00947,9,160.88,5,14,68.6,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-00948,12,92.65,7,8,62.1,8,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-00949,21,160.52,6,8,39.6,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-00950,23,99.39,1,14,41.3,6,Month-to-month,Bank transfer,Midwest,Yes,No
+HIGH-00951,12,83.9,1,0,72.0,4,Month-to-month,Electronic check,West,No,Yes
+HIGH-00952,5,144.74,0,3,41.5,7,Month-to-month,Mailed check,Midwest,Yes,No
+HIGH-00953,5,129.64,11,9,92.2,7,Month-to-month,Credit card,South,No,Yes
+HIGH-00954,25,111.33,3,2,56.7,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00955,15,90.24,4,3,47.7,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00956,17,154.44,7,11,36.8,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-00957,34,136.7,6,11,51.6,2,Two year,Bank transfer,Northeast,No,Yes
+HIGH-00958,16,122.62,3,14,43.4,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00959,11,140.38,5,7,69.6,4,One year,Mailed check,South,Yes,Yes
+HIGH-00960,32,75.21,3,10,23.8,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-00961,20,179.95,1,8,55.8,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-00962,9,136.35,1,11,50.2,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00963,29,96.98,2,7,39.5,5,Month-to-month,Mailed check,South,No,No
+HIGH-00964,11,179.37,1,9,31.9,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00965,8,110.88,5,6,27.3,6,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00966,33,91.05,8,5,44.0,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-00967,31,148.24,6,9,68.2,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-00968,1,132.57,7,12,54.1,7,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00969,18,166.41,4,19,46.4,5,Two year,Electronic check,Northeast,No,Yes
+HIGH-00970,12,157.19,10,16,67.3,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00971,24,101.84,8,3,41.8,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00972,35,118.12,6,6,24.7,3,Month-to-month,Credit card,West,No,Yes
+HIGH-00973,31,150.14,6,9,37.7,5,Month-to-month,Credit card,West,No,Yes
+HIGH-00974,1,156.8,5,3,29.8,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-00975,34,127.19,5,8,52.6,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00976,22,79.23,7,1,19.2,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00977,23,159.77,6,2,18.9,7,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00978,31,129.54,6,0,55.4,3,One year,Bank transfer,South,No,Yes
+HIGH-00979,1,92.38,5,1,38.3,5,Month-to-month,Credit card,South,No,Yes
+HIGH-00980,17,127.72,1,11,29.9,4,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00981,15,146.42,1,18,22.5,8,Month-to-month,Electronic check,West,No,Yes
+HIGH-00982,3,163.2,0,5,48.9,7,Month-to-month,Mailed check,South,No,Yes
+HIGH-00983,3,83.76,2,0,46.8,4,One year,Electronic check,South,Yes,No
+HIGH-00984,31,118.21,6,13,63.2,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-00985,27,100.7,6,12,41.9,7,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00986,23,175.79,7,13,50.0,7,Month-to-month,Bank transfer,West,No,Yes
+HIGH-00987,28,94.75,7,0,25.7,6,One year,Bank transfer,Midwest,Yes,No
+HIGH-00988,19,84.03,3,10,59.5,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-00989,12,161.87,9,12,19.7,4,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-00990,8,105.21,1,1,36.7,5,Month-to-month,Electronic check,West,No,No
+HIGH-00991,33,167.86,5,16,39.3,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-00992,24,152.26,5,4,25.2,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-00993,27,178.6,0,12,40.0,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-00994,32,156.23,4,10,28.9,5,Two year,Mailed check,Midwest,No,Yes
+HIGH-00995,22,122.08,6,1,56.6,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-00996,26,169.48,12,1,53.7,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-00997,31,116.98,2,7,48.6,7,Month-to-month,Bank transfer,Midwest,No,No
+HIGH-00998,17,75.58,4,8,71.9,6,One year,Credit card,South,No,No
+HIGH-00999,26,86.34,1,2,55.7,2,Month-to-month,Bank transfer,Northeast,No,No
+HIGH-01000,22,113.58,3,3,53.1,5,Month-to-month,Mailed check,West,No,No
+HIGH-01001,8,134.73,1,8,38.8,8,Month-to-month,Electronic check,South,No,Yes
+HIGH-01002,29,113.06,5,8,61.0,2,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01003,25,107.11,4,16,24.8,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01004,18,130.42,7,9,28.8,5,One year,Credit card,South,No,Yes
+HIGH-01005,16,107.36,2,12,53.6,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01006,9,80.09,8,9,56.6,6,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-01007,34,118.84,8,17,48.1,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-01008,7,97.61,6,3,54.5,6,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-01009,17,120.1,3,6,27.6,7,Month-to-month,Bank transfer,West,No,No
+HIGH-01010,7,125.95,4,5,72.1,7,Month-to-month,Electronic check,South,No,Yes
+HIGH-01011,32,79.52,2,6,40.7,5,One year,Credit card,Midwest,No,No
+HIGH-01012,6,155.4,6,8,71.3,6,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01013,14,136.7,4,13,61.5,4,Month-to-month,Credit card,West,No,Yes
+HIGH-01014,4,167.13,6,3,33.5,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-01015,24,177.25,3,9,9.5,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-01016,16,110.32,10,9,25.4,3,One year,Bank transfer,West,No,Yes
+HIGH-01017,16,157.23,7,9,34.2,6,Month-to-month,Credit card,South,No,Yes
+HIGH-01018,24,77.48,1,10,57.8,5,Month-to-month,Electronic check,South,No,No
+HIGH-01019,13,174.26,0,13,51.3,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01020,23,155.2,5,3,47.0,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01021,19,171.39,2,5,29.8,7,Month-to-month,Mailed check,South,No,Yes
+HIGH-01022,26,161.63,7,7,52.7,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-01023,29,122.5,4,0,55.8,7,Month-to-month,Mailed check,West,No,No
+HIGH-01024,5,90.99,5,24,29.4,3,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-01025,19,115.55,2,11,23.3,6,Month-to-month,Credit card,South,No,Yes
+HIGH-01026,31,167.36,5,15,12.9,7,Two year,Mailed check,Midwest,No,Yes
+HIGH-01027,15,129.8,3,11,36.6,7,One year,Electronic check,Midwest,No,No
+HIGH-01028,15,125.53,6,10,59.6,3,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01029,12,105.6,6,8,43.3,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01030,25,94.83,5,11,48.7,2,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-01031,24,167.05,5,0,22.1,8,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01032,12,175.48,4,22,34.6,4,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01033,11,129.02,3,9,21.6,4,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01034,26,76.55,4,14,52.6,5,Month-to-month,Credit card,West,No,Yes
+HIGH-01035,19,113.02,8,2,4.0,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01036,4,134.46,0,8,8.4,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01037,9,83.02,3,13,39.3,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01038,27,98.31,5,12,32.5,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01039,6,143.86,0,12,8.8,3,Month-to-month,Credit card,South,No,Yes
+HIGH-01040,24,160.11,4,1,43.4,3,Month-to-month,Credit card,West,No,Yes
+HIGH-01041,31,150.36,4,3,66.3,5,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01042,6,160.12,3,14,47.4,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-01043,30,78.32,6,11,29.0,3,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01044,14,178.27,5,13,36.7,6,Two year,Mailed check,Midwest,No,Yes
+HIGH-01045,9,91.72,3,8,36.0,4,One year,Electronic check,Midwest,Yes,Yes
+HIGH-01046,20,173.5,9,5,39.6,5,Two year,Electronic check,West,No,Yes
+HIGH-01047,35,117.68,1,14,3.8,6,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01048,19,126.13,0,11,34.1,5,Month-to-month,Electronic check,Midwest,Yes,No
+HIGH-01049,26,124.78,7,9,56.4,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01050,19,93.53,8,9,62.9,3,One year,Electronic check,South,No,Yes
+HIGH-01051,13,103.54,6,17,45.7,7,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-01052,25,155.61,4,4,70.1,4,One year,Electronic check,South,Yes,No
+HIGH-01053,29,146.68,2,13,34.4,5,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01054,13,138.66,6,13,65.3,8,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01055,20,119.14,7,1,38.9,4,One year,Electronic check,West,Yes,Yes
+HIGH-01056,27,106.39,8,2,73.6,4,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01057,12,79.58,5,9,17.1,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01058,27,175.85,8,6,51.0,4,Two year,Credit card,Midwest,Yes,No
+HIGH-01059,8,132.19,3,0,19.5,3,One year,Credit card,Northeast,Yes,No
+HIGH-01060,8,104.31,5,4,35.5,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01061,16,136.65,6,14,54.3,3,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01062,20,167.53,4,7,47.4,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01063,21,81.99,8,0,49.1,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-01064,13,172.1,7,9,50.9,9,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01065,26,153.24,2,17,23.2,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01066,22,160.27,3,14,29.9,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01067,5,152.78,4,2,45.5,2,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01068,25,110.16,4,9,40.0,7,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01069,2,97.04,4,13,73.4,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01070,18,125.63,7,6,80.2,6,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01071,22,133.29,6,4,18.5,3,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01072,35,101.37,8,9,17.3,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01073,31,118.26,1,13,38.1,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01074,35,143.12,3,14,19.7,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01075,30,104.16,7,8,35.7,3,One year,Mailed check,Northeast,No,Yes
+HIGH-01076,8,170.6,6,10,74.8,3,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01077,6,129.9,3,8,44.7,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01078,33,120.69,8,6,33.9,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01079,22,111.44,5,4,26.3,5,Month-to-month,Mailed check,West,Yes,No
+HIGH-01080,31,156.14,0,3,50.8,3,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01081,2,129.26,2,15,32.0,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01082,4,145.81,2,11,48.4,4,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-01083,8,96.93,6,2,23.2,8,Month-to-month,Credit card,West,No,Yes
+HIGH-01084,32,85.53,3,16,35.6,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01085,24,113.83,8,9,1,4,One year,Bank transfer,Midwest,No,Yes
+HIGH-01086,35,87.9,4,8,62.0,6,Two year,Mailed check,Midwest,No,No
+HIGH-01087,11,158.8,8,7,37.6,3,One year,Credit card,West,No,Yes
+HIGH-01088,24,143.3,5,6,57.3,3,One year,Electronic check,West,No,Yes
+HIGH-01089,29,143.72,5,7,49.7,7,Month-to-month,Mailed check,West,No,Yes
+HIGH-01090,19,85.76,2,6,60.8,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01091,6,120.5,7,16,68.7,3,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01092,25,112.56,6,13,60.2,3,Two year,Credit card,West,No,Yes
+HIGH-01093,11,171.46,5,11,51.6,2,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01094,6,147.98,1,12,11.4,4,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-01095,15,78.58,7,8,51.3,7,Month-to-month,Electronic check,West,Yes,No
+HIGH-01096,36,78.29,4,12,83.2,6,Month-to-month,Electronic check,West,No,No
+HIGH-01097,4,120.19,6,12,28.9,4,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01098,7,133.77,6,1,16.6,6,One year,Credit card,South,No,No
+HIGH-01099,31,179.91,6,5,26.0,1,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01100,22,112.41,0,14,23.4,3,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01101,20,95.25,7,12,70.2,4,One year,Credit card,Northeast,No,Yes
+HIGH-01102,33,116.62,2,2,45.5,5,One year,Credit card,South,No,No
+HIGH-01103,36,116.04,7,4,79.6,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01104,17,84.04,4,18,14.7,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01105,8,146.86,7,8,42.5,3,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01106,34,146.94,4,8,33.6,4,One year,Bank transfer,South,No,No
+HIGH-01107,29,145.59,1,16,47.7,7,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01108,23,102.51,2,5,49.7,6,Two year,Credit card,Midwest,No,No
+HIGH-01109,34,118.21,5,12,35.2,7,Month-to-month,Mailed check,South,No,Yes
+HIGH-01110,14,91.08,7,5,57.3,4,One year,Electronic check,South,No,Yes
+HIGH-01111,24,110.33,5,4,55.8,7,Month-to-month,Mailed check,South,No,Yes
+HIGH-01112,23,80.35,7,23,10.2,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-01113,14,125.77,8,13,34.5,4,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01114,22,95.51,8,8,55.3,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01115,36,156.71,4,5,43.9,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01116,32,111.35,1,11,8.7,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-01117,16,148.35,5,16,64.6,4,One year,Mailed check,South,No,Yes
+HIGH-01118,15,111.3,6,12,51.2,7,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01119,3,117.84,9,11,38.1,4,One year,Mailed check,South,No,Yes
+HIGH-01120,20,159.97,7,5,31.4,6,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01121,17,169.55,4,2,34.6,4,Month-to-month,Credit card,South,No,Yes
+HIGH-01122,35,105.96,2,5,43.4,7,Month-to-month,Bank transfer,West,No,No
+HIGH-01123,35,116.34,4,7,43.4,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01124,6,78.75,5,4,52.2,6,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01125,27,166.05,4,4,1,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01126,7,99.44,9,9,36.3,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-01127,19,142.62,5,10,40.3,3,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01128,22,118.04,3,0,30.0,2,Month-to-month,Electronic check,West,Yes,No
+HIGH-01129,4,164.73,4,9,60.6,2,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01130,25,122.93,3,5,27.9,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-01131,20,96.3,1,5,42.7,3,Month-to-month,Electronic check,West,No,Yes
+HIGH-01132,30,117.86,5,14,53.6,7,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01133,32,97.29,1,5,50.5,6,One year,Electronic check,Midwest,No,No
+HIGH-01134,8,123.17,2,11,36.1,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01135,29,162.4,6,21,1,4,One year,Mailed check,West,No,Yes
+HIGH-01136,35,156.95,10,12,39.0,1,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01137,11,95.28,4,10,36.6,3,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01138,4,112.09,3,4,52.4,8,Month-to-month,Electronic check,Northeast,No,No
+HIGH-01139,31,168.26,4,10,39.5,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01140,17,154.83,2,12,31.3,2,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01141,26,173.79,5,13,36.0,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01142,14,175.83,6,7,43.6,6,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01143,24,152.01,7,10,49.5,4,Two year,Electronic check,Northeast,No,Yes
+HIGH-01144,12,163.76,0,5,55.3,5,One year,Electronic check,South,No,Yes
+HIGH-01145,30,130.3,3,6,38.3,3,One year,Mailed check,West,No,Yes
+HIGH-01146,30,79.27,3,17,66.5,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-01147,24,128.17,3,14,75.4,6,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01148,24,124.1,1,9,51.3,8,Two year,Mailed check,Northeast,No,No
+HIGH-01149,25,91.45,4,17,48.8,8,Two year,Mailed check,West,No,No
+HIGH-01150,7,99.28,5,10,36.3,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01151,33,161.75,6,0,28.4,3,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01152,24,173.49,1,9,48.9,3,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01153,34,156.58,4,10,57.5,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-01154,17,146.64,8,4,30.7,5,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01155,29,108.92,5,5,50.5,5,Two year,Credit card,South,Yes,No
+HIGH-01156,15,115.57,7,14,77.5,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01157,8,90.72,3,9,46.0,6,One year,Bank transfer,South,No,No
+HIGH-01158,25,147.99,2,5,78.1,7,One year,Electronic check,South,No,No
+HIGH-01159,30,81.39,3,11,82.6,7,Month-to-month,Mailed check,Northeast,No,No
+HIGH-01160,29,123.61,6,11,30.4,5,Two year,Credit card,South,No,No
+HIGH-01161,26,81.51,4,3,48.6,5,Month-to-month,Electronic check,West,Yes,No
+HIGH-01162,5,146.92,7,8,26.8,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01163,31,110.52,7,7,49.1,4,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01164,32,146.56,3,7,64.2,4,One year,Mailed check,West,No,No
+HIGH-01165,27,133.63,8,9,33.4,6,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-01166,9,149.44,9,19,24.5,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01167,31,117.22,3,7,36.2,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01168,23,157.7,2,15,29.5,1,Month-to-month,Mailed check,West,No,Yes
+HIGH-01169,1,113.68,5,13,22.7,6,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-01170,6,79.65,0,8,56.6,6,One year,Credit card,Midwest,No,No
+HIGH-01171,8,87.25,1,8,30.4,5,One year,Credit card,South,No,No
+HIGH-01172,7,111.69,0,6,35.5,2,Month-to-month,Mailed check,West,No,Yes
+HIGH-01173,9,107.42,3,1,41.5,6,Month-to-month,Bank transfer,Midwest,No,No
+HIGH-01174,28,154.55,3,7,49.7,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01175,29,149.13,7,16,66.1,8,Two year,Credit card,Northeast,No,No
+HIGH-01176,29,121.08,10,5,56.7,2,Month-to-month,Credit card,South,No,Yes
+HIGH-01177,15,150.5,2,4,50.5,3,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01178,3,92.48,10,5,81.2,2,Two year,Bank transfer,West,Yes,Yes
+HIGH-01179,25,97.34,1,13,43.7,3,Two year,Credit card,Midwest,No,Yes
+HIGH-01180,18,155.63,5,13,74.2,9,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01181,3,163.6,4,14,53.2,5,Two year,Mailed check,Northeast,No,Yes
+HIGH-01182,21,92.69,6,6,29.0,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-01183,34,165.95,4,9,57.2,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01184,18,154.57,6,3,56.7,4,Two year,Electronic check,Northeast,No,No
+HIGH-01185,21,78.54,0,9,58.4,3,Month-to-month,Electronic check,Midwest,No,No
+HIGH-01186,22,95.24,3,1,33.3,3,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01187,35,140.87,5,3,40.2,2,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01188,31,172.1,0,9,37.4,4,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01189,10,112.36,8,5,57.9,5,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01190,12,179.21,7,6,50.6,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01191,24,175.52,7,0,58.4,5,One year,Credit card,South,No,Yes
+HIGH-01192,13,155.72,5,9,54.7,3,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-01193,19,150.32,3,5,89.3,1,Month-to-month,Electronic check,West,No,Yes
+HIGH-01194,31,103.95,8,12,12.7,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01195,13,116.41,7,7,58.6,5,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-01196,3,130.7,7,8,35.5,4,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-01197,24,126.98,3,5,75.2,7,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01198,22,105.48,5,11,28.8,6,One year,Mailed check,South,No,Yes
+HIGH-01199,35,141.56,7,10,45.5,6,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01200,11,91.05,3,4,21.9,6,Month-to-month,Mailed check,South,No,No
+HIGH-01201,12,92.13,6,4,57.6,6,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01202,20,93.96,2,10,44.3,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-01203,4,139.42,3,10,41.7,7,One year,Mailed check,Midwest,Yes,No
+HIGH-01204,9,100.78,4,0,1,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01205,28,80.35,5,9,24.8,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01206,20,90.27,7,7,26.7,6,One year,Credit card,Northeast,No,No
+HIGH-01207,4,121.67,7,10,43.3,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-01208,19,90.13,0,12,42.0,7,Month-to-month,Credit card,Midwest,No,No
+HIGH-01209,28,168.62,4,13,44.8,4,One year,Mailed check,South,Yes,Yes
+HIGH-01210,3,97.43,2,12,17.4,5,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-01211,34,154.37,5,8,59.4,3,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01212,19,169.31,4,5,67.6,7,Month-to-month,Bank transfer,Midwest,Yes,No
+HIGH-01213,14,76.9,3,13,68.0,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01214,25,161.66,3,18,69.4,6,Month-to-month,Credit card,South,No,Yes
+HIGH-01215,30,121.48,4,11,24.6,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01216,16,136.64,2,10,60.3,3,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01217,29,86.85,6,3,63.1,6,Month-to-month,Credit card,South,No,Yes
+HIGH-01218,6,150.07,0,13,34.0,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01219,15,150.35,5,11,20.5,3,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-01220,16,172.77,5,12,37.8,8,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01221,15,114.08,7,11,33.5,6,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-01222,23,144.62,3,6,38.3,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01223,28,84.21,1,11,42.6,4,Month-to-month,Electronic check,West,No,Yes
+HIGH-01224,18,158.48,4,9,51.5,8,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01225,21,79.48,7,0,38.4,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01226,16,161.88,4,8,73.3,7,Two year,Mailed check,Midwest,No,No
+HIGH-01227,33,135.68,7,8,13.1,3,Two year,Bank transfer,Midwest,No,Yes
+HIGH-01228,1,135.02,6,13,49.6,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01229,10,161.26,6,10,16.4,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01230,3,147.92,5,1,38.1,7,Month-to-month,Credit card,West,No,Yes
+HIGH-01231,14,151.9,4,11,29.8,2,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01232,30,77.62,0,8,42.8,3,Month-to-month,Electronic check,Northeast,Yes,No
+HIGH-01233,12,90.17,7,18,59.9,5,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-01234,15,150.87,4,7,33.9,1,Month-to-month,Electronic check,West,No,Yes
+HIGH-01235,9,148.93,4,9,42.7,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-01236,21,155.23,5,15,50.6,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01237,13,151.88,4,0,65.2,6,One year,Bank transfer,Midwest,No,No
+HIGH-01238,15,89.25,2,9,55.0,1,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01239,11,100.04,0,9,18.4,5,One year,Bank transfer,Midwest,No,Yes
+HIGH-01240,22,148.4,4,13,33.9,4,One year,Electronic check,West,No,Yes
+HIGH-01241,26,178.48,6,7,28.4,2,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01242,21,104.03,6,7,55.8,4,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-01243,3,112.82,6,11,47.7,5,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01244,29,136.93,3,8,38.8,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01245,11,157.25,5,2,48.6,4,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01246,31,88.37,7,12,15.2,5,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01247,34,115.82,3,13,81.7,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-01248,11,104.73,2,0,7.9,6,Month-to-month,Credit card,Midwest,No,No
+HIGH-01249,25,108.03,4,9,45.3,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01250,6,81.39,5,8,73.1,9,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01251,27,161.26,1,3,32.9,4,Month-to-month,Mailed check,South,No,Yes
+HIGH-01252,28,112.07,6,10,36.1,6,Two year,Credit card,Midwest,No,No
+HIGH-01253,32,165.76,5,0,52.4,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01254,13,137.66,4,8,72.8,7,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01255,9,120.66,5,20,18.9,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01256,27,129.59,3,17,62.8,6,Two year,Credit card,Northeast,No,No
+HIGH-01257,24,159.25,3,6,82.6,3,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01258,19,155.27,3,5,42.2,4,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01259,8,84.64,4,7,52.3,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01260,20,87.51,2,13,50.2,5,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01261,18,163.39,4,8,27.6,7,Month-to-month,Credit card,South,No,Yes
+HIGH-01262,6,179.82,1,1,48.7,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-01263,33,145.68,5,18,70.4,6,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-01264,12,143.4,3,6,27.2,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01265,1,128.2,7,8,15.8,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01266,12,118.0,6,21,38.8,8,Month-to-month,Credit card,South,No,Yes
+HIGH-01267,8,130.53,5,15,86.3,5,Two year,Credit card,Midwest,Yes,Yes
+HIGH-01268,22,96.06,3,7,26.9,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01269,24,139.46,1,0,45.1,3,One year,Electronic check,West,Yes,Yes
+HIGH-01270,7,136.68,4,12,67.2,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01271,26,128.53,6,4,29.6,3,Two year,Credit card,South,No,No
+HIGH-01272,23,136.46,7,6,19.6,4,Two year,Electronic check,Northeast,No,Yes
+HIGH-01273,24,105.36,3,12,41.2,8,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01274,5,105.41,4,1,23.0,5,Two year,Bank transfer,Midwest,No,No
+HIGH-01275,1,141.33,3,17,22.7,6,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-01276,33,156.02,6,9,14.4,6,One year,Bank transfer,Northeast,No,Yes
+HIGH-01277,34,166.15,4,7,35.0,3,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01278,35,161.76,4,11,15.3,5,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01279,18,109.91,6,12,21.2,8,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01280,12,127.18,0,5,64.6,6,Month-to-month,Electronic check,West,No,No
+HIGH-01281,33,144.81,7,13,42.7,3,One year,Bank transfer,South,No,Yes
+HIGH-01282,4,150.87,2,7,56.4,6,One year,Mailed check,South,No,No
+HIGH-01283,10,150.51,7,16,61.4,4,Month-to-month,Credit card,South,No,Yes
+HIGH-01284,5,151.64,2,2,39.5,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01285,10,107.48,4,10,33.5,7,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01286,4,110.44,7,7,29.1,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01287,15,134.53,4,2,64.3,5,Two year,Bank transfer,Northeast,No,No
+HIGH-01288,6,75.2,5,13,41.6,7,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01289,10,81.7,8,5,88.9,5,One year,Bank transfer,West,Yes,No
+HIGH-01290,16,158.79,5,9,39.5,5,One year,Bank transfer,Northeast,No,No
+HIGH-01291,22,130.74,4,10,78.0,4,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01292,21,102.49,4,4,41.3,5,Month-to-month,Credit card,West,No,Yes
+HIGH-01293,14,132.61,3,3,51.5,4,Month-to-month,Bank transfer,Midwest,No,No
+HIGH-01294,8,111.74,8,11,49.1,5,One year,Mailed check,West,No,Yes
+HIGH-01295,13,144.07,6,11,62.0,8,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01296,27,105.3,5,13,63.5,8,Month-to-month,Electronic check,South,No,Yes
+HIGH-01297,33,81.44,0,9,41.5,3,Month-to-month,Bank transfer,South,Yes,No
+HIGH-01298,35,166.98,8,6,65.1,6,One year,Bank transfer,West,No,Yes
+HIGH-01299,7,110.83,4,7,40.3,2,Month-to-month,Electronic check,West,No,Yes
+HIGH-01300,12,132.11,0,11,49.4,9,Month-to-month,Credit card,South,No,Yes
+HIGH-01301,12,94.09,8,6,66.1,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01302,7,119.36,3,10,61.0,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01303,13,168.68,4,6,69.6,6,Month-to-month,Credit card,West,Yes,No
+HIGH-01304,2,97.17,4,0,31.0,1,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01305,18,152.27,1,6,49.0,7,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01306,5,86.13,1,6,42.1,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01307,15,100.32,7,17,30.7,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01308,6,75.46,2,6,30.0,5,Two year,Electronic check,Midwest,No,No
+HIGH-01309,36,95.04,7,12,81.5,6,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01310,14,152.18,4,18,37.5,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-01311,28,78.77,3,11,46.3,6,Month-to-month,Credit card,Midwest,Yes,No
+HIGH-01312,28,146.32,4,5,14.9,5,One year,Bank transfer,Northeast,Yes,No
+HIGH-01313,29,174.48,5,12,40.3,5,Two year,Credit card,South,No,Yes
+HIGH-01314,22,109.84,3,0,30.3,5,Two year,Electronic check,West,No,No
+HIGH-01315,10,163.43,7,10,16.7,3,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01316,24,142.35,6,7,32.2,6,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-01317,7,88.06,1,21,34.5,3,One year,Mailed check,South,No,Yes
+HIGH-01318,18,145.69,1,6,73.2,2,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01319,4,174.29,6,10,43.7,8,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01320,17,88.63,7,7,70.1,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01321,33,123.43,4,17,39.9,6,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01322,7,148.63,0,13,54.8,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01323,10,108.93,3,8,40.0,6,Two year,Bank transfer,Midwest,No,No
+HIGH-01324,12,120.35,6,13,33.1,5,One year,Electronic check,Northeast,No,Yes
+HIGH-01325,33,154.75,3,3,52.3,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01326,12,144.85,6,4,34.5,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01327,33,157.07,3,15,38.9,4,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01328,5,164.79,2,1,53.0,5,Two year,Bank transfer,South,No,No
+HIGH-01329,7,131.62,5,0,50.6,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-01330,16,141.06,7,9,43.5,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01331,24,105.2,3,5,39.3,5,Month-to-month,Electronic check,South,Yes,No
+HIGH-01332,11,135.59,9,1,55.2,4,One year,Mailed check,Northeast,Yes,Yes
+HIGH-01333,31,104.5,5,7,45.9,3,Month-to-month,Electronic check,West,No,Yes
+HIGH-01334,18,106.03,3,8,45.5,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-01335,13,104.36,8,8,1.8,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01336,26,125.01,7,10,88.7,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01337,13,177.45,7,17,61.3,1,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01338,30,174.28,9,9,49.0,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01339,14,173.82,3,7,39.4,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01340,11,153.78,0,12,52.4,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01341,21,176.36,0,7,39.2,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01342,9,134.19,3,4,38.2,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01343,6,130.92,2,10,28.6,5,Two year,Mailed check,Midwest,No,Yes
+HIGH-01344,3,83.35,0,6,60.5,5,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01345,28,83.43,0,13,52.0,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01346,1,178.78,7,10,53.5,4,One year,Mailed check,Midwest,No,Yes
+HIGH-01347,23,97.77,8,4,50.4,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01348,7,115.65,5,1,55.0,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-01349,8,101.9,5,2,58.2,8,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01350,35,150.76,1,14,59.5,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-01351,18,166.1,2,12,67.7,2,One year,Mailed check,South,No,Yes
+HIGH-01352,24,89.47,7,11,11.3,7,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01353,4,164.44,0,13,54.8,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01354,33,122.71,7,5,33.0,7,Month-to-month,Electronic check,South,No,Yes
+HIGH-01355,33,133.87,7,0,49.7,7,One year,Bank transfer,South,No,No
+HIGH-01356,30,127.41,6,14,61.3,3,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01357,12,116.48,6,13,16.0,4,One year,Credit card,South,No,Yes
+HIGH-01358,10,144.29,4,10,30.7,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01359,2,113.14,4,5,58.5,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01360,20,148.75,6,12,43.1,3,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-01361,1,104.14,8,3,35.3,6,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01362,19,173.18,1,4,54.3,1,Month-to-month,Electronic check,South,No,Yes
+HIGH-01363,32,102.46,3,11,21.9,2,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01364,24,178.07,10,20,54.8,7,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01365,12,97.14,6,8,14.5,7,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01366,4,146.81,4,12,55.1,7,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01367,4,164.2,6,27,43.1,5,One year,Bank transfer,Northeast,No,Yes
+HIGH-01368,4,115.59,7,5,56.0,3,One year,Credit card,Northeast,No,Yes
+HIGH-01369,28,128.74,2,7,28.0,5,Month-to-month,Mailed check,South,No,No
+HIGH-01370,6,153.37,1,11,52.2,5,One year,Electronic check,West,No,No
+HIGH-01371,5,134.14,7,11,64.1,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01372,12,92.96,5,1,37.3,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01373,34,164.21,4,9,46.0,4,One year,Credit card,South,Yes,Yes
+HIGH-01374,4,172.63,9,12,18.3,2,One year,Mailed check,West,No,Yes
+HIGH-01375,36,156.49,3,1,32.7,4,One year,Mailed check,Northeast,Yes,No
+HIGH-01376,22,146.64,2,7,76.2,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-01377,29,128.56,2,5,55.7,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01378,31,98.79,6,10,34.2,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01379,2,119.79,2,11,61.0,6,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01380,35,82.48,0,13,53.3,7,Month-to-month,Electronic check,Northeast,No,No
+HIGH-01381,36,177.72,5,12,37.6,8,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01382,1,160.22,6,13,41.1,4,Month-to-month,Electronic check,West,No,Yes
+HIGH-01383,22,157.47,5,7,36.8,2,One year,Bank transfer,Northeast,Yes,Yes
+HIGH-01384,7,109.29,6,12,5.2,3,Month-to-month,Credit card,West,No,Yes
+HIGH-01385,1,139.81,3,14,24.4,1,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01386,32,116.39,6,7,48.3,2,One year,Bank transfer,Midwest,No,Yes
+HIGH-01387,2,175.47,8,7,62.4,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01388,13,150.08,7,23,62.5,8,Two year,Electronic check,Midwest,No,Yes
+HIGH-01389,20,120.36,0,16,59.5,4,Two year,Credit card,Midwest,No,Yes
+HIGH-01390,3,120.5,4,8,21.8,2,One year,Mailed check,West,No,Yes
+HIGH-01391,25,96.17,5,7,50.3,2,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01392,35,128.61,3,13,35.8,3,Month-to-month,Credit card,South,No,Yes
+HIGH-01393,36,124.06,4,8,39.1,5,Two year,Electronic check,West,No,No
+HIGH-01394,12,120.41,2,7,62.9,6,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01395,35,140.85,0,6,66.5,4,Two year,Electronic check,West,No,No
+HIGH-01396,19,144.01,4,12,53.7,6,Month-to-month,Mailed check,West,No,Yes
+HIGH-01397,5,98.71,2,5,50.4,6,One year,Bank transfer,West,No,Yes
+HIGH-01398,17,91.36,4,0,73.0,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01399,10,77.11,1,11,55.1,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-01400,32,101.9,5,5,34.6,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-01401,20,112.39,5,3,47.1,4,Month-to-month,Credit card,West,No,Yes
+HIGH-01402,12,115.53,9,9,33.1,2,One year,Electronic check,Midwest,No,Yes
+HIGH-01403,30,124.06,6,6,58.8,2,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01404,13,111.53,3,8,21.9,6,One year,Electronic check,South,Yes,No
+HIGH-01405,6,138.24,5,6,37.7,7,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01406,1,122.01,2,7,61.2,7,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01407,26,86.32,0,8,40.4,6,Month-to-month,Mailed check,South,No,No
+HIGH-01408,34,167.03,3,17,46.6,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-01409,8,78.29,2,12,42.1,3,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01410,9,142.56,1,12,90.8,5,Two year,Credit card,West,Yes,Yes
+HIGH-01411,21,143.77,8,18,27.4,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01412,27,129.61,0,8,60.2,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-01413,23,106.96,2,3,33.4,6,Month-to-month,Mailed check,Midwest,No,No
+HIGH-01414,12,128.54,0,13,71.7,4,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-01415,7,99.08,8,9,47.2,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01416,32,154.04,4,12,30.1,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01417,13,172.22,6,7,50.1,2,One year,Bank transfer,Midwest,Yes,Yes
+HIGH-01418,17,128.66,6,15,38.1,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-01419,7,138.83,10,0,12.3,4,Month-to-month,Credit card,West,No,Yes
+HIGH-01420,16,133.36,5,8,35.0,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-01421,30,92.42,8,16,37.6,1,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01422,15,116.43,5,14,56.3,1,Month-to-month,Mailed check,West,No,Yes
+HIGH-01423,28,168.28,3,11,50.7,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01424,18,130.09,7,13,55.5,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01425,17,131.69,4,8,73.3,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-01426,5,82.78,6,9,47.4,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01427,8,162.93,7,7,46.3,7,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01428,10,170.17,6,10,49.2,2,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01429,35,123.73,6,7,43.6,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01430,18,114.74,2,5,28.9,4,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01431,29,169.23,2,4,23.3,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01432,33,133.25,3,14,43.2,6,Month-to-month,Credit card,West,No,Yes
+HIGH-01433,31,153.76,8,3,61.1,6,One year,Credit card,West,No,Yes
+HIGH-01434,24,115.44,4,11,37.4,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01435,30,112.24,2,1,1.0,2,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01436,33,142.97,6,12,31.7,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01437,16,117.69,8,12,48.4,3,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01438,3,144.39,5,20,35.8,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01439,32,117.06,4,0,30.9,3,One year,Bank transfer,Midwest,No,No
+HIGH-01440,17,80.13,0,12,31.0,5,Month-to-month,Mailed check,Midwest,No,No
+HIGH-01441,31,169.27,4,19,50.0,6,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-01442,5,78.7,0,4,43.9,5,Month-to-month,Mailed check,Northeast,No,No
+HIGH-01443,8,120.04,4,9,36.6,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01444,10,111.83,4,8,42.7,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01445,8,111.64,3,11,27.2,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01446,30,179.22,8,4,22.3,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01447,6,176.06,7,13,56.5,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-01448,32,164.96,5,9,49.9,6,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01449,1,170.38,5,5,56.0,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01450,25,163.12,4,7,42.6,1,Month-to-month,Mailed check,South,No,Yes
+HIGH-01451,5,166.93,5,14,29.4,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-01452,15,122.98,10,4,5.8,6,Two year,Electronic check,Northeast,No,Yes
+HIGH-01453,18,98.43,0,9,23.5,5,Two year,Credit card,Midwest,No,No
+HIGH-01454,27,145.73,2,10,38.8,7,One year,Mailed check,Northeast,No,No
+HIGH-01455,4,90.36,11,6,82.2,6,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01456,3,167.61,4,7,28.7,4,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01457,18,156.16,3,17,55.6,2,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01458,18,80.51,3,9,69.4,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-01459,17,98.72,7,6,63.3,8,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01460,25,150.99,8,6,38.3,7,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01461,2,162.8,6,9,48.5,5,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01462,11,123.86,6,7,70.1,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01463,22,139.0,7,6,83.4,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-01464,10,107.44,5,6,47.1,5,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-01465,32,167.79,7,3,60.2,5,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01466,9,177.41,2,10,33.3,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01467,2,123.03,0,4,48.5,6,One year,Bank transfer,South,No,No
+HIGH-01468,36,158.66,6,11,44.4,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01469,28,139.71,8,6,64.8,3,Month-to-month,Credit card,West,No,Yes
+HIGH-01470,4,146.4,0,20,19.6,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-01471,25,82.8,2,2,36.6,4,One year,Electronic check,Northeast,Yes,No
+HIGH-01472,25,114.59,8,3,37.3,6,One year,Mailed check,West,No,Yes
+HIGH-01473,25,123.59,3,3,33.6,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01474,26,124.6,2,5,42.1,2,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01475,1,134.75,3,16,63.0,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01476,30,100.35,6,3,75.9,3,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01477,22,153.09,1,7,44.8,2,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01478,29,167.04,6,18,32.6,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01479,7,159.8,6,15,41.2,5,Two year,Mailed check,West,No,Yes
+HIGH-01480,6,93.66,2,11,67.5,4,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01481,3,120.59,5,20,37.4,3,Two year,Electronic check,South,Yes,Yes
+HIGH-01482,29,118.55,4,9,56.6,3,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01483,24,137.72,7,2,41.9,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01484,26,89.05,2,0,33.5,7,Month-to-month,Mailed check,South,No,No
+HIGH-01485,28,159.7,1,13,52.8,6,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01486,34,88.86,4,8,52.0,4,Month-to-month,Credit card,South,No,Yes
+HIGH-01487,26,81.31,6,1,27.1,6,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01488,3,133.17,8,14,71.6,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01489,24,164.39,4,8,54.5,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01490,15,174.62,1,11,36.7,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01491,14,120.11,6,12,65.8,7,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01492,12,132.32,3,12,28.8,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01493,5,89.69,5,5,35.4,6,Month-to-month,Credit card,West,No,Yes
+HIGH-01494,8,111.78,3,14,18.4,7,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01495,29,75.87,9,5,55.6,7,Month-to-month,Mailed check,South,No,Yes
+HIGH-01496,9,102.92,4,7,54.9,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01497,24,125.61,4,9,38.5,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01498,2,146.11,6,12,57.6,6,One year,Electronic check,Midwest,Yes,Yes
+HIGH-01499,26,177.2,4,1,68.0,5,One year,Electronic check,West,No,Yes
+HIGH-01500,14,167.07,7,12,70.0,4,Two year,Bank transfer,West,No,Yes
+HIGH-01501,3,148.3,5,4,53.4,5,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-01502,15,107.97,5,0,65.0,7,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01503,19,145.7,5,14,49.7,5,Two year,Bank transfer,West,Yes,Yes
+HIGH-01504,14,139.57,4,15,59.3,5,Two year,Mailed check,Midwest,No,Yes
+HIGH-01505,28,91.18,2,6,36.5,7,Month-to-month,Mailed check,Midwest,No,No
+HIGH-01506,26,177.26,3,13,48.7,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01507,15,143.85,5,11,66.9,4,Two year,Electronic check,Midwest,No,Yes
+HIGH-01508,17,166.49,8,16,11.0,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01509,25,98.86,4,13,53.6,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01510,36,135.33,2,3,14.6,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01511,36,79.94,9,0,22.6,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01512,8,107.99,4,14,49.9,8,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01513,20,103.29,5,21,53.0,4,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01514,33,176.75,6,7,33.0,6,One year,Credit card,Midwest,No,Yes
+HIGH-01515,4,90.18,2,6,74.8,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01516,22,124.94,5,8,29.7,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01517,27,131.2,6,13,35.8,5,Two year,Electronic check,Northeast,No,Yes
+HIGH-01518,10,100.84,8,10,49.8,6,One year,Credit card,Northeast,Yes,Yes
+HIGH-01519,36,79.33,6,15,20.1,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01520,21,85.47,6,8,87.0,6,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01521,9,165.87,2,10,50.1,4,Month-to-month,Electronic check,West,No,Yes
+HIGH-01522,10,88.72,8,10,57.7,4,Month-to-month,Credit card,West,No,Yes
+HIGH-01523,20,85.98,7,5,72.2,4,Month-to-month,Credit card,South,No,Yes
+HIGH-01524,36,115.97,1,3,39.2,4,Month-to-month,Credit card,South,No,No
+HIGH-01525,5,113.65,6,15,69.5,6,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01526,11,111.27,4,11,85.5,4,Two year,Bank transfer,Midwest,No,No
+HIGH-01527,22,170.42,9,8,51.2,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01528,2,92.66,6,5,40.9,3,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01529,3,88.46,4,15,26.7,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01530,32,162.54,6,6,21.8,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-01531,25,173.97,4,11,31.9,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-01532,30,84.29,4,2,50.4,4,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-01533,24,96.62,5,13,48.3,4,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-01534,15,86.23,7,13,52.9,7,One year,Mailed check,South,No,No
+HIGH-01535,25,142.86,0,5,27.6,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-01536,20,99.15,2,4,45.9,4,One year,Mailed check,Midwest,No,No
+HIGH-01537,26,168.03,5,1,52.1,5,Month-to-month,Credit card,West,No,Yes
+HIGH-01538,12,125.64,5,7,55.0,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-01539,8,110.45,5,3,55.8,5,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-01540,12,132.48,6,20,29.6,4,Month-to-month,Credit card,West,No,Yes
+HIGH-01541,9,119.76,8,1,34.5,7,Two year,Bank transfer,Midwest,No,No
+HIGH-01542,29,161.28,5,9,54.9,6,One year,Bank transfer,Midwest,No,No
+HIGH-01543,10,160.41,3,16,28.7,8,One year,Credit card,West,No,Yes
+HIGH-01544,33,112.96,6,13,49.9,2,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01545,11,85.31,8,5,20.6,4,Month-to-month,Credit card,West,No,Yes
+HIGH-01546,32,165.47,2,10,46.0,8,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-01547,22,103.75,3,7,75.4,4,Two year,Mailed check,Midwest,No,No
+HIGH-01548,12,162.02,5,21,53.8,7,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01549,11,78.2,5,7,33.5,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01550,26,144.83,7,7,40.7,1,Month-to-month,Mailed check,West,No,Yes
+HIGH-01551,34,124.55,7,8,41.5,7,One year,Mailed check,Midwest,No,No
+HIGH-01552,17,163.09,5,10,41.5,5,Month-to-month,Credit card,Midwest,Yes,Yes
+HIGH-01553,35,138.9,9,3,33.9,6,Month-to-month,Credit card,West,No,Yes
+HIGH-01554,15,178.76,5,3,55.9,5,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01555,22,166.95,4,10,28.9,6,Month-to-month,Credit card,West,No,Yes
+HIGH-01556,8,117.57,1,8,51.0,5,One year,Credit card,Northeast,Yes,No
+HIGH-01557,31,111.55,6,7,35.1,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-01558,27,138.24,3,12,30.7,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01559,28,75.88,3,9,39.8,5,Month-to-month,Electronic check,West,Yes,No
+HIGH-01560,5,177.3,5,2,34.2,6,Two year,Bank transfer,Northeast,Yes,No
+HIGH-01561,5,126.03,5,17,45.4,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01562,32,90.96,4,6,52.2,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01563,36,135.74,5,10,50.0,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01564,24,156.05,4,9,31.2,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01565,12,125.34,7,7,10.9,6,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01566,9,80.16,6,12,34.4,4,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01567,5,117.99,6,14,89.9,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01568,27,82.8,5,12,58.7,8,Month-to-month,Mailed check,Midwest,No,No
+HIGH-01569,13,122.86,3,14,47.1,3,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01570,11,140.67,3,7,60.2,5,One year,Electronic check,West,Yes,Yes
+HIGH-01571,23,94.61,6,1,56.0,1,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01572,21,91.48,8,5,31.3,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01573,28,103.34,5,9,73.6,6,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01574,24,145.93,7,7,66.7,3,Month-to-month,Electronic check,South,No,Yes
+HIGH-01575,18,91.67,6,11,51.7,3,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01576,25,81.45,4,16,65.1,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01577,2,99.3,6,5,52.9,7,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01578,3,96.41,4,10,54.4,5,One year,Mailed check,South,No,No
+HIGH-01579,24,147.96,7,4,37.1,4,Month-to-month,Electronic check,West,No,Yes
+HIGH-01580,20,91.67,9,1,50.8,3,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01581,17,139.89,5,11,48.9,3,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01582,33,115.34,4,11,8.6,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-01583,16,131.97,2,12,55.5,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-01584,33,176.66,6,6,25.7,3,Month-to-month,Credit card,West,No,Yes
+HIGH-01585,35,156.88,4,6,48.2,6,Month-to-month,Mailed check,South,No,Yes
+HIGH-01586,14,83.89,1,4,62.1,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-01587,30,122.83,3,10,51.3,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01588,22,118.02,1,16,44.0,5,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-01589,34,123.3,7,12,69.2,3,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01590,27,177.26,5,7,49.0,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01591,25,149.23,6,16,74.2,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01592,8,140.27,4,12,36.8,5,Month-to-month,Credit card,West,No,Yes
+HIGH-01593,7,143.0,6,2,51.5,5,One year,Electronic check,West,No,Yes
+HIGH-01594,16,84.0,8,0,52.4,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01595,2,91.65,8,7,62.5,2,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01596,15,90.38,3,13,32.4,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01597,35,140.42,2,12,58.6,2,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01598,21,93.98,4,15,41.3,5,One year,Credit card,South,Yes,No
+HIGH-01599,20,112.93,4,2,17.9,6,Month-to-month,Mailed check,South,No,No
+HIGH-01600,20,143.49,5,3,70.3,7,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01601,25,157.8,5,11,38.4,5,Two year,Mailed check,Midwest,Yes,No
+HIGH-01602,1,171.73,4,9,45.0,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01603,5,153.19,4,6,52.8,4,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01604,10,88.52,2,3,58.4,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01605,18,117.15,4,2,48.7,5,Month-to-month,Bank transfer,West,Yes,Yes
+HIGH-01606,18,172.31,3,11,48.4,2,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01607,8,146.81,2,5,72.1,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01608,29,150.14,1,11,64.4,5,One year,Electronic check,Midwest,No,Yes
+HIGH-01609,1,118.76,4,11,13.1,1,Two year,Mailed check,Midwest,No,Yes
+HIGH-01610,2,156.58,4,19,76.6,8,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01611,18,154.31,5,10,8.7,4,One year,Credit card,Northeast,No,Yes
+HIGH-01612,18,174.0,2,14,82.3,5,Two year,Electronic check,Northeast,No,Yes
+HIGH-01613,21,124.35,4,0,53.5,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-01614,36,141.11,8,5,89.6,7,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01615,3,90.29,3,12,20.0,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01616,11,167.48,3,0,12.0,5,One year,Mailed check,Midwest,No,No
+HIGH-01617,30,101.78,5,9,60.2,2,One year,Mailed check,Midwest,No,Yes
+HIGH-01618,27,87.48,7,3,38.4,4,Month-to-month,Credit card,South,No,Yes
+HIGH-01619,36,127.2,6,16,44.3,6,Month-to-month,Electronic check,South,No,Yes
+HIGH-01620,9,104.82,1,2,31.9,3,One year,Electronic check,Midwest,No,No
+HIGH-01621,6,118.7,2,7,47.5,6,One year,Credit card,Northeast,No,No
+HIGH-01622,9,164.52,3,3,26.5,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-01623,5,120.54,3,12,62.0,3,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01624,10,165.54,6,10,38.0,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-01625,33,81.51,7,19,76.8,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01626,29,146.66,8,0,12.0,3,Month-to-month,Credit card,South,No,Yes
+HIGH-01627,33,174.28,6,1,85.0,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-01628,25,129.84,2,9,46.3,5,Month-to-month,Electronic check,South,No,Yes
+HIGH-01629,29,173.9,4,2,12.2,3,Two year,Mailed check,West,No,Yes
+HIGH-01630,18,79.78,6,0,17.0,4,One year,Mailed check,West,Yes,No
+HIGH-01631,22,111.86,0,6,46.2,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01632,10,134.67,3,6,46.3,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01633,35,113.68,4,9,54.2,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01634,11,123.21,4,8,21.9,2,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01635,27,129.0,1,9,52.5,4,Month-to-month,Mailed check,South,Yes,Yes
+HIGH-01636,21,158.17,10,8,21.6,4,One year,Mailed check,Midwest,No,Yes
+HIGH-01637,10,93.99,2,10,59.1,5,One year,Electronic check,West,No,No
+HIGH-01638,2,136.92,3,0,54.2,5,Month-to-month,Credit card,West,No,Yes
+HIGH-01639,25,131.1,5,12,36.3,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01640,13,143.34,6,10,64.5,6,One year,Credit card,Midwest,Yes,Yes
+HIGH-01641,4,128.75,0,20,26.0,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01642,5,90.51,6,7,29.4,7,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01643,16,150.77,4,4,43.3,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01644,33,143.22,3,0,37.9,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01645,16,128.24,5,16,47.9,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01646,21,130.94,6,15,71.5,7,Month-to-month,Mailed check,West,No,Yes
+HIGH-01647,3,80.28,0,15,51.0,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01648,13,161.16,6,15,44.2,5,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01649,4,163.76,3,7,50.0,7,Two year,Bank transfer,Northeast,No,No
+HIGH-01650,8,120.0,1,9,48.3,5,Month-to-month,Electronic check,West,No,Yes
+HIGH-01651,36,138.98,3,6,42.3,4,Month-to-month,Bank transfer,South,No,No
+HIGH-01652,22,127.95,2,10,1,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01653,9,138.6,3,14,52.9,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01654,24,142.48,11,7,56.4,4,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01655,27,156.4,5,8,37.3,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-01656,6,90.93,3,14,72.8,5,One year,Mailed check,West,Yes,No
+HIGH-01657,7,103.97,4,23,69.7,5,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01658,11,163.61,3,8,62.1,5,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01659,9,152.83,4,11,39.4,6,Two year,Credit card,Northeast,Yes,No
+HIGH-01660,19,163.68,1,7,21.9,5,Month-to-month,Mailed check,West,No,Yes
+HIGH-01661,11,122.78,5,10,26.7,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01662,18,132.46,6,13,41.3,8,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01663,25,83.02,4,9,54.8,4,One year,Electronic check,Midwest,No,No
+HIGH-01664,15,125.55,2,14,78.4,4,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01665,5,146.67,12,8,64.1,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01666,4,88.56,7,10,55.8,3,Month-to-month,Electronic check,South,Yes,Yes
+HIGH-01667,34,159.17,6,5,43.2,6,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01668,32,149.44,3,4,65.0,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01669,15,164.63,8,13,73.8,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01670,16,85.89,3,10,47.1,4,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01671,35,83.26,5,10,40.7,7,Month-to-month,Bank transfer,West,No,No
+HIGH-01672,20,138.01,3,4,28.1,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01673,3,115.74,3,5,43.5,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01674,15,156.34,9,12,50.9,2,One year,Credit card,Northeast,No,Yes
+HIGH-01675,34,124.45,5,7,69.2,6,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01676,30,109.75,4,10,68.0,8,Month-to-month,Mailed check,Midwest,Yes,No
+HIGH-01677,27,142.99,1,4,40.5,5,One year,Bank transfer,South,No,No
+HIGH-01678,21,173.17,1,10,33.2,7,Month-to-month,Electronic check,West,No,Yes
+HIGH-01679,36,105.08,5,12,40.3,2,Two year,Bank transfer,Midwest,No,Yes
+HIGH-01680,3,88.86,5,16,42.3,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01681,35,145.83,5,13,75.1,8,One year,Mailed check,Northeast,No,Yes
+HIGH-01682,6,104.93,5,15,26.0,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01683,3,178.45,9,14,50.4,6,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01684,21,175.87,3,4,50.7,6,Month-to-month,Mailed check,Midwest,Yes,Yes
+HIGH-01685,20,146.37,7,8,53.4,7,Month-to-month,Mailed check,West,Yes,Yes
+HIGH-01686,24,122.94,4,8,69.3,5,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01687,11,156.52,2,1,34.4,5,Month-to-month,Credit card,West,Yes,Yes
+HIGH-01688,3,168.5,2,10,26.5,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01689,8,122.48,2,15,39.1,5,Month-to-month,Mailed check,South,No,Yes
+HIGH-01690,34,118.38,2,9,37.4,3,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01691,30,102.07,2,17,37.9,2,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01692,12,178.91,3,7,36.1,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01693,34,81.35,6,7,84.7,5,One year,Bank transfer,Northeast,No,No
+HIGH-01694,34,89.9,7,3,23.3,5,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01695,11,155.0,6,7,31.8,2,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01696,10,152.51,5,8,77.2,2,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01697,21,145.17,4,8,41.5,2,Month-to-month,Electronic check,West,Yes,Yes
+HIGH-01698,15,166.31,3,2,24.1,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01699,10,148.37,0,12,62.9,4,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01700,9,126.8,9,10,24.4,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01701,10,112.15,7,8,53.4,5,Month-to-month,Credit card,West,No,Yes
+HIGH-01702,22,132.78,3,7,45.5,6,One year,Electronic check,West,No,No
+HIGH-01703,34,112.64,2,4,41.9,2,Month-to-month,Bank transfer,West,No,Yes
+HIGH-01704,30,107.15,3,15,41.2,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01705,36,179.35,4,2,55.6,2,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-01706,2,167.47,6,5,34.6,3,Month-to-month,Mailed check,South,No,Yes
+HIGH-01707,2,97.9,6,0,42.4,6,One year,Electronic check,South,Yes,Yes
+HIGH-01708,12,112.69,0,3,44.4,5,Month-to-month,Bank transfer,South,Yes,No
+HIGH-01709,6,142.06,5,2,29.3,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01710,4,96.72,2,4,70.9,3,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01711,24,167.71,6,12,71.0,4,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01712,11,122.09,6,13,44.6,6,Two year,Mailed check,West,No,No
+HIGH-01713,16,75.88,1,14,19.4,5,Two year,Bank transfer,Northeast,No,No
+HIGH-01714,15,116.06,8,11,17.9,4,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01715,16,126.68,3,6,46.3,6,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01716,26,85.37,6,20,50.0,5,Two year,Electronic check,Midwest,No,Yes
+HIGH-01717,16,92.49,5,5,29.5,5,Month-to-month,Bank transfer,Midwest,Yes,Yes
+HIGH-01718,32,127.83,5,14,39.5,5,Two year,Credit card,South,Yes,No
+HIGH-01719,25,136.93,5,7,35.9,5,Month-to-month,Electronic check,Midwest,No,Yes
+HIGH-01720,11,120.39,7,7,21.0,4,One year,Mailed check,Northeast,No,Yes
+HIGH-01721,23,146.98,6,6,9.7,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01722,7,84.55,7,12,67.4,4,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01723,19,106.13,1,7,59.4,5,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01724,26,160.01,2,11,53.3,5,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01725,6,170.65,4,14,52.5,1,Month-to-month,Mailed check,West,No,Yes
+HIGH-01726,31,98.75,10,9,59.7,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01727,35,91.76,3,4,56.7,6,Two year,Credit card,Northeast,Yes,No
+HIGH-01728,3,87.23,1,5,10.5,4,Month-to-month,Credit card,Northeast,Yes,Yes
+HIGH-01729,15,98.91,4,15,59.2,6,One year,Bank transfer,South,Yes,Yes
+HIGH-01730,25,98.7,3,12,37.7,3,Month-to-month,Credit card,South,No,Yes
+HIGH-01731,31,110.09,5,0,69.4,5,Month-to-month,Bank transfer,Northeast,No,No
+HIGH-01732,33,150.03,6,19,54.1,5,Month-to-month,Electronic check,Northeast,Yes,Yes
+HIGH-01733,20,125.46,8,23,38.0,1,Month-to-month,Electronic check,West,No,Yes
+HIGH-01734,30,129.12,4,3,29.7,6,Month-to-month,Electronic check,West,No,Yes
+HIGH-01735,22,141.67,3,8,37.0,6,One year,Credit card,West,No,No
+HIGH-01736,9,127.3,4,7,28.8,8,One year,Credit card,South,Yes,No
+HIGH-01737,4,150.29,4,0,51.2,4,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01738,5,170.31,3,18,41.8,5,One year,Credit card,Midwest,Yes,Yes
+HIGH-01739,34,145.0,4,3,40.0,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01740,10,127.41,6,10,38.3,4,One year,Mailed check,West,Yes,Yes
+HIGH-01741,19,105.42,3,9,47.7,4,Two year,Credit card,West,Yes,No
+HIGH-01742,12,163.68,5,6,40.9,5,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01743,32,141.84,0,14,28.5,3,One year,Mailed check,Midwest,No,No
+HIGH-01744,19,123.67,6,16,38.8,5,Month-to-month,Electronic check,Midwest,Yes,Yes
+HIGH-01745,23,149.87,6,11,42.6,8,Month-to-month,Credit card,South,No,Yes
+HIGH-01746,4,79.13,5,11,46.7,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01747,31,160.81,1,9,57.0,4,Two year,Mailed check,West,No,No
+HIGH-01748,27,161.58,3,14,61.1,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01749,12,174.01,5,11,49.3,5,One year,Bank transfer,Midwest,No,Yes
+HIGH-01750,3,147.14,0,13,52.8,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01751,6,170.18,3,12,50.1,2,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01752,11,177.99,0,15,70.9,3,Month-to-month,Mailed check,West,No,Yes
+HIGH-01753,26,113.31,7,11,80.3,7,Month-to-month,Credit card,Midwest,No,Yes
+HIGH-01754,27,119.01,5,11,28.8,5,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01755,19,146.93,2,6,59.5,6,Month-to-month,Electronic check,Northeast,No,Yes
+HIGH-01756,23,90.62,4,8,61.5,4,Month-to-month,Mailed check,West,No,Yes
+HIGH-01757,19,108.83,4,23,69.8,8,One year,Electronic check,Northeast,No,Yes
+HIGH-01758,35,178.81,2,8,25.8,6,Month-to-month,Bank transfer,Northeast,Yes,Yes
+HIGH-01759,5,106.54,5,13,61.2,4,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01760,33,132.77,5,15,46.1,3,One year,Mailed check,South,Yes,Yes
+HIGH-01761,7,169.43,2,9,63.2,5,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01762,7,84.09,4,8,11.9,3,One year,Credit card,West,Yes,Yes
+HIGH-01763,7,86.01,2,11,25.2,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01764,12,81.15,1,10,80.8,2,Month-to-month,Electronic check,South,No,Yes
+HIGH-01765,27,149.81,3,12,33.8,5,Month-to-month,Bank transfer,Northeast,No,Yes
+HIGH-01766,19,110.73,3,15,64.2,4,One year,Electronic check,West,No,Yes
+HIGH-01767,22,79.0,3,2,49.3,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01768,7,117.67,6,16,65.9,7,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01769,12,93.82,6,1,59.2,4,Month-to-month,Electronic check,South,No,Yes
+HIGH-01770,36,166.97,4,10,38.5,4,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01771,15,152.82,3,1,46.9,6,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01772,26,138.76,4,15,52.2,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01773,23,171.91,6,16,45.3,4,One year,Credit card,South,No,Yes
+HIGH-01774,4,161.26,4,13,58.3,4,Month-to-month,Credit card,Northeast,No,Yes
+HIGH-01775,23,109.56,4,12,32.9,4,One year,Credit card,West,No,Yes
+HIGH-01776,31,111.94,4,0,43.9,3,Month-to-month,Mailed check,South,No,No
+HIGH-01777,1,143.28,3,7,62.2,6,Month-to-month,Bank transfer,Midwest,No,Yes
+HIGH-01778,22,92.08,5,11,50.1,7,Month-to-month,Mailed check,Midwest,Yes,No
+HIGH-01779,34,151.18,4,21,41.4,2,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01780,25,153.35,7,4,22.4,2,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01781,27,84.52,2,3,102.5,6,Month-to-month,Bank transfer,West,Yes,No
+HIGH-01782,8,179.24,1,17,23.3,7,Two year,Mailed check,Northeast,No,Yes
+HIGH-01783,35,153.31,1,5,16.4,4,Month-to-month,Mailed check,West,No,No
+HIGH-01784,19,164.22,4,6,52.6,3,Month-to-month,Credit card,South,No,Yes
+HIGH-01785,25,177.02,6,8,41.0,4,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01786,16,168.51,2,16,21.0,5,One year,Credit card,West,No,Yes
+HIGH-01787,10,117.31,2,6,55.9,5,One year,Mailed check,Northeast,Yes,No
+HIGH-01788,26,147.03,8,3,45.3,3,Month-to-month,Mailed check,Northeast,No,Yes
+HIGH-01789,16,143.22,3,12,23.1,5,One year,Credit card,South,No,No
+HIGH-01790,10,119.94,8,13,45.4,6,Two year,Credit card,Midwest,No,Yes
+HIGH-01791,5,94.09,10,11,54.7,7,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01792,17,104.9,7,8,15.0,3,Month-to-month,Electronic check,West,No,Yes
+HIGH-01793,36,152.79,7,6,51.8,4,Month-to-month,Bank transfer,South,Yes,Yes
+HIGH-01794,18,78.52,10,8,62.8,3,Month-to-month,Credit card,South,Yes,Yes
+HIGH-01795,17,76.56,4,8,28.2,3,Month-to-month,Credit card,West,No,Yes
+HIGH-01796,35,103.4,7,4,58.9,6,Month-to-month,Mailed check,Northeast,Yes,Yes
+HIGH-01797,4,76.2,9,2,37.6,5,Month-to-month,Bank transfer,South,No,Yes
+HIGH-01798,25,169.34,5,15,22.4,6,Month-to-month,Mailed check,Midwest,No,Yes
+HIGH-01799,30,146.87,2,10,35.6,5,Month-to-month,Credit card,South,No,Yes
+HIGH-01800,17,92.44,4,12,76.7,4,Month-to-month,Mailed check,South,No,Yes

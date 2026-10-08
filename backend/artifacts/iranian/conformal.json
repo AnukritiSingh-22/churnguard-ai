@@ -1,0 +1,6 @@
+{
+  "confidence": 0.9,
+  "absolute_residual_quantile": 0.14297680039680466,
+  "calibration_rows": 630,
+  "note": "Split-conformal interval calibrated on validation residuals."
+}

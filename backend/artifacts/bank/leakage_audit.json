@@ -1,0 +1,124 @@
+{
+  "target_column": "churn_flag",
+  "total_columns_checked": 15,
+  "excluded_structural": [],
+  "flagged_for_review": [
+    "Exited"
+  ],
+  "cleared": [
+    "RowNumber",
+    "CustomerId",
+    "Surname",
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary"
+  ],
+  "details": [
+    {
+      "feature": "RowNumber",
+      "check": "statistical",
+      "association_score": 0.0166,
+      "status": "cleared",
+      "reason": "Association with target = 0.02, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "CustomerId",
+      "check": "statistical",
+      "association_score": 0.0062,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Surname",
+      "check": "statistical",
+      "association_score": 0.5279,
+      "status": "cleared",
+      "reason": "Association with target = 0.53, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "CreditScore",
+      "check": "statistical",
+      "association_score": 0.0271,
+      "status": "cleared",
+      "reason": "Association with target = 0.03, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Geography",
+      "check": "statistical",
+      "association_score": 0.1736,
+      "status": "cleared",
+      "reason": "Association with target = 0.17, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Gender",
+      "check": "statistical",
+      "association_score": 0.1063,
+      "status": "cleared",
+      "reason": "Association with target = 0.11, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Age",
+      "check": "statistical",
+      "association_score": 0.2853,
+      "status": "cleared",
+      "reason": "Association with target = 0.29, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Tenure",
+      "check": "statistical",
+      "association_score": 0.014,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Balance",
+      "check": "statistical",
+      "association_score": 0.1185,
+      "status": "cleared",
+      "reason": "Association with target = 0.12, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "NumOfProducts",
+      "check": "statistical",
+      "association_score": 0.0478,
+      "status": "cleared",
+      "reason": "Association with target = 0.05, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "HasCrCard",
+      "check": "statistical",
+      "association_score": 0.0071,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "IsActiveMember",
+      "check": "statistical",
+      "association_score": 0.1561,
+      "status": "cleared",
+      "reason": "Association with target = 0.16, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "EstimatedSalary",
+      "check": "statistical",
+      "association_score": 0.0121,
+      "status": "cleared",
+      "reason": "Association with target = 0.01, within normal range for a legitimate predictor."
+    },
+    {
+      "feature": "Exited",
+      "check": "statistical",
+      "association_score": 1.0,
+      "status": "flagged_for_review",
+      "reason": "Association with target = 1.00, above the 0.55 review threshold -- verify this value is genuinely known BEFORE the prediction timestamp and not a symptom/consequence of churn itself."
+    }
+  ],
+  "note": "This dataset is a single-snapshot (cross-sectional) sample -- it has no event timestamps, so a temporal train/validation/test split is not applicable here. We use a stratified random split instead and document that explicitly (see split.py). If a future dataset carries timestamps, this pipeline must switch to a temporal split before training."
+}
