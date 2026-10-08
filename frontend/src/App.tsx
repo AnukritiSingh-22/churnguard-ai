@@ -13,11 +13,17 @@ import Experiments from "./pages/Experiments";
 import RevenueForecast from "./pages/RevenueForecast";
 import Workspace from "./pages/Workspace";
 import WorkspaceCustomer from "./pages/WorkspaceCustomer";
+import WorkspaceRevenue from "./pages/WorkspaceRevenue";
 import Login from "./pages/Login";
 import { DatasetProvider } from "./context/DatasetContext";
 
 export default function App() {
   const [loggedIn, setLoggedIn] = React.useState(() => Boolean(localStorage.getItem("churnguard.token")));
+  React.useEffect(() => {
+    const handleUnauthorized = () => setLoggedIn(false);
+    window.addEventListener("churnguard:unauthorized", handleUnauthorized);
+    return () => window.removeEventListener("churnguard:unauthorized", handleUnauthorized);
+  }, []);
   if (!loggedIn) return <Login onLogin={() => setLoggedIn(true)} />;
   return (
     <DatasetProvider>
@@ -36,6 +42,7 @@ export default function App() {
           <Route path="/revenue-forecast" element={<RevenueForecast />} />
           <Route path="/workspace" element={<Workspace />} />
           <Route path="/workspace/runs/:runId/customers/:row" element={<WorkspaceCustomer />} />
+          <Route path="/workspace/runs/:runId/revenue" element={<WorkspaceRevenue />} />
         </Routes>
       </Layout>
     </HashRouter>

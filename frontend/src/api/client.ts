@@ -5,8 +5,16 @@ function authHeaders(): Record<string, string> {
   return token ? { Authorization: "Bearer " + token } : {};
 }
 
+function handleUnauthorized(path: string, status: number): void {
+  if (status !== 401 || path.startsWith("/auth/")) return;
+  localStorage.removeItem("churnguard.token");
+  localStorage.removeItem("churnguard.email");
+  window.dispatchEvent(new Event("churnguard:unauthorized"));
+}
+
 async function get<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`, { headers: authHeaders() });
+  handleUnauthorized(path, res.status);
   if (!res.ok) throw new Error(`GET ${path} failed: ${res.status} ${await res.text()}`);
   return res.json();
 }
@@ -17,6 +25,7 @@ async function post<T>(path: string, data: any): Promise<T> {
     headers: { "Content-Type": "application/json", ...authHeaders() },
     body: JSON.stringify(data),
   });
+  handleUnauthorized(path, res.status);
   if (!res.ok) throw new Error(`POST ${path} failed: ${res.status} ${await res.text()}`);
   return res.json();
 }
@@ -85,6 +94,7 @@ export const api = {
     const body = new FormData();
     body.append("file", file);
     const res = await fetch(`${BASE}/workspace/uploads`, { method: "POST", headers: authHeaders(), body });
+    handleUnauthorized("/workspace/uploads", res.status);
     if (!res.ok) throw new Error(`POST /workspace/uploads failed: ${res.status} ${await res.text()}`);
     return res.json();
   },

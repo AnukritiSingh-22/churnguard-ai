@@ -42,18 +42,41 @@ Silicon is supported; native Python is usually faster.
 
 The dashboard includes a local account and private workspace at
 `#/workspace`. Register with an email and an eight-character password, upload a
-CSV, inspect its profile, select a binary churn/exit target, and train a
-user-owned calibrated logistic baseline. Uploaded files and model artifacts are
+CSV, and the upload workflow automatically normalizes common real-world exports:
+it trims headers, removes empty `Unnamed:` index columns, detects common target
+and customer-ID names, and maps binary labels such as `Yes/No`, `True/False`,
+`Exited`, and `Churned` to `0/1`. If a safe binary target is found, a
+user-owned calibrated logistic baseline is trained automatically; otherwise the
+profile explains what needs to be selected manually. The original uploaded CSV
+is retained beside the normalized working copy for auditability. Uploaded files and model artifacts are
 stored under `backend/data/uploads/<user-id>` and
 `backend/artifacts/uploads/<user-id>`; bundled benchmark artifacts are not
 overwritten. Upload endpoints require the account's signed local token and
 enforce ownership checks.
 
-This first upload release supports churn classification. Revenue forecasting
-remains available for the bundled Online Retail benchmark, where the
-transaction schema and time cutoff are known. User-uploaded revenue
-forecasting should follow an explicit date/revenue mapping step rather than
-guessing column meanings.
+Uploads support churn classification and conditional revenue forecasting.
+When a file contains a date/time column plus a revenue, sales, amount, or
+quantity x unit-price field across at least six monthly periods, My Workspace
+shows monthly history, rolling-origin backtest predictions, future forecasts,
+empirical intervals, and a Show more details page. Static churn snapshots such
+as Telco have no time series, so they show an explicit unavailable state rather
+than inventing future sales.
+
+Three reproducible synthetic transaction files are included for demonstrating
+that workflow:
+
+- `backend/data/synthetic_sales_steady.csv` — gradual growth with mild seasonality
+- `backend/data/synthetic_sales_seasonal.csv` — stronger seasonal shopping pattern
+- `backend/data/synthetic_sales_declining.csv` — gradual decline with higher volatility
+
+Each file contains 18 months of transaction-level data, customer and product
+variation, realistic quantities and prices, promotions, channels, regions,
+and a clearly synthetic `CustomerChurn` label. Invoice numbers are intentionally
+omitted so they cannot become meaningless model drivers; customer attributes
+such as age, tenure, plan, satisfaction, auto-renewal, and support tickets
+provide the interpretable churn signals.
+Run `python data/generate_synthetic_sales.py` from `backend/` to regenerate
+the same files deterministically.
 
 ### Rebuild commands
 

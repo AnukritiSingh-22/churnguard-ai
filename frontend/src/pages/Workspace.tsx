@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Bar, BarChart, CartesianGrid, Cell, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { Area, Bar, BarChart, CartesianGrid, Cell, ComposedChart, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { api } from "../api/client";
 import { Card, CardHeader, ErrorState, KpiCard, Loading, RiskBadge, SimulationTag } from "../components/ui";
 
@@ -28,11 +28,13 @@ export default function Workspace() {
   const upload = async () => {
     if (!file) return;
     try {
-      setBusy(true); setError("");
+      setBusy(true); setError(""); setResult(null);
       const nextProfile = await api.uploadCsv(file);
       setProfile(nextProfile);
       setTarget(nextProfile.columns.find((column: any) => column.role === "possible_target")?.name || "");
       setCustomerId(nextProfile.columns.find((column: any) => column.role === "possible_id")?.name || "");
+      if (nextProfile.auto_run) setResult(nextProfile.auto_run);
+      if (nextProfile.auto_train_error) setError(nextProfile.auto_train_error);
       setUploads((await api.uploads()).uploads);
     } catch (e: any) { setError(e.message); } finally { setBusy(false); }
   };
@@ -61,6 +63,11 @@ export default function Workspace() {
     </Card>
     {profile && <Card className="p-5">
       <CardHeader title={profile.filename} subtitle={`${profile.total_rows.toLocaleString()} rows · ${profile.columns.length} columns`} />
+      {profile.normalization?.status === "normalized" && <div className="mx-5 mb-4 rounded-lg border border-emerald-200 bg-emerald-50 p-3 text-sm text-emerald-800">
+        <strong>Upload normalized automatically.</strong> {profile.normalization.column ? `“${profile.normalization.column}” was converted to 0/1 using ${profile.normalization.method}.` : "Export-only columns were removed."}
+        {profile.auto_trained ? " The churn baseline has also been trained automatically." : ""}
+      </div>}
+      {profile.normalization?.dropped_columns?.length > 0 && <p className="px-5 mb-3 text-xs text-slate-500">Ignored export columns: {profile.normalization.dropped_columns.join(", ")}</p>}
       <div className="grid md:grid-cols-2 gap-4 px-5">
         <label className="text-sm">Target column<select value={target} onChange={(e) => setTarget(e.target.value)} className="block mt-1 border rounded-lg p-2 w-full">
           <option value="">Select a binary churn/exit label</option>{profile.columns.map((c: any) => <option key={c.name} value={c.name}>{c.name} ({c.role})</option>)}</select></label>
@@ -68,7 +75,7 @@ export default function Workspace() {
           <option value="">None</option>{profile.columns.map((c: any) => <option key={c.name} value={c.name}>{c.name}</option>)}</select></label>
       </div>
       <p className="text-xs text-slate-400 px-5 mt-3">{profile.note}</p>
-      <button onClick={train} disabled={!target || busy} className="mx-5 mt-4 px-4 py-2 rounded-lg bg-brand-700 text-white text-sm disabled:opacity-40">{busy ? "Training…" : "Train churn baseline"}</button>
+      {!profile.auto_trained && <button onClick={train} disabled={!target || busy} className="mx-5 mt-4 px-4 py-2 rounded-lg bg-brand-700 text-white text-sm disabled:opacity-40">{busy ? "Training…" : "Train churn baseline"}</button>}
     </Card>}
     {!dashboard && <Card className="p-6"><p className="text-sm text-slate-500">After training, this page will show risk charts, performance, explanations, drift, review queue, and revenue context for the uploaded file. The bundled benchmark pages remain unchanged.</p></Card>}
     {dashboard && result?.run_id && <WorkspaceDashboard dashboard={dashboard} runId={result.run_id} />}
@@ -97,12 +104,16 @@ function WorkspaceDashboard({ dashboard, runId }: { dashboard: any; runId: strin
     </div>
     <Card className="p-5"><CardHeader title="Holdout confusion matrix" subtitle="Threshold = 50%" /><div className="grid grid-cols-4 gap-3 text-center text-sm"><div className="rounded-lg bg-emerald-50 p-4">True negative<strong className="block text-2xl">{dashboard.confusion_matrix.tn}</strong></div><div className="rounded-lg bg-rose-50 p-4">False positive<strong className="block text-2xl">{dashboard.confusion_matrix.fp}</strong></div><div className="rounded-lg bg-rose-50 p-4">False negative<strong className="block text-2xl">{dashboard.confusion_matrix.fn}</strong></div><div className="rounded-lg bg-emerald-50 p-4">True positive<strong className="block text-2xl">{dashboard.confusion_matrix.tp}</strong></div></div></Card>
     <Card className="p-5"><CardHeader title="Human review queue" subtitle="Highest-risk uploaded records; select a customer to inspect model drivers" /><div className="overflow-x-auto"><table className="w-full text-sm"><thead><tr className="text-left text-xs text-slate-400 border-b"><th className="py-2">Customer ID</th><th>Risk</th><th>Probability</th><th>Action</th></tr></thead><tbody>{dashboard.review_queue.map((row: any) => <tr key={row.row} className="border-b border-slate-100"><td className="py-2"><a href={`#/workspace/runs/${runId}/customers/${row.row}`} className="font-medium text-brand-700 hover:underline">{row.customer_id}</a><div className="text-[11px] text-slate-400">row {row.row + 1}</div></td><td><RiskBadge level={row.risk} /></td><td>{percent(row.probability)}</td><td className="text-slate-500">Review customer context before contact</td></tr>)}</tbody></table></div></Card>
-    <RevenuePanel data={dashboard.revenue_forecast} />
+    <RevenuePanel data={dashboard.revenue_forecast ?? { available: false, note: "No uploaded sales forecast is available for this run." }} runId={runId} />
   </div>;
 }
 
-function RevenuePanel({ data }: { data: any }) {
-  return <Card className="p-1"><CardHeader title="Sales forecast and revenue context" subtitle="Shown inside the uploaded workspace; unavailable fields are disclosed rather than fabricated." />
-    <div className="px-5 pb-5">{data.available || data.proxy ? <><div className="grid grid-cols-3 gap-4 mb-4"><KpiCard label={data.proxy ? "Revenue proxy total" : "Current revenue"} value={number(data.current)} sub={data.label} /><KpiCard label={data.proxy ? "Proxy next period" : "Next period"} value={number(data.forecast[0].prediction)} sub={data.proxy ? "Not a time-series forecast" : "Forecast"} /><KpiCard label="Range" value={`${number(data.forecast[0].lower)} – ${number(data.forecast[0].upper)}`} sub={data.proxy ? "Illustrative range" : "Empirical interval"} /></div><ResponsiveContainer width="100%" height={220}><BarChart data={data.forecast}><CartesianGrid strokeDasharray="3 3" /><XAxis dataKey="period" /><YAxis /><Tooltip /><Bar dataKey="prediction" fill="#6366f1" /></BarChart></ResponsiveContainer><p className="text-xs text-amber-600 mt-3">{data.note}</p></> : <div className="rounded-lg bg-slate-50 border border-slate-200 p-5"><div className="flex items-center gap-2"><SimulationTag /><span className="text-sm font-medium">Sales forecast not available for this upload</span></div><p className="text-sm text-slate-500 mt-2">{data.note}</p><p className="text-xs text-slate-400 mt-2">For a real forecast, upload transaction-level data containing a date/time column and a revenue, sales, amount, or quantity × unit-price field with multiple periods.</p></div>}</div>
+function RevenuePanel({ data, runId }: { data: any; runId: string }) {
+  const chartRows = data.available ? [
+    ...(data.history || []).map((row: any) => ({ ...row, forecast: null, lower: null, upper: null })),
+    ...(data.forecast || []).map((row: any) => ({ period: row.period, actual: null, forecast: row.prediction, lower: row.lower, upper: row.upper })),
+  ] : [];
+  return <Card className="p-1"><CardHeader title="Sales forecast and revenue context" subtitle="Historical monthly sales, leakage-safe backtest, and future forecast for uploaded data." />
+    <div className="px-5 pb-5">{data.available ? <><div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4"><KpiCard label={`Next ${data.forecast.length} months`} value={number(data.forecast.reduce((sum: number, row: any) => sum + row.prediction, 0))} sub="Point estimate" tone="good" /><KpiCard label="Backtest MAPE" value={`${data.backtest.mape}%`} sub={`RMSE ${number(data.backtest.rmse)}`} /><KpiCard label="Forecast model" value="Seasonal naive" sub={`${data.seasonal_period_months}-month window`} /><KpiCard label="Data source" value={data.revenue_column} sub={`Date: ${data.date_column}`} /></div><div className="h-72"><ResponsiveContainer><ComposedChart data={chartRows}><CartesianGrid strokeDasharray="3 3" /><XAxis dataKey="period" angle={-20} textAnchor="end" height={48} fontSize={10} /><YAxis /><Tooltip /><Area dataKey="upper" stroke="none" fill="#c7d2fe" fillOpacity={0.5} name="Upper interval" /><Area dataKey="lower" stroke="none" fill="#fff" fillOpacity={1} name="Lower interval" /><Line dataKey="actual" stroke="#172033" strokeWidth={2.5} dot={false} name="Actual" /><Line dataKey="forecast" stroke="#6366f1" strokeWidth={2.5} dot={{ r: 4 }} name="Forecast" /></ComposedChart></ResponsiveContainer></div><div className="flex items-center justify-between mt-3"><p className="text-xs text-slate-500">{data.interval_note}</p><a href={`#/workspace/runs/${runId}/revenue`} className="text-sm font-medium text-brand-700 hover:underline">Show more</a></div></> : <div className="rounded-lg bg-slate-50 border border-slate-200 p-5"><div className="flex items-center gap-2"><SimulationTag /><span className="text-sm font-medium">Future sales forecast not available for this upload</span></div><p className="text-sm text-slate-500 mt-2">{data.note}</p><p className="text-xs text-slate-400 mt-2">Upload transaction-level data with a date/time column and revenue, sales, amount, or quantity × unit-price field. Static churn snapshots cannot support a genuine future-sales forecast.</p></div>}</div>
   </Card>;
 }

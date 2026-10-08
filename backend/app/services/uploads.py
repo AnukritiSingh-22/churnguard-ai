@@ -5,6 +5,7 @@ import secrets
 import sqlite3
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from fastapi import HTTPException, UploadFile
 from sklearn.calibration import CalibratedClassifierCV
@@ -15,6 +16,216 @@ from sklearn.model_selection import train_test_split
 
 from app.core.config import ARTIFACT_DIR, DB_PATH
 from app.services.auth import user_upload_dir
+
+
+TARGET_NAME_HINTS = (
+    "churn", "exited", "exit", "attrition", "cancel", "left", "target", "label",
+)
+ID_NAME_HINTS = ("customer", "account", "subscriber", "client", "user", "member", "id")
+POSITIVE_LABELS = {"1", "1.0", "true", "yes", "y", "churn", "churned", "exited", "exit", "left", "leaved", "positive"}
+NEGATIVE_LABELS = {"0", "0.0", "false", "no", "n", "active", " stayed", "stayed", "retained", "negative"}
+
+
+def _normalise_name(value: object) -> str:
+    return str(value).strip().lower().replace("_", "").replace("-", "").replace(" ", "")
+
+
+def _infer_column(frame: pd.DataFrame, hints: tuple[str, ...], exclude: set[str] | None = None) -> str | None:
+    exclude = exclude or set()
+    candidates = []
+    for column in frame.columns:
+        if column in exclude:
+            continue
+        normalized = _normalise_name(column)
+        score = sum(2 if normalized == hint else 1 for hint in hints if hint in normalized)
+        if score:
+            candidates.append((score, column))
+    return max(candidates, key=lambda item: item[0])[1] if candidates else None
+
+
+def _normalise_binary_target(series: pd.Series, column: str) -> tuple[pd.Series | None, dict]:
+    values = series.dropna()
+    unique = list(pd.unique(values))
+    if len(unique) != 2:
+        return None, {"status": "not_binary", "column": column, "unique_values": [str(v) for v in unique[:10]]}
+
+    as_text = {str(value).strip().lower(): value for value in unique}
+    positive = next((value for label, value in as_text.items() if label in POSITIVE_LABELS), None)
+    negative = next((value for label, value in as_text.items() if label in NEGATIVE_LABELS), None)
+    if positive is not None and negative is not None:
+        mapping = {negative: 0, positive: 1}
+        method = "semantic label mapping"
+    else:
+        ordered = sorted(unique, key=lambda value: str(value))
+        mapping = {ordered[0]: 0, ordered[1]: 1}
+        method = "deterministic sorted-class mapping"
+
+    normalized = series.map(mapping)
+    if normalized.isna().any():
+        return None, {"status": "unmapped_values", "column": column}
+    return normalized.astype("int8"), {
+        "status": "normalized",
+        "column": column,
+        "method": method,
+        "mapping": {str(key): value for key, value in mapping.items()},
+        "positive_class": str(next(key for key, value in mapping.items() if value == 1)),
+        "negative_class": str(next(key for key, value in mapping.items() if value == 0)),
+    }
+
+
+def _canonicalize_upload(frame: pd.DataFrame) -> tuple[pd.DataFrame, dict, str | None, str | None]:
+    frame = frame.copy()
+    original_columns = list(frame.columns)
+    frame.columns = [str(column).strip() for column in frame.columns]
+    dropped_columns = [
+        column for column in frame.columns
+        if str(column).lower().startswith("unnamed:") or frame[column].isna().all()
+    ]
+    if dropped_columns:
+        frame = frame.drop(columns=dropped_columns)
+
+    target = _infer_column(frame, TARGET_NAME_HINTS)
+    customer_id = _infer_column(frame, ID_NAME_HINTS, exclude={target} if target else set())
+    normalization = {
+        "status": "unchanged",
+        "original_columns": original_columns,
+        "dropped_columns": dropped_columns,
+        "target_column": target,
+        "customer_id_column": customer_id,
+    }
+    if target:
+        normalized_target, target_info = _normalise_binary_target(frame[target], target)
+        normalization.update(target_info)
+        if normalized_target is not None:
+            frame[target] = normalized_target
+    if dropped_columns or target:
+        normalization["status"] = "normalized" if normalization.get("status") != "not_binary" else "needs_target_review"
+    return frame, normalization, target, customer_id
+
+
+def _prepare_features(frame: pd.DataFrame, target: str, customer_id: str | None = None) -> pd.DataFrame:
+    drop = {target}
+    if customer_id and customer_id in frame.columns:
+        drop.add(customer_id)
+    features = frame.drop(columns=list(drop)).copy()
+    features = features.select_dtypes(exclude=["datetime", "datetimetz"])
+    date_like = []
+    for column in features.select_dtypes(include=["object", "string"]).columns:
+        normalized_name = str(column).lower().replace("_", "")
+        if not any(token in normalized_name for token in ("date", "timestamp", "time", "month", "period")):
+            continue
+        parsed = pd.to_datetime(features[column], errors="coerce")
+        if parsed.notna().mean() >= 0.9:
+            date_like.append(column)
+    if date_like:
+        features = features.drop(columns=date_like)
+    for column in features.select_dtypes(include=["object", "string"]).columns:
+        numeric = pd.to_numeric(features[column].astype(str).str.strip(), errors="coerce")
+        if numeric.notna().mean() >= 0.9:
+            features[column] = numeric
+    return pd.get_dummies(features, dummy_na=True).replace(
+        [float("-inf"), float("inf")], 0
+    ).fillna(0)
+
+
+def _uploaded_revenue_forecast(frame: pd.DataFrame, horizon: int = 3) -> dict:
+    date_column = next(
+        (
+            column for column in frame.columns
+            if (
+                any(token in column.lower() for token in ("date", "timestamp", "time"))
+                or column.lower().strip() in {"month", "period", "year"}
+            )
+            and column.lower().replace("_", "") not in {"monthlycharges"}
+        ),
+        None,
+    )
+    revenue_column = next(
+        (column for column in frame.columns if column.lower().replace("_", "") in {
+            "revenue", "sales", "amount", "totalamount", "totalrevenue", "monthlycharges",
+        }),
+        None,
+    )
+    quantity_column = next((column for column in frame.columns if column.lower() in {"quantity", "qty", "units"}), None)
+    unit_price_column = next(
+        (column for column in frame.columns if column.lower().replace("_", "") in {"unitprice", "price", "unitcost"}),
+        None,
+    )
+    if not date_column or (not revenue_column and not (quantity_column and unit_price_column)):
+        return {
+            "available": False,
+            "proxy": bool(revenue_column),
+            "note": "A real sales forecast requires a date/time column and a revenue, sales, amount, or quantity × unit-price field with multiple periods.",
+        }
+
+    dates = pd.to_datetime(frame[date_column], errors="coerce")
+    if revenue_column:
+        revenue = pd.to_numeric(frame[revenue_column], errors="coerce")
+        revenue_label = revenue_column
+    else:
+        quantity = pd.to_numeric(frame[quantity_column], errors="coerce").fillna(0)
+        unit_price = pd.to_numeric(frame[unit_price_column], errors="coerce").fillna(0)
+        revenue = quantity.clip(lower=0) * unit_price.clip(lower=0)
+        revenue_label = f"{quantity_column} × {unit_price_column}"
+    monthly = pd.DataFrame({"date": dates, "revenue": revenue}).dropna(subset=["date"])
+    series = monthly.set_index("date")["revenue"].resample("MS").sum()
+    if len(series) < 6:
+        return {
+            "available": False,
+            "proxy": True,
+            "note": f"Only {len(series)} monthly periods were found. At least 6 periods are required for a meaningful rolling-origin forecast.",
+            "date_column": date_column,
+            "revenue_column": revenue_label,
+        }
+
+    values = series.to_numpy(dtype=float)
+    season = min(3, max(1, len(values) // 3))
+    folds = []
+    errors = []
+    for end in range(max(season, 4), len(values)):
+        prediction = float(values[max(0, end - season):end].mean())
+        actual = float(values[end])
+        errors.append(actual - prediction)
+        folds.append({
+            "period": series.index[end].strftime("%Y-%m"),
+            "actual": round(actual, 2),
+            "prediction": round(prediction, 2),
+        })
+    residual_q = float(np.quantile(np.abs(errors), 0.9)) if errors else 0.0
+    last = values[-season:].copy()
+    forecast = []
+    for period in pd.date_range(series.index[-1] + pd.offsets.MonthBegin(1), periods=horizon, freq="MS"):
+        prediction = float(last.mean())
+        forecast.append({
+            "period": period.strftime("%Y-%m"),
+            "actual": None,
+            "prediction": round(prediction, 2),
+            "lower": round(max(0.0, prediction - residual_q), 2),
+            "upper": round(prediction + residual_q, 2),
+            "interval_method": "90% empirical residual interval",
+        })
+        last = np.append(last[1:], prediction)
+    denominator = max(float(np.sum(np.abs(values[-len(errors):]))), 1.0) if errors else 1.0
+    return {
+        "available": True,
+        "proxy": False,
+        "target": "monthly_revenue",
+        "frequency": "MS",
+        "model": "seasonal_naive",
+        "date_column": date_column,
+        "revenue_column": revenue_label,
+        "seasonal_period_months": season,
+        "history": [{"period": index.strftime("%Y-%m"), "actual": round(float(value), 2)} for index, value in series.items()],
+        "forecast": forecast,
+        "backtest": {
+            "folds": folds,
+            "mape": round(float(np.sum(np.abs(errors)) / denominator * 100), 4) if errors else 0.0,
+            "rmse": round(float(np.sqrt(np.mean(np.square(errors)))), 2) if errors else 0.0,
+            "mae": round(float(np.mean(np.abs(errors))), 2) if errors else 0.0,
+            "honesty_note": "Rolling-origin holdout; each fold uses only earlier months.",
+        },
+        "interval_note": "The interval is empirical uncertainty from backtest residuals, not a guarantee of future sales.",
+    }
 
 
 def _row(upload_id: str, user_id: str):
@@ -38,15 +249,37 @@ async def save_upload(user_id: str, file: UploadFile) -> dict:
         raise HTTPException(400, f"Could not read CSV: {exc}") from exc
     if frame.empty or len(frame.columns) < 2:
         raise HTTPException(400, "CSV must contain rows and at least two columns")
+    _, normalization, target, customer_id = _canonicalize_upload(frame)
+    if normalization.get("status") == "unmapped_values":
+        raise HTTPException(400, f"Target column '{target}' contains values that could not be normalized")
     upload_id = secrets.token_hex(12)
-    path = user_upload_dir(user_id) / f"{upload_id}.csv"
-    path.write_bytes(content)
+    upload_dir = user_upload_dir(user_id)
+    raw_path = upload_dir / f"{upload_id}.original.csv"
+    path = upload_dir / f"{upload_id}.csv"
+    raw_path.write_bytes(content)
+    full_frame = pd.read_csv(__import__("io").BytesIO(content))
+    canonical_frame, _, _, _ = _canonicalize_upload(full_frame)
+    canonical_frame.to_csv(path, index=False)
     conn = sqlite3.connect(DB_PATH)
     conn.execute("INSERT INTO uploads VALUES (?, ?, ?, ?, ?, ?, datetime('now'))",
-                 (upload_id, user_id, file.filename, str(path), len(frame), json.dumps(list(frame.columns))))
+                 (upload_id, user_id, file.filename, str(path), len(canonical_frame), json.dumps(list(canonical_frame.columns))))
     conn.commit()
     conn.close()
-    return profile(user_id, upload_id)
+    result = profile(user_id, upload_id)
+    result["normalization"] = normalization
+    result["original_filename"] = file.filename
+    result["canonical_filename"] = f"{Path(file.filename).stem}.normalized.csv"
+    if target and normalization.get("status") == "normalized":
+        try:
+            result["auto_run"] = train_churn(user_id, upload_id, target, customer_id)
+            result["auto_trained"] = True
+        except HTTPException as exc:
+            result["auto_trained"] = False
+            result["auto_train_error"] = exc.detail
+    else:
+        result["auto_trained"] = False
+        result["auto_train_error"] = "Select a binary target column before training."
+    return result
 
 
 def profile(user_id: str, upload_id: str) -> dict:
@@ -65,7 +298,8 @@ def profile(user_id: str, upload_id: str) -> dict:
         columns.append({"name": name, "dtype": str(frame[name].dtype), "missing": int(frame[name].isna().sum()), "role": role})
     return {"upload_id": upload_id, "filename": row[2], "rows_sampled": len(frame), "total_rows": row[4],
             "columns": columns, "preview": frame.head(5).fillna("").to_dict(orient="records"),
-            "note": "Profile only. Training requires an explicit target column and does not invent labels."}
+            "note": "The upload is normalized automatically when a binary target is detected. Original labels are retained in the upload directory for audit.",
+            "normalization": {"status": "not_available_until_upload_response"}}
 
 
 def list_uploads(user_id: str) -> list[dict]:
@@ -109,15 +343,7 @@ def _dashboard(frame: pd.DataFrame, X: pd.DataFrame, y: pd.Series, model, test_i
         coefficients = [{"feature": name, "impact": round(float(value), 4)} for name, value in sorted(zip(X.columns, values), key=lambda item: abs(item[1]), reverse=True)[:10]]
     except (AttributeError, IndexError):
         coefficients = []
-    monthly = None
-    numeric_revenue = next((c for c in frame.columns if c.lower() in {"revenue", "sales", "amount", "monthly_charges", "monthlycharges"}), None)
-    date_column = next((c for c in frame.columns if "date" in c.lower() or "time" in c.lower()), None)
-    if numeric_revenue:
-        revenue = pd.to_numeric(frame[numeric_revenue], errors="coerce").fillna(0)
-        total = float(revenue.sum())
-        monthly = {"available": False, "proxy": True, "label": numeric_revenue, "current": round(total, 2), "forecast": [{"period": "Next period", "prediction": round(total / 3, 2), "lower": round(total / 3 * .8, 2), "upper": round(total / 3 * 1.2, 2)}], "note": "Revenue-at-risk proxy from the uploaded amount field. A real sales forecast requires a timestamp and repeated periods." if not date_column else "A revenue field exists, but a time-based backtest requires multiple dated periods."}
-    else:
-        monthly = {"available": False, "proxy": False, "note": "No revenue or sales column was mapped. Upload a dated transaction file with revenue to enable a real sales forecast."}
+    monthly = _uploaded_revenue_forecast(frame)
     return {
         "metrics": metrics,
         "risk_distribution": [{"risk_level": str(label), "count": int(count)} for label, count in counts.items()],
@@ -147,15 +373,19 @@ def train_churn(user_id: str, upload_id: str, target: str, customer_id: str | No
     if target not in frame.columns:
         raise HTTPException(400, f"Target column '{target}' was not found")
     y_raw = frame[target]
-    if y_raw.nunique(dropna=True) != 2:
+    y, target_info = _normalise_binary_target(y_raw, target)
+    if y is None:
         raise HTTPException(400, "Target must contain exactly two classes")
-    y = pd.Series(pd.Categorical(y_raw).codes, index=frame.index)
+    valid_rows = y.notna()
+    if not valid_rows.all():
+        frame = frame.loc[valid_rows].reset_index(drop=True)
+        y = y.loc[valid_rows].reset_index(drop=True)
     drop = {target}
     if customer_id and customer_id in frame.columns:
         drop.add(customer_id)
     features = frame.drop(columns=list(drop)).copy()
     features = features.select_dtypes(exclude=["datetime", "datetimetz"])
-    X = pd.get_dummies(features, dummy_na=True).replace([float("inf"), float("-inf")], 0).fillna(0)
+    X = _prepare_features(frame, target, customer_id)
     if X.shape[1] == 0:
         raise HTTPException(400, "No usable feature columns remain after removing the target and ID")
     if y.value_counts().min() < 8:
@@ -202,15 +432,15 @@ def run_dashboard(user_id: str, run_id: str) -> dict:
     predictions_path = Path(run[1]) / "predictions.csv"
     if not metrics_path.exists() or not predictions_path.exists():
         raise HTTPException(404, "Training artifacts are incomplete")
+    metrics = json.loads(metrics_path.read_text())
     frame = pd.read_csv(predictions_path)
     probabilities = frame.pop("churn_probability")
-    target = json.loads(metrics_path.read_text()).get("target", "target")
+    target = metrics.get("target", "target")
     y = pd.Series(pd.Categorical(frame[target]).codes)
-    X = pd.get_dummies(frame.drop(columns=[target]), dummy_na=True).select_dtypes(exclude=["datetime", "datetimetz"]).fillna(0)
+    X = _prepare_features(frame, target, metrics.get("customer_id"))
     class SimpleModel:
         def predict_proba(self, values):
             return pd.DataFrame({"negative": 1 - probabilities, "positive": probabilities}).to_numpy()
-    metrics = json.loads(metrics_path.read_text())
     return {
         "run_id": run_id,
         "upload_id": run[0],
@@ -240,7 +470,7 @@ def customer_detail(user_id: str, run_id: str, row_number: int) -> dict:
     if customer_id_column in frame.columns:
         drop.add(customer_id_column)
     features = frame.drop(columns=list(drop))
-    X = pd.get_dummies(features, dummy_na=True).replace([float("inf"), float("-inf")], 0).fillna(0)
+    X = _prepare_features(frame, target, customer_id_column)
     model = __import__("joblib").load(run_dir / "model.joblib")
     X = X.reindex(columns=json.loads((run_dir / "feature_columns.json").read_text()), fill_value=0)
     probability = float(model.predict_proba(X.iloc[[row_number]])[:, 1][0])
